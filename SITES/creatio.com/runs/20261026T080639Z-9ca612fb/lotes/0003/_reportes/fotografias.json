@@ -1,0 +1,206 @@
+[
+  {
+    "url": "https://www.creatio.com/s3/files/styles/mobile/public/pages/front/screen-v.3@1x.jpg.webp",
+    "path": "recursos/3f/3f763cacf8af1d534e73-screen-v.3_1x.jpg.webp",
+    "bytes": 137288,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/mobile_2x/public/pages/front/screen-v.3@2x.jpg.webp",
+    "path": "recursos/a6/a68303fc1b269bd2fc06-screen-v.3_2x.jpg.webp",
+    "bytes": 490874,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/front/screen-v.3@1x.jpg.webp",
+    "path": "recursos/7c/7c4c544fd5d01bc57c60-screen-v.3_1x.jpg.webp",
+    "bytes": 946570,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/front/screen-v.3@2x.jpg.webp",
+    "path": "recursos/dc/dc29dc316256afa230b6-screen-v.3_2x.jpg.webp",
+    "bytes": 3128274,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/mobile/public/pages/front/products/product-screen@1x.png.webp",
+    "path": "recursos/87/87d9fbc2627de06df4cf-product-screen_1x.png.webp",
+    "bytes": 22800,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/mobile_2x/public/pages/front/products/product-screen@2x.png.webp",
+    "path": "recursos/50/50633c535ba21275f9cb-product-screen_2x.png.webp",
+    "bytes": 62852,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/webp/public/pages/front/products/product-screen@1x.png.webp",
+    "path": "recursos/b7/b7fc9466cf6abbc4ef0e-product-screen_1x.png.webp",
+    "bytes": 659886,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/themes/contrib/stable/images/core/throbber-active.gif",
+    "path": "recursos/94/9435504a856b8f153052-throbber-active.gif",
+    "bytes": 1275,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/themes/contrib/stable/images/core/loading-small.gif",
+    "path": "recursos/67/6783e9780abd9be5f438-loading-small.gif",
+    "bytes": 2112,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/libraries/jquery.intl-tel-input/build/img/flags.png",
+    "path": "recursos/a3/a3255111b07fc462a2d2-flags.png",
+    "bytes": 70857,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/libraries/jquery.intl-tel-input/build/img/flags%402x.png",
+    "path": "recursos/ce/ce09e6a0813f4f8cb1f0-flags_2x.png",
+    "bytes": 174369,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png",
+    "path": "recursos/36/36d3a34abdf812ea7cf1-ui-icons_444444_256x240.png",
+    "bytes": 3266,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_555555_256x240.png",
+    "path": "recursos/94/94e6e06669979bbff76c-ui-icons_555555_256x240.png",
+    "bytes": 3274,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_ffffff_256x240.png",
+    "path": "recursos/13/130a8ba9d2274ebb4076-ui-icons_ffffff_256x240.png",
+    "bytes": 3264,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777620_256x240.png",
+    "path": "recursos/f3/f3019db1c45a64230463-ui-icons_777620_256x240.png",
+    "bytes": 3262,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/ua/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_cc0000_256x240.png",
+    "path": "recursos/10/10992f3e6f0d54f71e6e-ui-icons_cc0000_256x240.png",
+    "bytes": 3262,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/themes/contrib/stable/images/core/throbber-active.gif",
+    "path": "recursos/94/9435504a856b8f153052-throbber-active.gif",
+    "bytes": 1275,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/themes/contrib/stable/images/core/loading-small.gif",
+    "path": "recursos/67/6783e9780abd9be5f438-loading-small.gif",
+    "bytes": 2112,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/libraries/jquery.intl-tel-input/build/img/flags.png",
+    "path": "recursos/a3/a3255111b07fc462a2d2-flags.png",
+    "bytes": 70857,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/libraries/jquery.intl-tel-input/build/img/flags%402x.png",
+    "path": "recursos/ce/ce09e6a0813f4f8cb1f0-flags_2x.png",
+    "bytes": 174369,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png",
+    "path": "recursos/36/36d3a34abdf812ea7cf1-ui-icons_444444_256x240.png",
+    "bytes": 3266,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_555555_256x240.png",
+    "path": "recursos/94/94e6e06669979bbff76c-ui-icons_555555_256x240.png",
+    "bytes": 3274,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_ffffff_256x240.png",
+    "path": "recursos/13/130a8ba9d2274ebb4076-ui-icons_ffffff_256x240.png",
+    "bytes": 3264,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777620_256x240.png",
+    "path": "recursos/f3/f3019db1c45a64230463-ui-icons_777620_256x240.png",
+    "bytes": 3262,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_cc0000_256x240.png",
+    "path": "recursos/10/10992f3e6f0d54f71e6e-ui-icons_cc0000_256x240.png",
+    "bytes": 3262,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777777_256x240.png",
+    "path": "recursos/af/af629bb28bc06e94611f-ui-icons_777777_256x240.png",
+    "bytes": 3266,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/themes/custom/creatio/img/pages/main/bg-renaming.jpg",
+    "path": "recursos/ee/ee85bcdbf5adfe5c80fa-bg-renaming.jpg",
+    "bytes": 24408,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/themes/contrib/classy/images/misc/menu-expanded.png",
+    "path": "recursos/e3/e38b471c7466dea58a59-menu-expanded.png",
+    "bytes": 106,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/themes/contrib/classy/images/misc/help.png",
+    "path": "recursos/65/65a11eba1650bb068e77-help.png",
+    "bytes": 294,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/themes/contrib/classy/images/misc/menu-collapsed.png",
+    "path": "recursos/59/59a4016ce4faa09ff3e1-menu-collapsed.png",
+    "bytes": 105,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/kz/themes/contrib/classy/images/misc/menu-collapsed-rtl.png",
+    "path": "recursos/e3/e3cb1ef9b007a03e2401-menu-collapsed-rtl.png",
+    "bytes": 107,
+    "property_url": null
+  },
+  {
+    "url": "https://storage.creatio.com/en/s3fs-public/banners/ai-adoption-banner/shadow.png",
+    "path": "recursos/37/37f0d24bd7200e035fa7-shadow.png",
+    "bytes": 25121,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/mobile/public/pages/products/studio/01-studio-screen@1x.png.webp",
+    "path": "recursos/91/916b0aedf639cd4b87d7-01-studio-screen_1x.png.webp",
+    "bytes": 10308,
+    "property_url": null
+  },
+  {
+    "url": "https://www.creatio.com/s3/files/styles/mobile_2x/public/pages/products/studio/01-studio-screen@2x.png.webp",
+    "path": "recursos/fc/fc4823d83d174e06336a-01-studio-screen_2x.png.webp",
+    "bytes": 28808,
+    "property_url": null
+  }
+]
