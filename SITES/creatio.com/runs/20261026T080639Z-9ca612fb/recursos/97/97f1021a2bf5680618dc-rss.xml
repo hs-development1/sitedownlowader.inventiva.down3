@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://community.creatio.com/">
+  <channel>
+    <title>Community Creatio</title>
+    <link>https://community.creatio.com/</link>
+    <description/>
+    <language>en</language>
+    
+    <item>
+  <title>RichText field editor does not allow you to specify a link with the "#" character.</title>
+  <link>https://community.creatio.com/articles/richtext-field-editor-does-not-allow-you-specify-link-character</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-article node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;bug&lt;/div&gt;
+              &lt;div class="field__item"&gt;Freedom_UI&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/articles/richtext-field-editor-does-not-allow-you-specify-link-character" hreflang="en"&gt;RichText field editor does not allow you to specify a link with the "#" character.&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/185515"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/185515" hreflang="en"&gt;Pavel Petrov&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;13:39 Oct 19, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;The link editor in the RichText field editor does not allow you to specify a link with the "#" sign. Accordingly, it is impossible to provide a link to the system page. :)&lt;br&gt;&lt;br&gt;Exists on version 10.0.0.858.&lt;br&gt;Fix the validator, please&lt;br&gt;&lt;br&gt;&lt;img data-entity-uuid="80a52c89-70b1-439b-a07a-42ed87a7b524" data-entity-type="file" src="https://storage.creatio.com/com-en/s3fs-public/inline-images/image_1793.png" width="1004" height="276" loading="lazy"&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42341" token="H8DLiO-CU2pKw2g51edDPcgOZUGBi0QQuA3hCejUHug"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42341&amp;amp;2=bookmark" token="6F-lphwSM1OrtUNCclJn7UbxSp2cWk0OaWXvan5kld8"&gt;&lt;/drupal-render-placeholder&gt;&lt;span class="a2a_kit a2a_kit_size_18 addtoany_list" data-a2a-url="https://community.creatio.com/articles/richtext-field-editor-does-not-allow-you-specify-link-character" data-a2a-title="RichText field editor does not allow you to specify a link with the &amp;quot;#&amp;quot; character."&gt;&lt;a class="a2a_button_facebook"&gt;&lt;/a&gt;&lt;a class="a2a_button_twitter"&gt;&lt;/a&gt;&lt;/span&gt;
+
+            &lt;div class="field field--name-dynamic-token-fieldnode-shared-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Share&lt;/p&gt;
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;0&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Mon, 19 Oct 2026 10:39:15 +0000</pubDate>
+    <dc:creator>pavel.p</dc:creator>
+    <guid isPermaLink="false">42341 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>SMS &amp; CSAT</title>
+  <link>https://community.creatio.com/questions/sms-csat</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-question node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;SMS_&amp;amp;_CSAT&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/questions/sms-csat" hreflang="en"&gt;SMS &amp;amp; CSAT&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/218157"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/218157" hreflang="en"&gt;Olivia Michel Bushra&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;11:37 Oct 18, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;Has anyone implemented sending a Customer Satisfaction (CSAT) survey link via SMS in Creatio using the Twilio SMS Pro connector?&lt;/p&gt;
+&lt;p&gt;I'd like to know how to configure this through a business process to automatically send the survey link after a case is resolved.&lt;/p&gt;
+&lt;p&gt;Any guidance or examples would be appreciated.&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42340" token="KWnSdvrie2qWYAdde-Hrhhz4cbveazt6e8j5-OrHSxA"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42340&amp;amp;2=bookmark" token="aS0NtkJHni5oPxbLyWWqISu2ZuVQC49Cb6iqEIF9IEA"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;0&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Sun, 18 Oct 2026 08:37:39 +0000</pubDate>
+    <dc:creator>Olivia.michel_480306</dc:creator>
+    <guid isPermaLink="false">42340 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>What's the best architectural approach to building a package hierarchy for a Creatio project?</title>
+  <link>https://community.creatio.com/articles/whats-best-architectural-approach-building-package-hierarchy-creatio-project</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-article node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/articles/whats-best-architectural-approach-building-package-hierarchy-creatio-project" hreflang="en"&gt;What's the best architectural approach to building a package hierarchy for a Creatio project?&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/212400"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/default_avatars/man1.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/212400" hreflang="en"&gt;Artem Ivzhenko&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;22:39 Oct 15, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="field field--name-field-image field--type-image field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/articles/whats-best-architectural-approach-building-package-hierarchy-creatio-project" hreflang="en"&gt;&lt;img loading="lazy" src="https://storage.creatio.com/com-en/s3fs-public/creatio-package-hierarchy.png" width="1000" height="500" alt&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+      
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;One of my current projects has a complex and tangled package hierarchy. That made me ask myself: if I were designing a new application on the platform from scratch, which approach would I choose?&lt;/p&gt;
+&lt;p&gt;I'm a big fan of DDD, so I started thinking about how to split schemas so that each package represents an architectural layer of the application, while still keeping development convenient for both no-code and hard-code developers.&lt;/p&gt;
+&lt;p&gt;A simple split by schema type doesn't work: objects, pages and business processes can depend on each other cyclically. So some schemas have to be split or partially duplicated across packages to keep the hierarchy acyclic. Source code could, of course, be made fully independent of everything else, but that doesn't guarantee stability: code often depends on system settings and populated lookups. Isolating it completely at the very bottom of the hierarchy didn't seem like the best idea either.&lt;/p&gt;
+&lt;p&gt;I won't walk you through my whole thought process, so let's get straight to the point. The architecture below is my personal preference. I don't claim it's the only right answer (otherwise there would be no question mark in the title). It's the result of my reasoning, my experience, and the pain I'd like to minimize when a release with critical bugs has to be rolled back, without breaking the overall CI/CD approach.&lt;/p&gt;
+&lt;p&gt;The diagram shows the overall structure. Below I go through it level by level, top to bottom, and explain each decision.&lt;/p&gt;
+&lt;p&gt;Level 1 — Data model&lt;br&gt;The package that all packages below depend on. It contains only objects and their columns, and nothing else: no filters, no default values, no required flags.&lt;br&gt;Why:&lt;br&gt;• Rollback. If a critical bug reaches production but users have already filled in new columns or tables, we can roll back the business logic (processes, pages) without losing their data.&lt;br&gt;• Ownership. This package can be entrusted to a more experienced analyst who won't create columns only to delete them later, who pays attention to the data model and takes responsibility for it. New analysts often struggle here, and the data model ends up cluttered with junk columns and objects with default names.&lt;/p&gt;
+&lt;p&gt;Level 2 — Data and SQL&lt;br&gt;Data bindings and SQL scripts: system settings, lookup values, roles, SQL scripts. It sits at level 2 because it depends only on the database structure (Level 1), while business processes, source code and column default values depend on it.&lt;br&gt;A separate data package also lets you quickly move data from dev/test to production when new lookup values are needed. Or the other way around: if someone created roles or lookup values directly on production, by accident or on purpose, you can bring them back to dev without breaking data integrity. Yes, that happens too. Rarely, but it does.&lt;/p&gt;
+&lt;p&gt;Level 3 — Source code&lt;br&gt;Business processes with script tasks, user tasks, source code, Angular components, JS modules. All of this essentially depends only on data and the database structure.&lt;br&gt;Why:&lt;br&gt;• Hard-code developers get a simpler workflow: the whole project's code can be compiled locally into a single DLL.&lt;br&gt;• On deployment we know exactly which package to compile to apply the new code. When source code is scattered across several packages, you either have to guess where a schema lives or compile the entire system, which simply takes longer.&lt;/p&gt;
+&lt;p&gt;Level 4 — No-code business logic&lt;br&gt;There are two options, depending on the size of your project.&lt;br&gt;Option 1: a single package containing object replacements (no new columns) with column business rules and default values, pages and their bindings, business processes without script tasks, add-ons, cases, marketing campaigns and no-code web services. This is the analyst's main workspace, where all no-code business logic lives. It depends on all three packages above and acts as an interface layer: business rules and processes only invoke the source code and define how everything is connected.&lt;br&gt;Page bindings live here, next to the pages they point to, rather than in the data package. A binding depends on its page, so keeping them together means that rolling back this level never leaves bindings pointing to pages that no longer exist.&lt;br&gt;Option 2: the same idea, split into several packages by domain or application area, for example Sales, Marketing, Service, CRM. Each package has the same internal structure as in option 1, but contains only the logic for its part of the application, or overrides a specific part of the base platform.&lt;/p&gt;
+&lt;p&gt;Level 5 — Batch processes (optional)&lt;br&gt;The last, optional level for one-off batch processes used for mass data updates when needed.&lt;/p&gt;
+&lt;p&gt;Scaling to large projects&lt;br&gt;Of course, on a very large project you may end up with packages that contain a lot of schemas. But that is the natural outcome of practically any architecture. Nothing stops you from applying this approach several times: if your project consists of several applications, each of them can have its own hierarchy built the same way.&lt;/p&gt;
+&lt;p&gt;If you've read this far, you probably care about clean architecture on the platform as much as I do. So please leave a comment: challenge it, criticize it. As I said, I don't claim to have the final answer, and I'd genuinely like to hear other perspectives and think about what I could improve. Thanks!&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42339" token="HAhFc_197t_2gV0nYg1QPHMdoK9nEXqmtqq5NFbGED4"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42339&amp;amp;2=bookmark" token="Imc14pIBoy_Gt7-GUfubTMUsQpjVUwbvSzffvZk_rq8"&gt;&lt;/drupal-render-placeholder&gt;&lt;span class="a2a_kit a2a_kit_size_18 addtoany_list" data-a2a-url="https://community.creatio.com/articles/whats-best-architectural-approach-building-package-hierarchy-creatio-project" data-a2a-title="What's the best architectural approach to building a package hierarchy for a Creatio project?"&gt;&lt;a class="a2a_button_facebook"&gt;&lt;/a&gt;&lt;a class="a2a_button_twitter"&gt;&lt;/a&gt;&lt;/span&gt;
+
+            &lt;div class="field field--name-dynamic-token-fieldnode-shared-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Share&lt;/p&gt;
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;1&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  &lt;div class="row bs-1col comment comment--type-comment comment--view-mode-default"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    
+&lt;div class="comment-top"&gt;
+    
+            &lt;div class="field field--name-comment-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/178296"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/picture/Harvey-Headshot_0.jpg" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/178296" hreflang="en"&gt;Harvey Adcock&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item"&gt;12:34 Oct 26, 2026&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="like_and_dislike.vote_builder:build" arguments="0=comment&amp;amp;1=94339" token="3QO2N8gPZvbFym3_D01DhvlIpXikWVVfi0XJ0VJ1Guo"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+            &lt;div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"&gt;&lt;p&gt;Really good &amp;amp; interesting write up, thanks Artem.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I guess the difficulty around applying this kind of architecture in a strict way is when you have multiple projects/work areas happening in the same Creatio instances.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;e.g. a single client that has a marketing project and a sales project running at the same time. The problems come around having to share certain objects (e.g. Contact, Account) and apply modifications to each of them, and sometimes having inter-dependent logic.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;This difficulty is often compounded by the difficulty of moving specific bits of config between packages to resolve such issues (e.g. if a column has been created on an object in one package, but it turns out it would make sense to move that to another package, moving a single column addition to another package is not simple).&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I would say Creatio also doesn't lend itself to this kind of working so well with the current development tools around selecting specific packages that you want to work in. For the most part, it's a pain switching between packages unless you're creating &amp;amp; opening all the schemas from the advanced config page, and it's currently a very workaround-heavy space. E.g. if you open the page designer for a page you want to create a new replacing schema for, Creatio will (by default) put it in a newly-generated package with a semi-random name which you have to be careful to avoid. If you also wanted to add a column while on this page, it would add that column to a replacing object in that same package as well, causing issues to a nicely structured package hierarchy like the one you have laid out - again compounded by the difficulty of moving partial config for a schema between packages/merging schema config between packages. I think improving this in Creatio would be great for most workflows, but I don't expect to see it any time soon unfortunately.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I really would like to see more ways of working shared around Creatio development like this (so many thanks for sharing this!) and would love to know what Creatio's own internal development looked like, because we all come across so many of these difficulties that don't seem to have great solutions currently.&lt;/p&gt;
+&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="comment.lazy_builders:renderLinks" arguments="0=94339&amp;amp;1=default&amp;amp;2=en&amp;amp;3=" token="JwzCxWIhJTZmTFgSE7K0Rhs5j5_pBf9qIIOX07LROFU"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Thu, 15 Oct 2026 19:39:37 +0000</pubDate>
+    <dc:creator>aivzhenko_474150</dc:creator>
+    <guid isPermaLink="false">42339 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>Integration with Active Directory (EntraID) for group of users</title>
+  <link>https://community.creatio.com/questions/integration-active-directory-entraid-group-users</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-question node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;Service_Creatio_enterprise_edition&lt;/div&gt;
+              &lt;div class="field__item"&gt;8.0&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/questions/integration-active-directory-entraid-group-users" hreflang="en"&gt;Integration with Active Directory (EntraID) for group of users&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/216697"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/216697" hreflang="en"&gt;Maksymilian Majchrzyk&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;12:08 Oct 15, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;I have been searching through the Creatio Academy website for information regarding the integration of user groups with Active Directory (Entra ID).&lt;/p&gt;
+&lt;p&gt;We currently have an AD integration configured, and it synchronizes individual users while populating selected user information. My question is whether it is possible to integrate entire user groups from AD as well.&lt;/p&gt;
+&lt;p&gt;For example, we have a group called &lt;strong&gt;"Technical Department"&lt;/strong&gt; that contains five users. As I understand it, the current integration imports those five users into Creatio, but it does not create the &lt;strong&gt;"Technical Department"&lt;/strong&gt; group itself.&lt;/p&gt;
+&lt;p&gt;Is it possible to synchronize user groups so that the groups themselves are also transferred to &lt;strong&gt;Creatio&lt;/strong&gt; and remain synchronized with &lt;strong&gt;Active Directory (or Entra ID)&lt;/strong&gt;? In other words, if I add or remove a user from the &lt;strong&gt;"Technical Department"&lt;/strong&gt; group in AD, would the corresponding group in Creatio automatically reflect those changes?&lt;/p&gt;
+&lt;p&gt;I am asking because we are considering using the &lt;strong&gt;"Assigned Group"&lt;/strong&gt; field in service cases. We would like to understand whether we need to create and maintain separate groups directly in Creatio, or whether this can be integrated with &lt;strong&gt;AD (Entra ID)&lt;/strong&gt; so that group membership is managed in a single place and automatically synchronized with Creatio.&lt;/p&gt;
+&lt;p&gt;Thank you in advance for your help.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42338" token="BqBrrQoAf3eXOqm5d8g5RIeo-W6glcyI6rxT8qTJf-w"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42338&amp;amp;2=bookmark" token="ChfRPPp3jPhhr8S8VCPbc_w_RdbiARy23fJQ7xPaV8A"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;0&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Thu, 15 Oct 2026 09:08:24 +0000</pubDate>
+    <dc:creator>maksymilian.majchrzyk_478736</dc:creator>
+    <guid isPermaLink="false">42338 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>New on Creatio Marketplace: Syntech Availability Matrix for Creatio</title>
+  <link>https://community.creatio.com/articles/new-creatio-marketplace-syntech-availability-matrix-creatio</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-article node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;nocode&lt;/div&gt;
+              &lt;div class="field__item"&gt;RealEstateTech&lt;/div&gt;
+              &lt;div class="field__item"&gt;FreedomUI&lt;/div&gt;
+              &lt;div class="field__item"&gt;New_in_Syntech&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/articles/new-creatio-marketplace-syntech-availability-matrix-creatio" hreflang="en"&gt;New on Creatio Marketplace: Syntech Availability Matrix for Creatio&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/218602"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/picture/Airbrush-IMAGE-ENHANCER-1765048909438-1765048909438.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/218602" hreflang="en"&gt;Ivanna &lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;18:29 Oct 14, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="field field--name-field-image field--type-image field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/articles/new-creatio-marketplace-syntech-availability-matrix-creatio" hreflang="en"&gt;&lt;img loading="lazy" src="https://storage.creatio.com/com-en/s3fs-public/photo_2026-10-14_18-28-55.jpg" width="1000" height="313" alt&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+      
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;We're excited to introduce &lt;a href="https://marketplace.creatio.com/app/syntech-availability-matrix-creatio"&gt;&lt;strong&gt;Syntech Availability Matrix for Creatio&lt;/strong&gt;&lt;/a&gt;, a new interactive visualization component designed for real estate developers, property sales teams, and project managers.&lt;/p&gt;
+&lt;p&gt;Managing property inventory becomes easier when buildings, sections, floors, and individual units are presented in one clear visual structure.&lt;/p&gt;
+&lt;p&gt;With Syntech Availability Matrix, teams can explore project inventory and unit availability directly within Creatio.&lt;/p&gt;
+&lt;h3&gt;Key Features&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Availability Matrix Unit Layout&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Display apartments, offices, and other properties as color-coded tiles for quick status identification and navigation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Interactive Building Visualization&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Visualize residential and commercial projects with units organized by floors and sections.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Flexible No-Code Configuration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Configure the component without coding to visualize virtually any existing data model in Creatio.&lt;/p&gt;
+&lt;h3&gt;Technical Details&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UI Framework:&lt;/strong&gt; Freedom UI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compatibility:&lt;/strong&gt; Creatio 8.3.4 and later&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; Component&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Availability:&lt;/strong&gt; Paid, available on Creatio Marketplace&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Syntech Availability Matrix helps make complex real estate inventory easier to navigate and understand, all within your existing Creatio environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explore the component on Creatio Marketplace: &lt;/strong&gt;&lt;a href="https://marketplace.creatio.com/app/syntech-availability-matrix-creatio"&gt;https://marketplace.creatio.com/app/syntech-availability-matrix-creatio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We'd love to hear your feedback!&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42336" token="2wJbiCLopeXJr5Dg_qxt_NjTFExDmLttu39rDoQ3z8g"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42336&amp;amp;2=bookmark" token="gqvMmd7OuiczWhFSWW7WZHPsMIL2-3GoUT_ygYmgYTg"&gt;&lt;/drupal-render-placeholder&gt;&lt;span class="a2a_kit a2a_kit_size_18 addtoany_list" data-a2a-url="https://community.creatio.com/articles/new-creatio-marketplace-syntech-availability-matrix-creatio" data-a2a-title="New on Creatio Marketplace: Syntech Availability Matrix for Creatio"&gt;&lt;a class="a2a_button_facebook"&gt;&lt;/a&gt;&lt;a class="a2a_button_twitter"&gt;&lt;/a&gt;&lt;/span&gt;
+
+            &lt;div class="field field--name-dynamic-token-fieldnode-shared-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Share&lt;/p&gt;
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;0&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Wed, 14 Oct 2026 15:29:04 +0000</pubDate>
+    <dc:creator>ivanna.tabakar_480763</dc:creator>
+    <guid isPermaLink="false">42336 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>Different UI's in mobile app for employee and for external user</title>
+  <link>https://community.creatio.com/questions/different-uis-mobile-app-employee-and-external-user</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-question node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;Mobile_Creatio&lt;/div&gt;
+              &lt;div class="field__item"&gt;8.0&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/questions/different-uis-mobile-app-employee-and-external-user" hreflang="en"&gt;Different UI's in mobile app for employee and for external user&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/216697"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/216697" hreflang="en"&gt;Maksymilian Majchrzyk&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;11:17 Oct 14, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;I'm experiencing an unusual issue with the Creatio mobile app.&lt;/p&gt;
+&lt;p&gt;When I log in using an employee account, the application opens with the Freedom UI home page as expected.&lt;/p&gt;
+&lt;p&gt;However, when I log in using an external account, the starting page is displayed in the Classic UI. Interestingly, when I navigate to modules, the Cases module is still displayed in Freedom UI.&lt;/p&gt;
+&lt;p&gt;I would like both views to use Freedom UI.&lt;/p&gt;
+&lt;p&gt;Could you help me with fixing that behavior?&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;img src="https://storage.creatio.com/com-en/s3fs-public/inline-images/image_9.jpeg" alt="088baee1-fd0a-42d4-b8a3-35dc62113b7d 1.jpeg" data-entity-uuid="2ddff170-5a20-4fed-9640-edc3db5338b7" data-entity-type="file" width="1012" height="2049" loading="lazy"&gt;Employee view of home page&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://storage.creatio.com/com-en/s3fs-public/inline-images/image_11.jpeg" alt="85f6d6a8-b3d0-478f-94e0-6fcbc320ae1e 1.jpeg" data-entity-uuid="e11a4759-8061-4a28-9280-cf5a86f107e3" data-entity-type="file" width="1014" height="2049" loading="lazy"&gt;&lt;/p&gt;
+&lt;p&gt;External view of home page&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://storage.creatio.com/com-en/s3fs-public/inline-images/image_12.jpeg" alt="Otwórz zdjęcie" data-entity-uuid="7ea976c2-2a77-41ae-8198-eb56cb26031a" data-entity-type="file" width="1080" height="1199" loading="lazy"&gt;&lt;/p&gt;
+&lt;p&gt;External view of "Case" module&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42335" token="qzHBjVvpT1JwJIMCFOARDWGhkj3MbQyrmfjycb6cPHk"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42335&amp;amp;2=bookmark" token="SXLDdwKZdjsQ4ynFaJBJ1vM3g0d5TsdgOBUWXLLSDZc"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;0&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Wed, 14 Oct 2026 08:17:11 +0000</pubDate>
+    <dc:creator>maksymilian.majchrzyk_478736</dc:creator>
+    <guid isPermaLink="false">42335 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?</title>
+  <link>https://community.creatio.com/questions/how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-question node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;How_to_Add_a_Legend_to_a_Doughnut_Chart_in_Creatio_Freedom_UI_Using_JavaScript?&lt;/div&gt;
+              &lt;div class="field__item"&gt;Studio_Creatio_enterprise_edition&lt;/div&gt;
+              &lt;div class="field__item"&gt;8.0&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/questions/how-add-legend-doughnut-chart-creatio-freedom-ui-using-javascript" hreflang="en"&gt;How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/205876"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/default_avatars/woman2.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/205876" hreflang="en"&gt;Chetana Gharat&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;11:22 Oct 10, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;How to Add a Legend to a Doughnut Chart in Creatio Freedom UI Using JavaScript?&lt;/p&gt;
+&lt;p&gt;Hi Creatio Community,&lt;/p&gt;
+&lt;p&gt;I'm working on a &lt;strong&gt;doughnut chart in Creatio Freedom UI&lt;/strong&gt; and would like to display a legend below the chart. However, the chart configuration available in the Freedom UI designer does not provide an option to enable the legend for a doughnut chart.&lt;/p&gt;
+&lt;p&gt;I would like to explore whether this can be achieved through a client-side JavaScript handler without modifying the underlying chart configuration or affecting the chart's existing functionality.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chart element:&lt;/strong&gt; HTML &lt;code&gt;&lt;/code&gt; inside the &lt;code&gt;ts-chart&lt;/code&gt; component&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Requirement:&lt;/strong&gt; Display a custom legend below the doughnut chart, showing each series' actual color and label.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Questions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Is there a supported way to enable or configure a legend for a doughnut chart in Creatio Freedom UI?&lt;/li&gt;
+&lt;li&gt;If the designer does not support this option, can a custom legend be added using a Freedom UI client-side JavaScript handler?&lt;/li&gt;
+&lt;li&gt;How can we access the chart's actual labels, dataset values, and colors from the &lt;code&gt;ts-chart&lt;/code&gt; component or its underlying chart configuration?&lt;/li&gt;
+&lt;li&gt;Is there a recommended or supported API for accessing the chart instance without relying on undocumented internal properties?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;My preference is to display the legend below the doughnut chart, using the existing chart labels and colors, while keeping the implementation scoped to this widget and preserving its existing interactions.&lt;/p&gt;
+&lt;p&gt;Any guidance, examples, or recommended approaches would be appreciated.&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42333" token="PGfZTSk4Q7c8aGCM6nBBtUh_IgQ1f10ejdRxmAqT5p8"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42333&amp;amp;2=bookmark" token="C916tE3RQ4Iuo9VpMTzdNRGKQQVh3QzKgh1abZo8xfU"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;1&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  &lt;div class="row bs-1col comment comment--type-comment comment--view-mode-default"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    
+&lt;div class="comment-top"&gt;
+    
+            &lt;div class="field field--name-comment-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/177760"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/picture/photo_2020-06-12_20-01-26.jpg" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/177760" hreflang="en"&gt;Oleg Drobina&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item"&gt;11:58 Oct 12, 2026&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="like_and_dislike.vote_builder:build" arguments="0=comment&amp;amp;1=94335" token="ik0yiLQbzJ6Rh0a-oQrRZDsfiCHWWTb2K5QSFDb1dpY"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+            &lt;div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"&gt;&lt;p dir="ltr"&gt;Hi,&lt;/p&gt;
+&lt;p dir="ltr"&gt;Thank you for the detailed question. Here are answers to each point, followed by the approach we recommend.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;1. Is there a supported way to enable a legend for a doughnut chart?&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Unfortunately, no. This is a current platform limitation, not a setting the Freedom UI Designer is missing.&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;The &lt;strong&gt;Show legend&lt;/strong&gt; option is available only for Spline, Line, Bar, Area, Column and Scatter charts. Pie and doughnut charts don’t support a legend.&lt;/li&gt;
+&lt;li&gt;If you add a &lt;code&gt;legend&lt;/code&gt; setting to the doughnut series by editing the page schema, the page saves it, but no legend appears. The chart turns off the legend for pie, doughnut, funnel and waterfall charts.&lt;/li&gt;
+&lt;li&gt;You can’t set slice colors either. The series &lt;code&gt;color&lt;/code&gt; property is ignored for doughnut charts, and slices take their colors from the built-in palette.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;What doughnut charts do show is a &lt;strong&gt;“label – NN%”&lt;/strong&gt; data label next to each slice by default. Long labels wrap. Labels that would overlap are hidden, so very small slices may have no label. The &lt;code&gt;dataLabel.display&lt;/code&gt; setting has no effect on doughnut charts.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;2. Can a custom legend be added with client-side code?&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Yes, as a &lt;strong&gt;separate element placed directly under the chart&lt;/strong&gt;. It can’t be drawn inside the chart, because the chart is a single &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; with no extension point for that. This approach leaves the chart widget unchanged, so drilldown, tooltips, data labels and keyboard navigation keep working.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;3. How can I get the chart’s labels, values and colors?&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;em&gt;Labels and values.&lt;/em&gt; When a chart series gets its data through the standard data source (&lt;code&gt;data.providing&lt;/code&gt;), the platform creates a page attribute named &lt;code&gt;&lt;strong&gt;&amp;lt;ChartElementName&amp;gt;_SeriesData&lt;/strong&gt;&lt;/code&gt;. For example, a chart element named &lt;code&gt;MyDoughnut&lt;/code&gt; gets &lt;code&gt;MyDoughnut_SeriesData&lt;/code&gt;. The attribute holds one array per series, and each item looks like this:&lt;/p&gt;
+&lt;pre&gt;{
+  grouping:    { value, displayValue }, // displayValue is the slice label
+  aggregation: { value }                // value is the slice value
+}&lt;/pre&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Please keep in mind:&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;The platform generates this attribute and it isn’t part of the documented API, so it may change in future versions.&lt;/li&gt;
+&lt;li&gt;It’s created only when the chart element has no explicit &lt;code&gt;seriesData&lt;/code&gt; binding.&lt;/li&gt;
+&lt;li&gt;It’s filled asynchronously, so &lt;code&gt;await&lt;/code&gt; it. It holds empty arrays until the data has loaded.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;&lt;em&gt;Colors.&lt;/em&gt; No API returns the colors the chart draws. Doughnut slices take colors from the built-in palette by slice index, starting again after the last color:&lt;/p&gt;
+&lt;pre&gt;#0058EF, #F9307F, #08857E, #F86700, #4F43C2, #20A959, #009DE3, #FF4013, #B87CCF, #22AC14,
+#247EE5, #FF602E, #9641A9, #0B6A32, #E00022, #1566B9, #BE1B5A, #7848EE, #0D2E4E&lt;/pre&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;A legend that uses this list matches the chart today. The palette is an internal detail, though, so check the legend after upgrades.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;em&gt;Order.&lt;/em&gt; If the chart has a sort order (&lt;code&gt;seriesOrder&lt;/code&gt;), sort your legend items the same way before assigning colors. Otherwise the colors won’t match the slices.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;4. Is there a supported API to get the chart instance?&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;No. &lt;code&gt;@creatio-devkit/common&lt;/code&gt; has no API that returns a page element’s component or the underlying Chart.js instance. The chart widget exposes only its configuration inputs, and clicks on the chart are handled inside the widget without reaching the page.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Reading the Chart.js instance from the component or the DOM depends on internal details, and we don’t recommend it. &lt;code&gt;Chart.getChart(canvas)&lt;/code&gt; usually doesn’t work from custom code anyway. Custom code loads its own copy of Chart.js, which doesn’t know about the chart the widget created.&lt;/p&gt;
+&lt;p&gt;Recommended approach&lt;/p&gt;
+&lt;p dir="ltr"&gt;Add a legend element under the chart and leave the chart widget as it is. There are three options, from simplest to most flexible.&lt;/p&gt;
+&lt;p&gt;Option 1. Text legend with a label (no custom component)&lt;/p&gt;
+&lt;p dir="ltr"&gt;Add a &lt;code&gt;crt.Label&lt;/code&gt; under the chart and fill it from a handler:&lt;/p&gt;
+&lt;pre&gt;viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
+  {
+    "operation": "insert",
+    "name": "MyDoughnutLegend",
+    "values": {
+      "type": "crt.Label",
+      "caption": "$MyDoughnutLegendText",
+      "labelType": "body",
+      "visible": true
+    },
+    "parentName": "&amp;lt;container that holds MyDoughnut&amp;gt;",
+    "propertyName": "items",
+    "index": 1
+  }
+]/**SCHEMA_VIEW_CONFIG_DIFF*/,
+viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
+  {
+    "operation": "merge",
+    "path": ["attributes"],
+    "values": {
+      "MyDoughnutLegendText": {}
+    }
+  }
+]/**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/,
+handlers: /**SCHEMA_HANDLERS*/[
+  {
+    request: "crt.HandleViewModelAttributeChangeRequest",
+    handler: async (request, next) =&amp;gt; {
+      if (request.attributeName === "MyDoughnut_SeriesData") {
+        const seriesData = await request.$context.MyDoughnut_SeriesData;
+        const items = seriesData?.[0] ?? [];
+        request.$context.MyDoughnutLegendText = items
+          .map(item =&amp;gt; `${item.grouping.displayValue}: ${item.aggregation.value}`)
+          .join("  |  ");
+      }
+      return next?.handle(request);
+    }
+  }
+]/**SCHEMA_HANDLERS*/,&lt;/pre&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;This option can’t show colored markers. Please check on your Creatio version that the change request fires for the generated attribute.&lt;/p&gt;
+&lt;p&gt;Option 2. Legend with colored markers (custom view element)&lt;/p&gt;
+&lt;p dir="ltr"&gt;Create a small Angular component in a remote module (see “Develop a custom UI component using remote module” on Creatio Academy):&lt;/p&gt;
+&lt;pre&gt;import { Component, Input, ViewEncapsulation } from '@angular/core';
+import { CrtInput, CrtViewElement } from '@creatio-devkit/common';
+
+const PALETTE = [
+  '#0058EF', '#F9307F', '#08857E', '#F86700', '#4F43C2', '#20A959', '#009DE3',
+  '#FF4013', '#B87CCF', '#22AC14', '#247EE5', '#FF602E', '#9641A9', '#0B6A32',
+  '#E00022', '#1566B9', '#BE1B5A', '#7848EE', '#0D2E4E'
+];
+
+interface LegendItem {
+  label: string;
+  value: unknown;
+}
+
+@Component({
+  selector: 'usr-chart-legend',
+  template: `
+    &amp;lt;div class="usr-legend"&amp;gt;
+      &amp;lt;span *ngFor="let item of legend; let i = index" class="usr-legend-item"&amp;gt;
+        &amp;lt;i [style.background]="color(i)"&amp;gt;&amp;lt;/i&amp;gt;{{ item.label }} ({{ item.value }})
+      &amp;lt;/span&amp;gt;
+    &amp;lt;/div&amp;gt;`,
+  styles: [`
+    .usr-legend { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; }
+    .usr-legend-item { display: inline-flex; align-items: center; }
+    .usr-legend-item i { width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
+  `],
+  encapsulation: ViewEncapsulation.Emulated
+})
+@CrtViewElement({
+  selector: 'usr-chart-legend',
+  type: 'usr.ChartLegend'
+})
+export class UsrChartLegendComponent {
+  public legend: LegendItem[] = [];
+
+  @Input()
+  @CrtInput()
+  public set items(value: any) {
+    Promise.resolve(value).then(data =&amp;gt; {
+      this.legend = (data?.[0] ?? []).map((item: any) =&amp;gt; ({
+        label: item.grouping?.displayValue,
+        value: item.aggregation?.value
+      }));
+    });
+  }
+
+  public color(index: number): string {
+    return PALETTE[index % PALETTE.length];
+  }
+}&lt;/pre&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Register the component in the remote module the standard way. Then place it under the chart on the Freedom UI page:&lt;/p&gt;
+&lt;pre&gt;{
+  "operation": "insert",
+  "name": "MyDoughnutLegend",
+  "values": {
+    "type": "usr.ChartLegend",
+    "items": "$MyDoughnut_SeriesData"
+  },
+  "parentName": "&amp;lt;container that holds MyDoughnut&amp;gt;",
+  "propertyName": "items",
+  "index": 1
+}&lt;/pre&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Option 3. Load the legend data yourself (fully supported API)&lt;/p&gt;
+&lt;p dir="ltr"&gt;If you don’t want to depend on the generated &lt;code&gt;_SeriesData&lt;/code&gt; attribute, load the same aggregated data with &lt;code&gt;sdk.Model&lt;/code&gt;. Pass the result to the label from Option 1 or the component from Option 2:&lt;/p&gt;
+&lt;pre&gt;const model = await sdk.Model.create("Account");
+const rows = await model.load({
+  attributes: [
+    { name: "Industry", path: "Industry" },
+    {
+      name: "Count",
+      path: "Id",
+      type: "function",
+      functionConfig: {
+        type: "aggregation",
+        aggregation: "Count",
+        aggregationEval: "all"
+      }
+    }
+  ],
+  parameters: [
+    /* the same filters the chart uses */
+  ]
+});&lt;/pre&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Use the same grouping column, filters and sort order as the chart so the legend rows match the slices.&lt;/p&gt;
+&lt;p&gt;Limitations&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;A custom legend doesn’t react to the chart’s interactive state, such as a hovered or drilled-down slice.&lt;/li&gt;
+&lt;li&gt;The color palette and the &lt;code&gt;&amp;lt;ChartElementName&amp;gt;_SeriesData&lt;/code&gt; attribute are internal details that may change in future versions. Please check the legend after upgrades.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Registering the idea&lt;/p&gt;
+&lt;p dir="ltr"&gt;We agree that a built-in legend for pie and doughnut charts would be useful, and adding one needs a platform change. Please send this idea to &lt;strong&gt;&lt;a href="mailto:support@creatio.com"&gt;support@creatio.com&lt;/a&gt;&lt;/strong&gt; so it’s registered with the R&amp;amp;D team and considered for the product roadmap. Including your use case, such as “legend below the doughnut chart with series colors and labels”, will help us prioritize it.&lt;/p&gt;
+&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="comment.lazy_builders:renderLinks" arguments="0=94335&amp;amp;1=default&amp;amp;2=en&amp;amp;3=" token="agldEEe03eKoU8xewFsmV2z_3ewL5OJgiiTKLCaWW0s"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Sat, 10 Oct 2026 08:22:42 +0000</pubDate>
+    <dc:creator>chetana.gharat</dc:creator>
+    <guid isPermaLink="false">42333 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>ESQ Transactions</title>
+  <link>https://community.creatio.com/questions/esq-transactions</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-question node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;ESQ_Transaction&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/questions/esq-transactions" hreflang="en"&gt;ESQ Transactions&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/214961"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/214961" hreflang="en"&gt;Krzysztof&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;17:50 Oct 09, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Hello Community,&lt;/p&gt;
+&lt;p&gt;I have a question if its possible to have database transaction scope using ESQ instead of direct SQL. From the documentation it is suggested that we as Devs should use ESQ most of the times because of validation etc. &lt;/p&gt;
+&lt;p&gt;I have a case where I have to modify two entities and for that I need two separate ESQ (maybe there is a better way). My goal is to wrap that in a single transaction so that all changes are made or none (to avoid inconsistency).&lt;/p&gt;
+&lt;p&gt;Is this code below valid for this case? Is going to work?&lt;/p&gt;
+&lt;p&gt;```&lt;br&gt;
+using System;&lt;br&gt;
+using Terrasoft.Core.DB;&lt;br&gt;
+using Terrasoft.Core.Entities;&lt;/p&gt;
+&lt;p&gt;using (DBExecutor dbExecutor = UserConnection.EnsureDBConnection())&lt;br&gt;
+{&lt;br&gt;
+    dbExecutor.StartTransaction();&lt;br&gt;
+    try&lt;br&gt;
+    {&lt;br&gt;
+        var schemaManager = UserConnection.EntitySchemaManager;&lt;/p&gt;
+&lt;p&gt;        // Contact&lt;br&gt;
+        Entity contact = schemaManager.GetInstanceByName("Contact").CreateEntity(UserConnection);&lt;br&gt;
+        contact.SetDefColumnValues();&lt;br&gt;
+        contact.SetColumnValue("Name", "Jane Doe");&lt;br&gt;
+        contact.Save();&lt;/p&gt;
+&lt;p&gt;        // Case, linked to the new contact&lt;br&gt;
+        Entity supportCase = schemaManager.GetInstanceByName("Case").CreateEntity(UserConnection);&lt;br&gt;
+        supportCase.SetDefColumnValues();&lt;br&gt;
+        supportCase.SetColumnValue("Subject", "Test case");&lt;br&gt;
+        supportCase.SetColumnValue("ContactId", contact.PrimaryColumnValue);&lt;br&gt;
+        supportCase.Save();&lt;/p&gt;
+&lt;p&gt;        // ...more entities as needed&lt;/p&gt;
+&lt;p&gt;        dbExecutor.CommitTransaction();&lt;br&gt;
+    }&lt;br&gt;
+    catch&lt;br&gt;
+    {&lt;br&gt;
+        dbExecutor.RollbackTransaction();&lt;br&gt;
+        throw;&lt;br&gt;
+    }&lt;br&gt;
+}&lt;br&gt;
+```&lt;/p&gt;
+&lt;p&gt;Thanks for all answers.&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42332" token="bR2_Ku6JUDFiM-r3JPBsTqvApJQqCFdEZmaYemsC2nU"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42332&amp;amp;2=bookmark" token="j_waVH_hMexzev4Htn-Zx0rnMRuo8B4yNEx405jlAR8"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;2&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+  &lt;div class="field field--name-field-best-answer-reference field--type-entity-reference field--label-above"&gt;
+    &lt;div class="field__label"&gt;Best reply&lt;/div&gt;
+              &lt;div class="field__item"&gt;&lt;div class="row bs-1col comment comment--type-comment comment--view-mode-default"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    
+&lt;div class="comment-top"&gt;
+    
+            &lt;div class="field field--name-comment-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/177760"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/picture/photo_2020-06-12_20-01-26.jpg" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/177760" hreflang="en"&gt;Oleg Drobina&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item"&gt;12:29 Oct 11, 2026&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="like_and_dislike.vote_builder:build" arguments="0=comment&amp;amp;1=94333" token="VtvE94EkqYB_jbLZYK2nJwtgEHTbBVYtcyoQMho0StE"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+            &lt;div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"&gt;&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p dir="ltr"&gt;Yes, this pattern works, and Creatio’s own core code uses it (sync, process completion, AppManager). Using &lt;code&gt;Entity&lt;/code&gt; here is correct. ESQ is mainly for reading data; &lt;code&gt;Entity&lt;/code&gt;, or &lt;code&gt;Insert&lt;/code&gt;/&lt;code&gt;Update&lt;/code&gt; queries, are the right tools for writing.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Why it works&lt;/strong&gt;&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;&lt;code&gt;UserConnection.EnsureDBConnection()&lt;/code&gt; doesn’t open a new connection each time. It returns the &lt;code&gt;DBExecutor&lt;/code&gt; cached on that &lt;code&gt;UserConnection&lt;/code&gt; and adds one to a reference count.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Entity.Save()&lt;/code&gt; calls &lt;code&gt;UserConnection.EnsureDBConnection()&lt;/code&gt; internally, so it gets the same executor. Every command that executor runs is enlisted in its open transaction.&lt;/li&gt;
+&lt;li&gt;That covers more than the main INSERT/UPDATE: default record rights, owner rights, localization rows, change tracking, and DB writes made by synchronous event handlers on the same &lt;code&gt;UserConnection&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Save()&lt;/code&gt; doesn’t start its own transaction on insert or update. &lt;code&gt;Delete()&lt;/code&gt; does, but transactions nest with a depth counter. An inner Commit or Rollback does nothing, so only your outermost call decides.&lt;/li&gt;
+&lt;li&gt;If the &lt;code&gt;using&lt;/code&gt; block ends without a commit (for example, an unexpected exception), &lt;code&gt;Dispose()&lt;/code&gt; rolls the transaction back. Your explicit &lt;code&gt;RollbackTransaction()&lt;/code&gt; is still good practice.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Things to watch for&lt;/strong&gt;&lt;/p&gt;
+&lt;ol dir="ltr"&gt;
+&lt;li&gt;&lt;code&gt;&lt;strong&gt;Save()&lt;/strong&gt;&lt;/code&gt;&lt;strong&gt; can return &lt;/strong&gt;&lt;code&gt;&lt;strong&gt;false&lt;/strong&gt;&lt;/code&gt;&lt;strong&gt; without throwing.&lt;/strong&gt; This happens when an &lt;code&gt;OnSaving&lt;/code&gt;, &lt;code&gt;OnInserting&lt;/code&gt; or &lt;code&gt;OnUpdating&lt;/code&gt; handler cancels the save. Your &lt;code&gt;try&lt;/code&gt; block would then commit the other entities. Check the return value.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use the same &lt;/strong&gt;&lt;code&gt;&lt;strong&gt;UserConnection&lt;/strong&gt;&lt;/code&gt;&lt;strong&gt; for everything.&lt;/strong&gt; Work done through &lt;code&gt;SystemUserConnection&lt;/code&gt; or another connection runs on a different DB connection. It is outside your transaction, and it can block on rows you have locked.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Some side effects are not rolled back.&lt;/strong&gt; They are sent during &lt;code&gt;Save()&lt;/code&gt;, not after commit:&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;async entity event operations (when async execution of entity events is enabled)&lt;/li&gt;
+&lt;li&gt;business processes started by a record signal and run in background mode&lt;/li&gt;
+&lt;li&gt;websocket and cache notifications&lt;/li&gt;
+&lt;li&gt;file content kept in external file storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;Background work may run before your commit, so it won’t see the new record yet. It may also run after a rollback, against a record that no longer exists.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keep the work synchronous.&lt;/strong&gt; Don’t use &lt;code&gt;async&lt;/code&gt;/&lt;code&gt;await&lt;/code&gt; or extra threads inside the block.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don’t reuse entity objects after a rollback.&lt;/strong&gt; They are already marked as saved in memory, so build new instances.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If you’re inside someone else’s transaction, rethrow the exception.&lt;/strong&gt; Your inner Rollback does nothing in that case. If you swallow the exception, the outer commit still saves everything.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Suggested version&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-cs"&gt;using (DBExecutor dbExecutor = UserConnection.EnsureDBConnection())
+{
+    dbExecutor.StartTransaction();
+    try
+    {
+        var schemaManager = UserConnection.EntitySchemaManager;
+
+        Entity contact = schemaManager.GetInstanceByName("Contact").CreateEntity(UserConnection);
+        contact.SetDefColumnValues();
+        contact.SetColumnValue("Name", "Jane Doe");
+        if (!contact.Save())
+            throw new InvalidOperationException("Contact was not saved.");
+
+        Entity supportCase = schemaManager.GetInstanceByName("Case").CreateEntity(UserConnection);
+        supportCase.SetDefColumnValues();
+        supportCase.SetColumnValue("Subject", "Test case");
+        supportCase.SetColumnValue("ContactId", contact.PrimaryColumnValue);
+        if (!supportCase.Save())
+            throw new InvalidOperationException("Case was not saved.");
+
+        dbExecutor.CommitTransaction();
+    }
+    catch
+    {
+        dbExecutor.RollbackTransaction();
+        throw;
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="comment.lazy_builders:renderLinks" arguments="0=94333&amp;amp;1=default&amp;amp;2=en&amp;amp;3=" token="onSO_7LOhn5SeI6W0wnupTocH2Th9hr6kQvVJ-cAHfk"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  &lt;div class="row bs-1col comment comment--type-comment comment--view-mode-default"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    
+&lt;div class="comment-top"&gt;
+    
+            &lt;div class="field field--name-comment-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/177760"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/picture/photo_2020-06-12_20-01-26.jpg" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/177760" hreflang="en"&gt;Oleg Drobina&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item"&gt;12:29 Oct 11, 2026&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="like_and_dislike.vote_builder:build" arguments="0=comment&amp;amp;1=94333" token="VtvE94EkqYB_jbLZYK2nJwtgEHTbBVYtcyoQMho0StE"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+            &lt;div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"&gt;&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p dir="ltr"&gt;Yes, this pattern works, and Creatio’s own core code uses it (sync, process completion, AppManager). Using &lt;code&gt;Entity&lt;/code&gt; here is correct. ESQ is mainly for reading data; &lt;code&gt;Entity&lt;/code&gt;, or &lt;code&gt;Insert&lt;/code&gt;/&lt;code&gt;Update&lt;/code&gt; queries, are the right tools for writing.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Why it works&lt;/strong&gt;&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;&lt;code&gt;UserConnection.EnsureDBConnection()&lt;/code&gt; doesn’t open a new connection each time. It returns the &lt;code&gt;DBExecutor&lt;/code&gt; cached on that &lt;code&gt;UserConnection&lt;/code&gt; and adds one to a reference count.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Entity.Save()&lt;/code&gt; calls &lt;code&gt;UserConnection.EnsureDBConnection()&lt;/code&gt; internally, so it gets the same executor. Every command that executor runs is enlisted in its open transaction.&lt;/li&gt;
+&lt;li&gt;That covers more than the main INSERT/UPDATE: default record rights, owner rights, localization rows, change tracking, and DB writes made by synchronous event handlers on the same &lt;code&gt;UserConnection&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Save()&lt;/code&gt; doesn’t start its own transaction on insert or update. &lt;code&gt;Delete()&lt;/code&gt; does, but transactions nest with a depth counter. An inner Commit or Rollback does nothing, so only your outermost call decides.&lt;/li&gt;
+&lt;li&gt;If the &lt;code&gt;using&lt;/code&gt; block ends without a commit (for example, an unexpected exception), &lt;code&gt;Dispose()&lt;/code&gt; rolls the transaction back. Your explicit &lt;code&gt;RollbackTransaction()&lt;/code&gt; is still good practice.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Things to watch for&lt;/strong&gt;&lt;/p&gt;
+&lt;ol dir="ltr"&gt;
+&lt;li&gt;&lt;code&gt;&lt;strong&gt;Save()&lt;/strong&gt;&lt;/code&gt;&lt;strong&gt; can return &lt;/strong&gt;&lt;code&gt;&lt;strong&gt;false&lt;/strong&gt;&lt;/code&gt;&lt;strong&gt; without throwing.&lt;/strong&gt; This happens when an &lt;code&gt;OnSaving&lt;/code&gt;, &lt;code&gt;OnInserting&lt;/code&gt; or &lt;code&gt;OnUpdating&lt;/code&gt; handler cancels the save. Your &lt;code&gt;try&lt;/code&gt; block would then commit the other entities. Check the return value.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use the same &lt;/strong&gt;&lt;code&gt;&lt;strong&gt;UserConnection&lt;/strong&gt;&lt;/code&gt;&lt;strong&gt; for everything.&lt;/strong&gt; Work done through &lt;code&gt;SystemUserConnection&lt;/code&gt; or another connection runs on a different DB connection. It is outside your transaction, and it can block on rows you have locked.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Some side effects are not rolled back.&lt;/strong&gt; They are sent during &lt;code&gt;Save()&lt;/code&gt;, not after commit:&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;async entity event operations (when async execution of entity events is enabled)&lt;/li&gt;
+&lt;li&gt;business processes started by a record signal and run in background mode&lt;/li&gt;
+&lt;li&gt;websocket and cache notifications&lt;/li&gt;
+&lt;li&gt;file content kept in external file storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;Background work may run before your commit, so it won’t see the new record yet. It may also run after a rollback, against a record that no longer exists.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Keep the work synchronous.&lt;/strong&gt; Don’t use &lt;code&gt;async&lt;/code&gt;/&lt;code&gt;await&lt;/code&gt; or extra threads inside the block.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don’t reuse entity objects after a rollback.&lt;/strong&gt; They are already marked as saved in memory, so build new instances.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If you’re inside someone else’s transaction, rethrow the exception.&lt;/strong&gt; Your inner Rollback does nothing in that case. If you swallow the exception, the outer commit still saves everything.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Suggested version&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-cs"&gt;using (DBExecutor dbExecutor = UserConnection.EnsureDBConnection())
+{
+    dbExecutor.StartTransaction();
+    try
+    {
+        var schemaManager = UserConnection.EntitySchemaManager;
+
+        Entity contact = schemaManager.GetInstanceByName("Contact").CreateEntity(UserConnection);
+        contact.SetDefColumnValues();
+        contact.SetColumnValue("Name", "Jane Doe");
+        if (!contact.Save())
+            throw new InvalidOperationException("Contact was not saved.");
+
+        Entity supportCase = schemaManager.GetInstanceByName("Case").CreateEntity(UserConnection);
+        supportCase.SetDefColumnValues();
+        supportCase.SetColumnValue("Subject", "Test case");
+        supportCase.SetColumnValue("ContactId", contact.PrimaryColumnValue);
+        if (!supportCase.Save())
+            throw new InvalidOperationException("Case was not saved.");
+
+        dbExecutor.CommitTransaction();
+    }
+    catch
+    {
+        dbExecutor.RollbackTransaction();
+        throw;
+    }
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="comment.lazy_builders:renderLinks" arguments="0=94333&amp;amp;1=default&amp;amp;2=en&amp;amp;3=" token="onSO_7LOhn5SeI6W0wnupTocH2Th9hr6kQvVJ-cAHfk"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="row bs-1col comment comment--type-comment comment--view-mode-default"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    
+&lt;div class="comment-top"&gt;
+    
+            &lt;div class="field field--name-comment-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/214961"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/214961" hreflang="en"&gt;Krzysztof&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item"&gt;02:13 Oct 12, 2026&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="like_and_dislike.vote_builder:build" arguments="0=comment&amp;amp;1=94334" token="375WoVAibY4mBdB-UXJMmTV0kYHFXVLuoAs7TxiHRz4"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+            &lt;div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Oleg Drobina,&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Thank you so much for this very thorough answer. That helped me a lot and I think its going to help others too.&lt;/p&gt;
+&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="comment.lazy_builders:renderLinks" arguments="0=94334&amp;amp;1=default&amp;amp;2=en&amp;amp;3=" token="U2oYzPI3nVOAl2ywdJPfDlMMuYdUDpuJ9V7dPTOtzcU"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Fri, 09 Oct 2026 14:50:55 +0000</pubDate>
+    <dc:creator>testowytestowy223_476900</dc:creator>
+    <guid isPermaLink="false">42332 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>Business Process won't run open specific  page</title>
+  <link>https://community.creatio.com/questions/business-process-wont-run-open-specific-page</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-question node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;Studio_Creatio&lt;/div&gt;
+              &lt;div class="field__item"&gt;8.0&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/questions/business-process-wont-run-open-specific-page" hreflang="en"&gt;Business Process won't run open specific  page&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/219736"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/219736" hreflang="en"&gt;Kevin Samuel&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;13:49 Oct 08, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Hi,&lt;br&gt;&lt;br&gt;I want to open specific page via business process. The button was clicked from mobile and it will run the business process. &amp;nbsp;I checked the execution diagram and it seems worked. However the mobile does nothing and it seems stucked.&lt;br&gt;&lt;br&gt;&lt;img src="https://storage.creatio.com/com-en/s3fs-public/inline-images/image_1795.png" data-entity-uuid="b81b3816-74a2-451d-9fc0-400e019d9466" data-entity-type="file" alt width="912" height="422" loading="lazy"&gt;&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42331" token="xwkfdOYPQoGhRHrCtTU0ILWgjKXvaOUhsF7sYJzlgD0"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42331&amp;amp;2=bookmark" token="AH9_aUysBAk1VpodcVlMc1URyA7cKt2lRF0RFB31aRc"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;1&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  &lt;div class="row bs-1col comment comment--type-comment comment--view-mode-default"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    
+&lt;div class="comment-top"&gt;
+    
+            &lt;div class="field field--name-comment-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/177760"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/picture/photo_2020-06-12_20-01-26.jpg" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/177760" hreflang="en"&gt;Oleg Drobina&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item"&gt;10:40 Oct 09, 2026&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="like_and_dislike.vote_builder:build" arguments="0=comment&amp;amp;1=94330" token="iFBV-5CFT6gxuCRIhVkzEPo8o2qv3DMXlUPmtB60Q6U"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+            &lt;div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"&gt;&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;Your process is probably fine. What fails is the hand-off at “Open edit page”: the Creatio mobile app most likely never handles the message that tells a client to open the page. So the process sits waiting on that element, which is why the diagram looks right while the phone does nothing.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;How to confirm&lt;/strong&gt;&lt;/p&gt;
+&lt;ol dir="ltr"&gt;
+&lt;li&gt;In the process log, check the “Buka detail halaman…” element. If it shows “in progress” rather than “completed”, the process is waiting for a client that never answers.&lt;/li&gt;
+&lt;li&gt;Press the same button in the web app as the same user. If the page opens there, the problem is mobile-only.&lt;/li&gt;
+&lt;li&gt;Optionally, keep a browser tab open as that user and press the button on the phone. If the page pops up in the browser, the phone is just ignoring the message.&lt;/li&gt;
+&lt;li&gt;Check your Creatio version. Starting a process from a Freedom UI mobile button (&lt;code&gt;crt.RunBusinessProcessRequest&lt;/code&gt;) is only supported in &lt;strong&gt;Creatio Mobile 8.3.4 and later&lt;/strong&gt; (&lt;a href="https://academy.creatio.com/guides/mobile/mobile-development/customization/freedom-ui/custom-request-handler/references/handlers-mobile"&gt;Academy handlers reference&lt;/a&gt;).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;How to fix it: let the process do data only, and do the navigation on the mobile side&lt;/strong&gt;&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;A (recommended): no process.&lt;/strong&gt; Bind the button to a mobile custom request handler, built with &lt;code&gt;@creatio/mobile-common&lt;/code&gt; and the &lt;code&gt;EnableMobileSDK&lt;/code&gt; feature (&lt;a href="https://academy.creatio.com/guides/mobile/mobile-development/customization/freedom-ui/custom-request-handler/overview"&gt;overview&lt;/a&gt;). The handler:&lt;/p&gt;
+&lt;ol dir="ltr"&gt;
+&lt;li&gt;looks up the record by No Prospect;&lt;/li&gt;
+&lt;li&gt;if it’s found, opens it with &lt;code&gt;crt.UpdateRecordRequest&lt;/code&gt; (or &lt;code&gt;crt.OpenPageRequest&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;if not, opens a new record with &lt;code&gt;crt.CreateRecordRequest&lt;/code&gt;, with No Prospect pre-filled.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir="ltr"&gt;A handler written for the web (a &lt;code&gt;usr.*&lt;/code&gt; schema handler) won’t work on mobile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B (8.3.4 and later): keep the process, but only for data.&lt;/strong&gt; Remove both “Open edit page” elements and keep Read Data / Add Data. Start the process with &lt;code&gt;crt.RunBusinessProcessRequest&lt;/code&gt;, then open the record from the mobile side.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;C (before 8.3.4): start the process from a record change.&lt;/strong&gt; Have the button set a field, and let a signal-started process do the data work. Navigation still has to happen on the mobile side.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;If the web test (step 2) also fails:&lt;/strong&gt; the process may be running in background mode, from a background or batch connection, or with “Show execution page” turned off. In those cases the server skips sending the message entirely and the symptom looks the same.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Also cancel the runs already stuck on “Open edit page” in the process log so they don’t pile up.&lt;/p&gt;
+&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="comment.lazy_builders:renderLinks" arguments="0=94330&amp;amp;1=default&amp;amp;2=en&amp;amp;3=" token="QlKbIYQva1jvO5gax6btetwFpWojPzbHRnc9uAjbJ1A"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Thu, 08 Oct 2026 10:49:06 +0000</pubDate>
+    <dc:creator>kevin.samuel_482004</dc:creator>
+    <guid isPermaLink="false">42331 at https://community.creatio.com</guid>
+    </item>
+<item>
+  <title>How can I add data source in Mobile Page ?</title>
+  <link>https://community.creatio.com/questions/how-can-i-add-data-source-mobile-page</link>
+  <description>&lt;div class="row bs-2col-bricked node node--type-question node--view-mode-teaser"&gt;
+  
+
+    &lt;div class="col-sm-12 bs-region bs-region--top"&gt;
+    
+&lt;div class="group-top"&gt;
+    
+      &lt;div class="field field--name-field-tags field--type-entity-reference field--label-hidden field__items"&gt;
+              &lt;div class="field__item"&gt;mobile application&lt;/div&gt;
+              &lt;div class="field__item"&gt;adddatasource&lt;/div&gt;
+              &lt;div class="field__item"&gt;Studio_Creatio&lt;/div&gt;
+              &lt;div class="field__item"&gt;8.0&lt;/div&gt;
+          &lt;/div&gt;
+  
+  &lt;/div&gt;
+            &lt;div class="field field--name-node-title field--type-ds field--label-hidden field__item"&gt;  &lt;a href="https://community.creatio.com/questions/how-can-i-add-data-source-mobile-page" hreflang="en"&gt;How can I add data source in Mobile Page ?&lt;/a&gt;
+&lt;/div&gt;
+      
+&lt;div class="group-info"&gt;
+    
+            &lt;div class="field field--name-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/217530"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/217530" hreflang="en"&gt;Dedi Sadikin&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-node-post-date field--type-ds field--label-hidden field__item"&gt;12:40 Oct 07, 2026&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--middle"&gt;
+    
+            &lt;div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"&gt;&lt;p&gt;Hi All,&lt;/p&gt;
+&lt;p&gt;Question please, how can I add data source in Mobile Page?&lt;/p&gt;
+&lt;p&gt;&lt;img data-entity-uuid="83133a4a-8ccb-48af-ac67-0da8e3213a58" data-entity-type="file" src="https://storage.creatio.com/com-en/s3fs-public/inline-images/image_1787.png" width="1507" height="1014" loading="lazy"&gt;
+&lt;/p&gt;&lt;p&gt;I googling, and Creatio said it should be in the left top corner, link :&lt;br&gt;&lt;a href="https://academy.creatio.com/guides/mobile/mobile-app-setup/freedom-ui/freedom-ui-mobile-designer"&gt;https://academy.creatio.com/guides/mobile/mobile-app-setup/freedom-ui/freedom-ui-mobile-designer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-entity-uuid="7826f00f-f1ca-4d45-947f-ef298345ea2f" data-entity-type="file" src="https://storage.creatio.com/com-en/s3fs-public/inline-images/image_1788.png" width="1483" height="1153" loading="lazy"&gt;
+&lt;/p&gt;&lt;p&gt;Need advice please, thank you.&lt;/p&gt;
+&lt;/div&gt;
+      
+&lt;div class="container-statistics"&gt;
+    
+&lt;div class="group-like"&gt;
+    &lt;drupal-render-placeholder callback="ts_like.vote_builder:build" arguments="0=node&amp;amp;1=42329" token="soqfqz40n_2mp_nacWjJAnqtTPvxq6h6dZiQzTNJeGg"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-question-likes-label field--type-ds field--label-hidden field__item"&gt;&lt;p&gt;Like&lt;/p&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;&lt;drupal-render-placeholder callback="flag.link_builder:build" arguments="0=node&amp;amp;1=42329&amp;amp;2=bookmark" token="zUF4jUSVWTYvJ_ILsSim1DBGZ8fgoAKlM88bnuC2FYE"&gt;&lt;/drupal-render-placeholder&gt;
+            &lt;div class="field field--name-dynamic-token-fieldnode-comment-count field--type-ds field--label-hidden field__item"&gt;&lt;div class="comment-count"&gt;&lt;span class="count"&gt;1&lt;/span&gt; &lt;span&gt; comments&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+  &lt;/div&gt;
+  
+  
+  
+    &lt;div class="col-sm-12 bs-region bs-region--bottom"&gt;
+    
+
+
+  
+  
+&lt;section class="field field--name-comment field--type-comment field--label-hidden comment-wrapper"&gt;
+  
+  &lt;div class="row bs-1col comment comment--type-comment comment--view-mode-default"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    
+&lt;div class="comment-top"&gt;
+    
+            &lt;div class="field field--name-comment-user field--type-ds field--label-hidden field__item"&gt;&lt;div class="row bs-1col user user--type-user user--view-mode-avatar-with-name"&gt;
+  
+  &lt;div class="col-sm-12 bs-region bs-region--main"&gt;
+    &lt;div class="field field--name-user-picture"&gt;
+  &lt;a href="https://community.creatio.com/user/177760"&gt;    &lt;img class="image-style-avatar-small" src="https://profile.creatio.com/sites/default/files/picture/photo_2020-06-12_20-01-26.jpg" width="100" height="100" loading="lazy"&gt;
+  &lt;/a&gt;&lt;/div&gt;
+            &lt;div class="field field--name-username field--type-ds field--label-hidden field__item"&gt;&lt;user_name-wrtapper class="user_name-wrtapper"&gt;
+  &lt;a href="https://community.creatio.com/user/177760" hreflang="en"&gt;Oleg Drobina&lt;/a&gt;
+&lt;/user_name-wrtapper&gt;
+&lt;/div&gt;
+      
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+      
+            &lt;div class="field field--name-comment-post-date field--type-ds field--label-hidden field__item"&gt;16:15 Oct 07, 2026&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="like_and_dislike.vote_builder:build" arguments="0=comment&amp;amp;1=94329" token="SYT89oGcJZERD_-7z0FBpHsS5BfLDZpqj3kjlpYd8Vg"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+            &lt;div class="clearfix text-formatted field field--name-comment-body field--type-text-long field--label-hidden field__item"&gt;&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;Why you don't see the button&lt;/strong&gt;&lt;/p&gt;
+&lt;ul dir="ltr"&gt;
+&lt;li&gt;&lt;strong&gt;One data source per page.&lt;/strong&gt; The guide says &lt;em&gt;"Each mobile page works with a single data source."&lt;/em&gt; In your screenshot, the &lt;strong&gt;VERIFICATION&lt;/strong&gt; group in the Components panel is that data source. Its fields appear under &lt;strong&gt;Data model attributes&lt;/strong&gt; (A. Age, A. CIF No, and so on).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The button is only for pages that don't have one yet.&lt;/strong&gt; You get &lt;strong&gt;Add data source&lt;/strong&gt; → &lt;strong&gt;New data source&lt;/strong&gt; (then Name and Description) when you create a mobile page from a template that has no data source. Creatio then creates a new object and connects it to the page. Your form page was created from the existing app, so it was bound to the Verification object automatically.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Version.&lt;/strong&gt; This designer feature needs Creatio 8.3.2 or later. If you're on an older version, the button won't be there at all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p dir="ltr"&gt;&lt;strong&gt;What you can do instead&lt;/strong&gt;&lt;/p&gt;
+&lt;ol dir="ltr"&gt;
+&lt;li&gt;&lt;strong&gt;Add fields to the current data source.&lt;/strong&gt; In the &lt;strong&gt;VERIFICATION&lt;/strong&gt; group, use the &lt;strong&gt;Add new field&lt;/strong&gt; tiles (Text, Number, Dropdown, …) or drag existing attributes from &lt;strong&gt;Data model attributes&lt;/strong&gt; onto the page.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Show data from another object.&lt;/strong&gt; Mobile pages share data sources with their desktop Freedom UI pages: &lt;em&gt;"data sources configured for a Freedom UI page are automatically available on the corresponding Freedom UI mobile page."&lt;/em&gt; Open the desktop &lt;strong&gt;Verification form page&lt;/strong&gt; in the Freedom UI Designer, add the extra data source there (for example, a list or detail of related records), save it, then reopen the mobile designer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use a separate object as the main source.&lt;/strong&gt; Create a new mobile page from a template. That's where &lt;strong&gt;Add data source&lt;/strong&gt; appears.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p dir="ltr"&gt;Also note that the Academy page recommends the Freedom UI Mobile Designer only for newly created apps, not for adding mobile pages to apps that already existed. If "Mobile Survey" is an older app, that may explain other limitations you run into.&lt;/p&gt;
+&lt;/div&gt;
+      &lt;drupal-render-placeholder callback="comment.lazy_builders:renderLinks" arguments="0=94329&amp;amp;1=default&amp;amp;2=en&amp;amp;3=" token="6EY7W6XHnljIe5CWhxRXgirUIe64zQcDdcDUp0jBiFQ"&gt;&lt;/drupal-render-placeholder&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+  &lt;div class="row show-all"&gt;&lt;span&gt;Show all comments&lt;/span&gt;&lt;/div&gt;
+
+  
+      &lt;div class="comment-user-login-block"&gt;
+      &lt;a href="https://community.creatio.com/user/login?destination=/rss.xml"&gt;Log in&lt;/a&gt; or &lt;a href="https://community.creatio.com/user/register?destination=/rss.xml"&gt;register&lt;/a&gt; to comment
+    &lt;/div&gt;
+  &lt;/section&gt;
+
+  &lt;/div&gt;
+  
+&lt;/div&gt;
+
+</description>
+  <pubDate>Wed, 07 Oct 2026 09:40:15 +0000</pubDate>
+    <dc:creator>dedi.sadikin_479622</dc:creator>
+    <guid isPermaLink="false">42329 at https://community.creatio.com</guid>
+    </item>
+
+  </channel>
+</rss>

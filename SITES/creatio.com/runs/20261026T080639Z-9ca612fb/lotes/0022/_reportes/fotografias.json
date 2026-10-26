@@ -1,0 +1,128 @@
+[
+  {
+    "url": "https://community.creatio.com/themes/custom/creatio_community/img/preloader.gif",
+    "path": "recursos/4d/4dc8bc2f21cda4e2a104-preloader.gif",
+    "bytes": 9299,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/contrib/classy/images/misc/menu-expanded.png",
+    "path": "recursos/0e/0e3975974d0e9fa54746-menu-expanded.png",
+    "bytes": 106,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/contrib/classy/images/misc/help.png",
+    "path": "recursos/a5/a561877a0e6a5239d56a-help.png",
+    "bytes": 294,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/contrib/classy/images/misc/menu-collapsed.png",
+    "path": "recursos/b9/b902b968dbc3721382b7-menu-collapsed.png",
+    "bytes": 105,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/contrib/classy/images/misc/menu-collapsed-rtl.png",
+    "path": "recursos/d7/d7cf0a2c2f9f855e1fec-menu-collapsed-rtl.png",
+    "bytes": 107,
+    "property_url": null
+  },
+  {
+    "url": "https://profile.creatio.com/sites/default/files/picture/Harvey-Headshot_0.jpg",
+    "path": "recursos/25/25e0843f5a0aef3a152b-Harvey-Headshot_0.jpg",
+    "bytes": 107873,
+    "property_url": null
+  },
+  {
+    "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_1778.png",
+    "path": "recursos/b0/b09d222422578d19d3cf-image_1778.png",
+    "bytes": 16777,
+    "property_url": null
+  },
+  {
+    "url": "https://profile.creatio.com/sites/default/files/picture/Profil Damien_0.png",
+    "path": "recursos/57/571ee898696cae5ee134-Profil_Damien_0.png",
+    "bytes": 492190,
+    "property_url": null
+  },
+  {
+    "url": "https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png",
+    "path": "recursos/00/000c91f8c21c47f52d2f-man.png",
+    "bytes": 6211,
+    "property_url": null
+  },
+  {
+    "url": "https://profile.creatio.com/sites/default/files/default_avatars/man1.png",
+    "path": "recursos/c5/c537eb2130a603ce290a-man1.png",
+    "bytes": 6056,
+    "property_url": null
+  },
+  {
+    "url": "https://profile.creatio.com/sites/default/files/picture/Airbrush-IMAGE-ENHANCER-1765048909438-1765048909438.png",
+    "path": "recursos/96/964522c07903c0a58f5a-Airbrush-IMAGE-ENHANCER-1765048909438-1765048909438.png",
+    "bytes": 396706,
+    "property_url": null
+  },
+  {
+    "url": "https://profile.creatio.com/sites/default/files/picture/photo_2020-06-12_20-01-26.jpg",
+    "path": "recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg",
+    "bytes": 178287,
+    "property_url": null
+  },
+  {
+    "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_9.jpeg",
+    "path": "recursos/e8/e8472197d03353aeb687-image_9.jpeg",
+    "bytes": 51372,
+    "property_url": null
+  },
+  {
+    "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_11.jpeg",
+    "path": "recursos/e5/e55af1ef7cb182334899-image_11.jpeg",
+    "bytes": 61756,
+    "property_url": null
+  },
+  {
+    "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_12.jpeg",
+    "path": "recursos/e9/e96f0d87c2428ceb67a5-image_12.jpeg",
+    "bytes": 56431,
+    "property_url": null
+  },
+  {
+    "url": "https://profile.creatio.com/sites/default/files/default_avatars/woman2.png",
+    "path": "recursos/90/906f88373b71c4e001a4-woman2.png",
+    "bytes": 5903,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/contrib/classy/images/misc/loading-small.gif",
+    "path": "recursos/f3/f3cc6397acd659b4404b-loading-small.gif",
+    "bytes": 2112,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/custom/creatio_community/img/banner-lp.png",
+    "path": "recursos/d1/d13e262a30184ca2b404-banner-lp.png",
+    "bytes": 92812,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/custom/creatio_community/img/440%D1%85335_Community_RU.png",
+    "path": "recursos/bd/bd02627485c849a33df8-440_335_Community_RU.png",
+    "bytes": 21706,
+    "property_url": null
+  },
+  {
+    "url": "https://community.creatio.com/themes/custom/creatio_community/img/440%D1%85335_Community_UA.png",
+    "path": "recursos/29/291c9d2e07e2e20e2ecd-440_335_Community_UA.png",
+    "bytes": 21508,
+    "property_url": null
+  },
+  {
+    "url": "https://storage.creatio.com/com-en/s3fs-public/creatio-package-hierarchy.png",
+    "path": "recursos/09/0957b875a84490fa1db7-creatio-package-hierarchy.png",
+    "bytes": 49628,
+    "property_url": null
+  }
+]

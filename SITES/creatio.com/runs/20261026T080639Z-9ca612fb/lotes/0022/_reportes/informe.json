@@ -1,0 +1,363 @@
+{
+  "sitio": "https://creatio.com/",
+  "fecha": "2026-10-26T11:58:58.837731+00:00",
+  "paginas": [
+    "https://community.creatio.com/?type=article",
+    "https://community.creatio.com/?type=idea",
+    "https://community.creatio.com/?type=question",
+    "https://community.creatio.com/articles/richtext-field-editor-does-not-allow-you-specify-link-character",
+    "https://community.creatio.com/user/185515",
+    "https://community.creatio.com/questions/sms-csat",
+    "https://community.creatio.com/user/218157",
+    "https://community.creatio.com/articles/whats-best-architectural-approach-building-package-hierarchy-creatio-project",
+    "https://community.creatio.com/user/212400",
+    "https://community.creatio.com/questions/integration-active-directory-entraid-group-users"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 81,
+  "fotografias_descargadas": 55,
+  "bytes_fotografias": 1625441,
+  "recursos_pendientes": 98,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 5361142,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": false,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://community.creatio.com/rss.xml?type=article",
+      "archivo": "recursos/97/97f1021a2bf5680618dc-rss.xml"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/preloader.gif",
+      "archivo": "recursos/4d/4dc8bc2f21cda4e2a104-preloader.gif"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/misc/menu-expanded.png",
+      "archivo": "recursos/0e/0e3975974d0e9fa54746-menu-expanded.png"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/icons/ee0000/required.svg",
+      "archivo": "recursos/e1/e1e766d98e0cc7ff6002-required.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/icons/e32700/error.svg",
+      "archivo": "recursos/25/2548eb94b893c0b1bfad-error.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/misc/help.png",
+      "archivo": "recursos/a5/a561877a0e6a5239d56a-help.png"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/misc/feed.svg",
+      "archivo": "recursos/32/322cdc65e313efcec696-feed.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/misc/menu-collapsed.png",
+      "archivo": "recursos/b9/b902b968dbc3721382b7-menu-collapsed.png"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/misc/menu-collapsed-rtl.png",
+      "archivo": "recursos/d7/d7cf0a2c2f9f855e1fec-menu-collapsed-rtl.png"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/icons/73b355/check.svg",
+      "archivo": "recursos/bf/bfdee9f5907a3dc7edd7-check.svg"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css?delta=1&language=en&theme=creatio&include=eJxdjlGOwzAIRC9kmSNZxCYpWwyRId1mT7_upv3Zn9F7MxICWwtDPQHfkNdhGmmhCBqFnrs5tbKyTHXYSGmgpHqbtUIbx46SL3uXRXiBC3N1T1XQ_YQFnT7cyR03mpsN-hzBI6xa34WCrkFtdBT-mToIg63MvR_KccImtsw_VsENXpGF9f5PC37hMwnfqaC20thfDFxNPfnpQf1668H07fCXuVs7hH4BenhsRg",
+      "archivo": "recursos/d3/d36f8a2b0e9a9e97a44d-css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css"
+    },
+    {
+      "url": "https://community.creatio.com/rss.xml?type=idea",
+      "archivo": "recursos/97/97f1021a2bf5680618dc-rss.xml"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_0xaG-pDg8fUWTa9E6ALefbWQk180Cn29gQqPB9H1q0g.css?delta=2&language=en&theme=creatio&include=eJxdjlGOwzAIRC9kmSNZxCYpWwyRId1mT7_upv3Zn9F7MxICWwtDPQHfkNdhGmmhCBqFnrs5tbKyTHXYSGmgpHqbtUIbx46SL3uXRXiBC3N1T1XQ_YQFnT7cyR03mpsN-hzBI6xa34WCrkFtdBT-mToIg63MvR_KccImtsw_VsENXpGF9f5PC37hMwnfqaC20thfDFxNPfnpQf1668H07fCXuVs7hH4BenhsRg",
+      "archivo": "recursos/81/817dfb96eece02b9fc7a-css_0xaG-pDg8fUWTa9E6ALefbWQk180Cn29gQqPB9H1q0g.css"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/logo.svg",
+      "archivo": "recursos/57/57fe9c46747fcf364df1-logo.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/logo-white.svg",
+      "archivo": "recursos/5a/5a156a5242624e09cd34-logo-white.svg"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/picture/Harvey-Headshot_0.jpg",
+      "archivo": "recursos/25/25e0843f5a0aef3a152b-Harvey-Headshot_0.jpg"
+    },
+    {
+      "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_1778.png",
+      "archivo": "recursos/b0/b09d222422578d19d3cf-image_1778.png"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/picture/Profil Damien_0.png",
+      "archivo": "recursos/57/571ee898696cae5ee134-Profil_Damien_0.png"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/styles/thumbnail/public/default_images/man.png",
+      "archivo": "recursos/00/000c91f8c21c47f52d2f-man.png"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/default_avatars/man1.png",
+      "archivo": "recursos/c5/c537eb2130a603ce290a-man1.png"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/picture/Airbrush-IMAGE-ENHANCER-1765048909438-1765048909438.png",
+      "archivo": "recursos/96/964522c07903c0a58f5a-Airbrush-IMAGE-ENHANCER-1765048909438-1765048909438.png"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/picture/photo_2020-06-12_20-01-26.jpg",
+      "archivo": "recursos/e5/e59b53ff7a737d9e0a6d-photo_2020-06-12_20-01-26.jpg"
+    },
+    {
+      "url": "https://community.creatio.com/rss.xml?type=question",
+      "archivo": "recursos/97/97f1021a2bf5680618dc-rss.xml"
+    },
+    {
+      "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_9.jpeg",
+      "archivo": "recursos/e8/e8472197d03353aeb687-image_9.jpeg"
+    },
+    {
+      "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_11.jpeg",
+      "archivo": "recursos/e5/e55af1ef7cb182334899-image_11.jpeg"
+    },
+    {
+      "url": "https://storage.creatio.com/com-en/s3fs-public/inline-images/image_12.jpeg",
+      "archivo": "recursos/e9/e96f0d87c2428ceb67a5-image_12.jpeg"
+    },
+    {
+      "url": "https://profile.creatio.com/sites/default/files/default_avatars/woman2.png",
+      "archivo": "recursos/90/906f88373b71c4e001a4-woman2.png"
+    },
+    {
+      "url": "https://community.creatio.com/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+      "archivo": "recursos/43/431eb73bf298573c002f-jquery.min.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_wBPFMRl4eD6M0NT7Ng-bRkmqD2-yeo2ScJrXhOjVXAc.js?scope=footer&delta=1&language=en&theme=creatio&include=eJxNzm2SwyAIBuALaTySg4oJW6oZJG29_eq67fSP8j74AaSkFUp38F9sWWpRE1AVxePrrA2Tz8QjNrdjQQE28Rhc3Nq2gPktSa4TeFvJxHq_Y9GPrmhDtw_CJ4qJgqBU_exchbS7nWsYH2SG3c1lYyo3Dz_wMkw39FCST9Rm7QIe8KAqRpsP2FTw5O4SZrhYJyZQYOgo7jvMDlOYFutVVPqS8eLX3YYg8RiH7Kpsi0Knmjl581QyjXnRD63M7k_tW-3SXzL2iLs",
+      "archivo": "recursos/c3/c35b0bd440a828cb29ed-js_wBPFMRl4eD6M0NT7Ng-bRkmqD2-yeo2ScJrXhOjVXAc.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_VcT5XQqXSXakMwVTspAFYw-WMV--DrD6a5jUMdVg808.js?scope=footer&delta=3&language=en&theme=creatio&include=eJxNzm2SwyAIBuALaTySg4oJW6oZJG29_eq67fSP8j74AaSkFUp38F9sWWpRE1AVxePrrA2Tz8QjNrdjQQE28Rhc3Nq2gPktSa4TeFvJxHq_Y9GPrmhDtw_CJ4qJgqBU_exchbS7nWsYH2SG3c1lYyo3Dz_wMkw39FCST9Rm7QIe8KAqRpsP2FTw5O4SZrhYJyZQYOgo7jvMDlOYFutVVPqS8eLX3YYg8RiH7Kpsi0Knmjl581QyjXnRD63M7k_tW-3SXzL2iLs",
+      "archivo": "recursos/b6/b6fd9ca641bb21ee518e-js_VcT5XQqXSXakMwVTspAFYw-WMV--DrD6a5jUMdVg808.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_ZHOJo1CsD2fGcbj-memErM75lRyTJQrjAGyNvUeurwI.js?scope=footer&delta=5&language=en&theme=creatio&include=eJxNzm2SwyAIBuALaTySg4oJW6oZJG29_eq67fSP8j74AaSkFUp38F9sWWpRE1AVxePrrA2Tz8QjNrdjQQE28Rhc3Nq2gPktSa4TeFvJxHq_Y9GPrmhDtw_CJ4qJgqBU_exchbS7nWsYH2SG3c1lYyo3Dz_wMkw39FCST9Rm7QIe8KAqRpsP2FTw5O4SZrhYJyZQYOgo7jvMDlOYFutVVPqS8eLX3YYg8RiH7Kpsi0Knmjl581QyjXnRD63M7k_tW-3SXzL2iLs",
+      "archivo": "recursos/4c/4c20c9346fa1362951c7-js_ZHOJo1CsD2fGcbj-memErM75lRyTJQrjAGyNvUeurwI.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_X2IjgDnd2d_P8o7XaI8J3paSDlyNLAnYwv2A3NNqIL4.css?delta=0&language=en&theme=creatio&include=eJxdzcEKwzAMA9AfCvUnBTVxg1fHhjiDZV-_dWyXXcQTOgi1ToctwhfbMdxmKoqIRTuCf-4cgcaRig8m89Gh8nzPgzHFc_He7yZzUVPfoelQNLpiU7Hzr2bc8EgqJ2dYzVXiMklxixQrJvfP-wu-zD4o",
+      "archivo": "recursos/34/3450febe2a5ba7e49454-css_X2IjgDnd2d_P8o7XaI8J3paSDlyNLAnYwv2A3NNqIL4.css"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/icons/e29700/warning.svg",
+      "archivo": "recursos/e9/e92d2ea59c9f90958bc4-warning.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/contrib/classy/images/misc/loading-small.gif",
+      "archivo": "recursos/f3/f3cc6397acd659b4404b-loading-small.gif"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/not-found.svg",
+      "archivo": "recursos/7e/7ede6f55553b0982e237-not-found.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/user-deleted.svg",
+      "archivo": "recursos/6f/6f2a4ee0cad5a688de14-user-deleted.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/empty-messages.svg",
+      "archivo": "recursos/72/727f23c36b92e4bf7759-empty-messages.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/banner-lp.png",
+      "archivo": "recursos/d1/d13e262a30184ca2b404-banner-lp.png"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/440%D1%85335_Community_RU.png",
+      "archivo": "recursos/bd/bd02627485c849a33df8-440_335_Community_RU.png"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/440%D1%85335_Community_UA.png",
+      "archivo": "recursos/29/291c9d2e07e2e20e2ecd-440_335_Community_UA.png"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/bookmark.svg",
+      "archivo": "recursos/09/094ccf34694263f7ac10-bookmark.svg"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css?delta=1&language=en&theme=creatio&include=eJxdzcEKwzAMA9AfCvUnBTVxg1fHhjiDZV-_dWyXXcQTOgi1ToctwhfbMdxmKoqIRTuCf-4cgcaRig8m89Gh8nzPgzHFc_He7yZzUVPfoelQNLpiU7Hzr2bc8EgqJ2dYzVXiMklxixQrJvfP-wu-zD4o",
+      "archivo": "recursos/d3/d36f8a2b0e9a9e97a44d-css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/edit-profile.svg",
+      "archivo": "recursos/e6/e6fc8a96b3084e4b49e5-edit-profile.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/pin.svg",
+      "archivo": "recursos/1f/1fa63e5c47e74875251e-pin.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/close-chip.svg",
+      "archivo": "recursos/ac/ac1847e6aa39ccda5584-close-chip.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/check.svg",
+      "archivo": "recursos/2f/2f9041cc9746be3c85d5-check.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/upload-photo.svg",
+      "archivo": "recursos/59/598f1ad8413be82df2f1-upload-photo.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/upload-photo-ru.svg",
+      "archivo": "recursos/0b/0b32ab5069b45e1d09fa-upload-photo-ru.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/thumb_up-.svg",
+      "archivo": "recursos/3f/3f644772bde68b04c6af-thumb_up-.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/followers-blue.svg",
+      "archivo": "recursos/0e/0eb1ca6b5d2c01c27c92-followers-blue.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/publication-blue.svg",
+      "archivo": "recursos/1a/1aa51068529c2c5458cb-publication-blue.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/comment_blue.svg",
+      "archivo": "recursos/dc/dc50c50ff7b206ab9aa7-comment_blue.svg"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_I7Ace3hSerVJLhsbSymH7NUbYNi45SL0j37akXmNngo.css?delta=0&language=en&theme=creatio&include=eJxljFEKAjEMBS9UNkcq2TZdgkkjTarU0yur--XPY3gDg7WGYV-AP9jasB6pCLov2NHpYiV3PMhTsUHQbSgKvz56EAZbLqY6O8eCQ2xHSb48SL-N8NPnQiO4ccEgh12s3E41PUzzfVhjIfh70oPp6XDuplan0BtqQkky",
+      "archivo": "recursos/4e/4e2ae2ed1f79701980e7-css_I7Ace3hSerVJLhsbSymH7NUbYNi45SL0j37akXmNngo.css"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_0xaG-pDg8fUWTa9E6ALefbWQk180Cn29gQqPB9H1q0g.css?delta=2&language=en&theme=creatio&include=eJxdzcEKwzAMA9AfCvUnBTVxg1fHhjiDZV-_dWyXXcQTOgi1ToctwhfbMdxmKoqIRTuCf-4cgcaRig8m89Gh8nzPgzHFc_He7yZzUVPfoelQNLpiU7Hzr2bc8EgqJ2dYzVXiMklxixQrJvfP-wu-zD4o",
+      "archivo": "recursos/81/817dfb96eece02b9fc7a-css_0xaG-pDg8fUWTa9E6ALefbWQk180Cn29gQqPB9H1q0g.css"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_h34jYDlm0DccpoCz4BEGyslCs455U0fiGnVHWKtPsJg.js?scope=footer&delta=1&language=en&theme=creatio&include=eJxNi1EKwzAMQy8U6iMFJXFKVtceqQPL7UdoB_sRT08IpbhBJ-GBrXZTD7kzvFnMdp5Dm0_axRIkVMFOKzZpekS88Al-xcSXd37LpMIVQ3zJAodgcqf_shZpablsQ73P2xz8-34BJUQ6pg",
+      "archivo": "recursos/e4/e46d6b41cf03ef779f8b-js_h34jYDlm0DccpoCz4BEGyslCs455U0fiGnVHWKtPsJg.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_MrUmK1pZ9bjYCMy9ya6qJ38NGYuK47qcz-GzCuCwkI8.js?scope=footer&delta=3&language=en&theme=creatio&include=eJxNi1EKwzAMQy8U6iMFJXFKVtceqQPL7UdoB_sRT08IpbhBJ-GBrXZTD7kzvFnMdp5Dm0_axRIkVMFOKzZpekS88Al-xcSXd37LpMIVQ3zJAodgcqf_shZpablsQ73P2xz8-34BJUQ6pg",
+      "archivo": "recursos/9c/9c0ae44d304cd425c15e-js_MrUmK1pZ9bjYCMy9ya6qJ38NGYuK47qcz-GzCuCwkI8.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_XMuEZYAWkLI9WGGVGIu4QZHMnjeZUD7NHk2OJVeo4GM.js?scope=footer&delta=5&language=en&theme=creatio&include=eJxNi1EKwzAMQy8U6iMFJXFKVtceqQPL7UdoB_sRT08IpbhBJ-GBrXZTD7kzvFnMdp5Dm0_axRIkVMFOKzZpekS88Al-xcSXd37LpMIVQ3zJAodgcqf_shZpablsQ73P2xz8-34BJUQ6pg",
+      "archivo": "recursos/60/600a470c6322a3e6edac-js_XMuEZYAWkLI9WGGVGIu4QZHMnjeZUD7NHk2OJVeo4GM.js"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/bookmark-filled.svg",
+      "archivo": "recursos/fd/fd17cd8a4a46004fa212-bookmark-filled.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/empty-post.svg",
+      "archivo": "recursos/40/40b07b6d1b5ad0ee465e-empty-post.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/empty-bookmark.svg",
+      "archivo": "recursos/37/370b6c3de031845b6359-empty-bookmark.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/pin.svg",
+      "archivo": "recursos/1f/1fa63e5c47e74875251e-pin.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/u-publications.svg",
+      "archivo": "recursos/1a/1aa51068529c2c5458cb-publication-blue.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/u-comments.svg",
+      "archivo": "recursos/dc/dc50c50ff7b206ab9aa7-comment_blue.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/u-likes.svg",
+      "archivo": "recursos/3f/3f644772bde68b04c6af-thumb_up-.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/u-followers.svg",
+      "archivo": "recursos/0e/0eb1ca6b5d2c01c27c92-followers-blue.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/ic-search-mobile.svg",
+      "archivo": "recursos/64/64827a38676e3c44ec18-ic-search-mobile.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/file-doc.svg",
+      "archivo": "recursos/75/756ddfd03718c5248124-file-doc.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/file-image.svg",
+      "archivo": "recursos/e5/e54420e522fc7c5979aa-file-image.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/file-zip.svg",
+      "archivo": "recursos/23/233c4334b4dafeb2ca2f-file-zip.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/comment.svg",
+      "archivo": "recursos/66/66d1b9729bb7cb219690-comment.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/icons/best-answer.svg",
+      "archivo": "recursos/e4/e4d814c117893cdb3281-best-answer.svg"
+    },
+    {
+      "url": "https://community.creatio.com/themes/custom/creatio_community/img/accelerate.svg",
+      "archivo": "recursos/d7/d76986243622296d38de-accelerate.svg"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css?delta=1&language=en&theme=creatio&include=eJxljFEKAjEMBS9UNkcq2TZdgkkjTarU0yur--XPY3gDg7WGYV-AP9jasB6pCLov2NHpYiV3PMhTsUHQbSgKvz56EAZbLqY6O8eCQ2xHSb48SL-N8NPnQiO4ccEgh12s3E41PUzzfVhjIfh70oPp6XDuplan0BtqQkky",
+      "archivo": "recursos/ac/ac222f91300ac88c23e4-css_AR8MAxSWBAPTtxO2cXUY6MxItDzJ6shT5hkBVi_kgMw.css"
+    },
+    {
+      "url": "https://storage.creatio.com/com-en/s3fs-public/creatio-package-hierarchy.png",
+      "archivo": "recursos/09/0957b875a84490fa1db7-creatio-package-hierarchy.png"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_h34jYDlm0DccpoCz4BEGyslCs455U0fiGnVHWKtPsJg.js?scope=footer&delta=1&language=en&theme=creatio&include=eJxNjFEOwyAMQy9Ey5GQgbTLmkKVhm7cfkPrx34s-1k2craK0j1uMy9ai7lU952K-aztgMx3nGKfLqYXqUtKMK5hNK2wdb9KjRC3CFY_ZBYuW8ATbye8UUDJIfM5vI_0wMVVnZ0h0mlKh3SfaUETGzDDIOik_j-MRjgOlmorpv1Hvo_39gMqrVGK",
+      "archivo": "recursos/e4/e46d6b41cf03ef779f8b-js_h34jYDlm0DccpoCz4BEGyslCs455U0fiGnVHWKtPsJg.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_MrUmK1pZ9bjYCMy9ya6qJ38NGYuK47qcz-GzCuCwkI8.js?scope=footer&delta=3&language=en&theme=creatio&include=eJxNjFEOwyAMQy9Ey5GQgbTLmkKVhm7cfkPrx34s-1k2craK0j1uMy9ai7lU952K-aztgMx3nGKfLqYXqUtKMK5hNK2wdb9KjRC3CFY_ZBYuW8ATbye8UUDJIfM5vI_0wMVVnZ0h0mlKh3SfaUETGzDDIOik_j-MRjgOlmorpv1Hvo_39gMqrVGK",
+      "archivo": "recursos/9c/9c0ae44d304cd425c15e-js_MrUmK1pZ9bjYCMy9ya6qJ38NGYuK47qcz-GzCuCwkI8.js"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/js/js_0wKuckJa-OPazGwWMZW2xkdVL9YV3TnhX1IWqf9hR9M.js?scope=footer&delta=5&language=en&theme=creatio&include=eJxNjFEOwyAMQy9Ey5GQgbTLmkKVhm7cfkPrx34s-1k2craK0j1uMy9ai7lU952K-aztgMx3nGKfLqYXqUtKMK5hNK2wdb9KjRC3CFY_ZBYuW8ATbye8UUDJIfM5vI_0wMVVnZ0h0mlKh3SfaUETGzDDIOik_j-MRjgOlmorpv1Hvo_39gMqrVGK",
+      "archivo": "recursos/6d/6df986dbc3e847948046-js_0wKuckJa-OPazGwWMZW2xkdVL9YV3TnhX1IWqf9hR9M.js"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/close-chip-hover.svg",
+      "archivo": "recursos/be/be05579829c05f4a0c55-close-chip-hover.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/ic-certificate.svg",
+      "archivo": "recursos/1b/1b0636d6fc1e69ff101e-ic-certificate.svg"
+    },
+    {
+      "url": "https://community.creatio.com/modules/community/ts_custom_profile/img/icon-community-expert.svg",
+      "archivo": "recursos/0f/0f594b3540631dedaf30-icon-community-expert.svg"
+    },
+    {
+      "url": "https://community.creatio.com/sites/community_en/files/css/css_hBodPlXaetL6X5SATyaP-Idwe5EiXtQhIS2dkt7Atkk.css?delta=0&language=en&theme=creatio&include=eJxljEEOgzAMBD-U4ichkxhk1YmR7bRKX18E9NTLajWrWSwlFNsAvMu0mrZIWdB9wIJOv17JHTfylNUIivUdZeKg-hD2uGhTqyj8OSQjDNY5a629cQzYRBeU5MMP53oOP_c5kwWvnDHIYRHNz3PqHlrn3XRlIfgj6cX0djhzqlq60BfZtlGE",
+      "archivo": "recursos/cb/cbf6232db2ab5461466a-css_hBodPlXaetL6X5SATyaP-Idwe5EiXtQhIS2dkt7Atkk.css"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic",
+    "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic",
+    "https://static.addtoany.com/menu/page.js",
+    "https://www.googletagmanager.com/ns.html?id=GTM-P6XJG79L"
+  ],
+  "errores": [],
+  "bytes": 5872842
+}
