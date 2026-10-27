@@ -1,0 +1,36 @@
+{
+  "sitio": "https://qvet.net/",
+  "fecha": "2026-10-27T07:46:41.472088+00:00",
+  "paginas": [
+    "https://qvet.net/pt/tag/inteligencia-artifical/",
+    "https://qvet.net/pt/tag/inteligencia-artificial/",
+    "https://qvet.net/pt/tag/inteligencia/",
+    "https://qvet.net/pt/tag/latinoamerica/",
+    "https://qvet.net/pt/tag/portugal/",
+    "https://qvet.net/pt/tag/qvet/",
+    "https://qvet.net/pt/tag/sector-veterinario/",
+    "https://qvet.net/pt/tag/seguranca/",
+    "https://qvet.net/pt/tag/software-lider/",
+    "https://qvet.net/pt/tag/software-mas-completo-del-mercado/"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 0,
+  "fotografias_descargadas": 0,
+  "bytes_fotografias": 0,
+  "recursos_pendientes": 0,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 0,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": false,
+  "advertencia_navegador": "",
+  "recursos": [],
+  "recursos_externos_omitidos": [
+    "https://www.google.com/recaptcha/api.js?render=explicit&ver=4.0.4",
+    "https://www.googletagmanager.com/gtag/js?id=GT-K8D2BQN&"
+  ],
+  "errores": [],
+  "bytes": 838672
+}
