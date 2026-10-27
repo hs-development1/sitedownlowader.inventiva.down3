@@ -1,0 +1,358 @@
+{
+  "sitio": "https://qvet.net/",
+  "fecha": "2026-10-27T07:31:03.880018+00:00",
+  "paginas": [
+    "https://qvet.net/category/alianzas/",
+    "https://qvet.net/category/casos-de-exito/",
+    "https://qvet.net/category/cuidado-animal/",
+    "https://qvet.net/category/entrevistas/",
+    "https://qvet.net/category/gestion-veterinaria/",
+    "https://qvet.net/category/noticias/",
+    "https://qvet.net/category/software/",
+    "https://qvet.net/chat-qvet/",
+    "https://qvet.net/chatgpt4/",
+    "https://qvet.net/comercia-global-payments-y-qvet-integracion-acuerdo/"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 80,
+  "fotografias_descargadas": 74,
+  "bytes_fotografias": 20374000,
+  "recursos_pendientes": 129,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 23638180,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": false,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-228e2d29c23b310ee4560e848f0c3d4f.css",
+      "archivo": "recursos/d2/d2b1d250c1cb0ccdfa86-siteground-optimizer-combined-css-228e2d29c23b310ee4560e848f0c3d4f.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/QVET-Universidades-scaled.jpg",
+      "archivo": "recursos/34/3483923b013e48a6bd81-QVET-Universidades-scaled.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/QVET-Universidades-300x200.jpg",
+      "archivo": "recursos/ff/ff48c7c483573f8b4402-QVET-Universidades-300x200.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/QVET-Universidades-1024x681.jpg",
+      "archivo": "recursos/ab/ab0c4654b1ae31e91213-QVET-Universidades-1024x681.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/QVET-Universidades-768x511.jpg",
+      "archivo": "recursos/b6/b6a43dd0f735ebd39658-QVET-Universidades-768x511.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/QVET-Universidades-1536x1022.jpg",
+      "archivo": "recursos/6a/6a853b404983777b7abe-QVET-Universidades-1536x1022.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/QVET-Universidades-2048x1363.jpg",
+      "archivo": "recursos/01/01c87d6409ea06070c0d-QVET-Universidades-2048x1363.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/QVET-Universidades-18x12.jpg",
+      "archivo": "recursos/0f/0f75e67735b7f904ccba-QVET-Universidades-18x12.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.47.26.png",
+      "archivo": "recursos/cc/cc2a85415522a70da13a-Captura-de-pantalla-2025-12-03-a-las-10.47.26.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.47.26-300x201.png",
+      "archivo": "recursos/b8/b8dfb4b29a09dc807b90-Captura-de-pantalla-2025-12-03-a-las-10.47.26-300x201.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.47.26-1024x687.png",
+      "archivo": "recursos/27/27a5e41a508e37a7f927-Captura-de-pantalla-2025-12-03-a-las-10.47.26-1024x687.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.47.26-768x515.png",
+      "archivo": "recursos/7f/7f015705bacb0e14802d-Captura-de-pantalla-2025-12-03-a-las-10.47.26-768x515.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.47.26-18x12.png",
+      "archivo": "recursos/51/518b8b45caa2b9e6362f-Captura-de-pantalla-2025-12-03-a-las-10.47.26-18x12.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/vlcsnap-2024-02-26-13h58m02s606.png",
+      "archivo": "recursos/94/94604b27ac995387e2ed-vlcsnap-2024-02-26-13h58m02s606.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/vlcsnap-2024-02-26-13h58m02s606-300x169.png",
+      "archivo": "recursos/f1/f15a651a17ad587b35c2-vlcsnap-2024-02-26-13h58m02s606-300x169.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/vlcsnap-2024-02-26-13h58m02s606-1024x576.png",
+      "archivo": "recursos/ca/ca918c4ba71357fc6a43-vlcsnap-2024-02-26-13h58m02s606-1024x576.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/vlcsnap-2024-02-26-13h58m02s606-768x432.png",
+      "archivo": "recursos/8d/8d80e33b8158fabe55e2-vlcsnap-2024-02-26-13h58m02s606-768x432.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/vlcsnap-2024-02-26-13h58m02s606-1536x864.png",
+      "archivo": "recursos/5f/5f03b3b508e4a82734bf-vlcsnap-2024-02-26-13h58m02s606-1536x864.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/vlcsnap-2024-02-26-13h58m02s606-18x10.png",
+      "archivo": "recursos/99/997e218011e449b9daed-vlcsnap-2024-02-26-13h58m02s606-18x10.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/vlcsnap-2024-02-22-13h39m41s372.png",
+      "archivo": "recursos/eb/eb36715bf7c0c3b6dc33-vlcsnap-2024-02-22-13h39m41s372.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.36.55.png",
+      "archivo": "recursos/da/dab25ae5e04cef009c38-Captura-de-pantalla-2025-12-03-a-las-10.36.55.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.36.55-300x200.png",
+      "archivo": "recursos/d0/d03df6a1bc635e909d98-Captura-de-pantalla-2025-12-03-a-las-10.36.55-300x200.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.36.55-1024x682.png",
+      "archivo": "recursos/dc/dc5b6af9fb96e294210b-Captura-de-pantalla-2025-12-03-a-las-10.36.55-1024x682.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.36.55-768x512.png",
+      "archivo": "recursos/44/447d5488a47198df80e5-Captura-de-pantalla-2025-12-03-a-las-10.36.55-768x512.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-10.36.55-18x12.png",
+      "archivo": "recursos/75/75e8a2bcd0561ae631ce-Captura-de-pantalla-2025-12-03-a-las-10.36.55-18x12.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/09/Hydrotherapy_Finals_0F9A2919-1-scaled.jpg",
+      "archivo": "recursos/77/774fdf0aaf1c3936d1fe-Hydrotherapy_Finals_0F9A2919-1-scaled.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/09/Hydrotherapy_Finals_0F9A2919-1-300x200.jpg",
+      "archivo": "recursos/67/6701707941758b128eaa-Hydrotherapy_Finals_0F9A2919-1-300x200.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/09/Hydrotherapy_Finals_0F9A2919-1-1024x683.jpg",
+      "archivo": "recursos/6e/6e54802812a276af4510-Hydrotherapy_Finals_0F9A2919-1-1024x683.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/09/Hydrotherapy_Finals_0F9A2919-1-768x512.jpg",
+      "archivo": "recursos/cf/cf8ee3cacd1602157816-Hydrotherapy_Finals_0F9A2919-1-768x512.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/09/Hydrotherapy_Finals_0F9A2919-1-1536x1024.jpg",
+      "archivo": "recursos/eb/eb69453aec150fc52ea5-Hydrotherapy_Finals_0F9A2919-1-1536x1024.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-scaled.jpg",
+      "archivo": "recursos/2e/2e30688068a8f5537d42-lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-scaled.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-300x200.jpg",
+      "archivo": "recursos/53/53be072ea9753858c2fd-lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-300x200.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-1024x683.jpg",
+      "archivo": "recursos/1f/1f5efd881064195224b9-lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-1024x683.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-768x512.jpg",
+      "archivo": "recursos/d2/d20b6f0a6bbc981834b0-lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-768x512.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-1536x1024.jpg",
+      "archivo": "recursos/c3/c3388ad3354656342ebe-lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-1536x1024.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-2048x1365.jpg",
+      "archivo": "recursos/81/814316beedc175b30dbf-lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-2048x1365.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/05/lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-18x12.jpg",
+      "archivo": "recursos/8d/8d6fdb8b8b6cfccceed9-lindo-perrito-haciendose-pasar-por-una-persona-de-negocios-18x12.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/LUIS-CALVO-parque.jpg",
+      "archivo": "recursos/d3/d368a1c36edd8f2a7a44-LUIS-CALVO-parque.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/LUIS-CALVO-parque-300x200.jpg",
+      "archivo": "recursos/fc/fc8c8772b207800b2ef6-LUIS-CALVO-parque-300x200.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/02/LUIS-CALVO-parque-1024x682.jpg",
+      "archivo": "recursos/c9/c9d5927cba33c61ace4a-LUIS-CALVO-parque-1024x682.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-11.11.07.png",
+      "archivo": "recursos/97/972ba583cc2ddb8a380a-Captura-de-pantalla-2025-12-03-a-las-11.11.07.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-11.11.07-300x199.png",
+      "archivo": "recursos/9a/9ab3476a062bb6495f0c-Captura-de-pantalla-2025-12-03-a-las-11.11.07-300x199.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-11.11.07-1024x679.png",
+      "archivo": "recursos/28/2813cbbad3697b001973-Captura-de-pantalla-2025-12-03-a-las-11.11.07-1024x679.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-11.11.07-768x509.png",
+      "archivo": "recursos/ec/ec79655b1a8490ea296b-Captura-de-pantalla-2025-12-03-a-las-11.11.07-768x509.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2025/12/Captura-de-pantalla-2025-12-03-a-las-11.11.07-18x12.png",
+      "archivo": "recursos/7a/7a5616f46284930236cf-Captura-de-pantalla-2025-12-03-a-las-11.11.07-18x12.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/PERRO-2.jpg",
+      "archivo": "recursos/26/2688062045c3e037d855-PERRO-2.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/PERRO-2-300x200.jpg",
+      "archivo": "recursos/aa/aa86cc359f9b99596c9d-PERRO-2-300x200.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/PERRO-2-768x513.jpg",
+      "archivo": "recursos/57/57df263e0b840f87917a-PERRO-2-768x513.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/PERRO-2-18x12.jpg",
+      "archivo": "recursos/6f/6f6c40cc5ada7f8cd104-PERRO-2-18x12.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/12/iiiiiiiiiiiiiiiiiiiii-scaled.jpg",
+      "archivo": "recursos/66/667d37d6df7acd656e30-iiiiiiiiiiiiiiiiiiiii-scaled.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-306e31ee27fb1d4cadfa4a527a360c28.css",
+      "archivo": "recursos/cd/cd2fc37263329330208d-siteground-optimizer-combined-css-306e31ee27fb1d4cadfa4a527a360c28.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/02/IMG_4694.jpg",
+      "archivo": "recursos/92/9203dd569d9417dc7920-IMG_4694.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/02/IMG_4694-300x166.jpg",
+      "archivo": "recursos/1d/1dd3c2c4b1425fb9f52c-IMG_4694-300x166.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/02/IMG_4694-1024x565.jpg",
+      "archivo": "recursos/42/4265753df52c697d5068-IMG_4694-1024x565.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/02/IMG_4694-768x424.jpg",
+      "archivo": "recursos/8b/8bf09ef38b52ce623e15-IMG_4694-768x424.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2026/02/IMG_4694-18x10.jpg",
+      "archivo": "recursos/75/756aee2e37b195cf14a3-IMG_4694-18x10.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/11/medical-practitioner-using-computer-hospital-office-health-care-physician-using-computer-modern-clinic-looking-monitor-medicine-profession-scrubs-scaled.jpg",
+      "archivo": "recursos/81/814e63d64f4f146e73e2-medical-practitioner-using-computer-hospital-office-health-care-physic.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/11/medical-practitioner-using-computer-hospital-office-health-care-physician-using-computer-modern-clinic-looking-monitor-medicine-profession-scrubs-300x200.jpg",
+      "archivo": "recursos/dc/dc1cd75c7a9b2681bcbc-medical-practitioner-using-computer-hospital-office-health-care-physic.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/11/medical-practitioner-using-computer-hospital-office-health-care-physician-using-computer-modern-clinic-looking-monitor-medicine-profession-scrubs-1024x683.jpg",
+      "archivo": "recursos/e7/e73bf4a3330abfa67c38-medical-practitioner-using-computer-hospital-office-health-care-physic.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/11/medical-practitioner-using-computer-hospital-office-health-care-physician-using-computer-modern-clinic-looking-monitor-medicine-profession-scrubs-768x512.jpg",
+      "archivo": "recursos/51/51f40b72b5ed1ef87c84-medical-practitioner-using-computer-hospital-office-health-care-physic.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/11/medical-practitioner-using-computer-hospital-office-health-care-physician-using-computer-modern-clinic-looking-monitor-medicine-profession-scrubs-1536x1024.jpg",
+      "archivo": "recursos/52/527484df8578c363f3fd-medical-practitioner-using-computer-hospital-office-health-care-physic.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/11/medical-practitioner-using-computer-hospital-office-health-care-physician-using-computer-modern-clinic-looking-monitor-medicine-profession-scrubs-2048x1365.jpg",
+      "archivo": "recursos/56/5656da34d966345c64b4-medical-practitioner-using-computer-hospital-office-health-care-physic.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/11/medical-practitioner-using-computer-hospital-office-health-care-physician-using-computer-modern-clinic-looking-monitor-medicine-profession-scrubs-18x12.jpg",
+      "archivo": "recursos/fd/fdb5883487048986f524-medical-practitioner-using-computer-hospital-office-health-care-physic.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca-scaled.jpg",
+      "archivo": "recursos/ca/ca16dd1af0b5c2aef813-doctor-vestido-estetoscopio-bata-blanca-scaled.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca-300x200.jpg",
+      "archivo": "recursos/e6/e65a43490d30b1f6772c-doctor-vestido-estetoscopio-bata-blanca-300x200.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca-1024x683.jpg",
+      "archivo": "recursos/60/602832d5e354aeacf6d7-doctor-vestido-estetoscopio-bata-blanca-1024x683.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca-768x512.jpg",
+      "archivo": "recursos/1b/1b8fcaedd0bf130f9255-doctor-vestido-estetoscopio-bata-blanca-768x512.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca-1536x1024.jpg",
+      "archivo": "recursos/39/392b71d57f924b6940aa-doctor-vestido-estetoscopio-bata-blanca-1536x1024.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca-2048x1365.jpg",
+      "archivo": "recursos/f6/f644da3d5bd55f2c5fa3-doctor-vestido-estetoscopio-bata-blanca-2048x1365.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/01/doctor-vestido-estetoscopio-bata-blanca-18x12.jpg",
+      "archivo": "recursos/06/06a5a857c0564a2876c7-doctor-vestido-estetoscopio-bata-blanca-18x12.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-1418fb7cc6aeec3ac4c5fcbf7d8af998.css",
+      "archivo": "recursos/57/57c8f9b022ecfb865207-siteground-optimizer-combined-css-1418fb7cc6aeec3ac4c5fcbf7d8af998.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2024/04/vlcsnap-2024-04-03-17h58m45s979-1-1.jpg",
+      "archivo": "recursos/29/29e22e49e478e1974f80-vlcsnap-2024-04-03-17h58m45s979-1-1.jpg"
+    },
+    {
+      "url": "https://qvet.net/wp-content/plugins/sg-cachepress/assets/js/lazysizes.min.js?&ver=7.8.5",
+      "archivo": "recursos/2b/2b0ec92a8ebe2136dd0d-lazysizes.min.js"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-js-199a4baff845393701b2734e51db6752.js",
+      "archivo": "recursos/c5/c51ca7816b80505729ca-siteground-optimizer-combined-js-199a4baff845393701b2734e51db6752.js"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-ff4ccf935205a98fde91c749eba8595c.css",
+      "archivo": "recursos/50/50568f8898eb4fe2a772-siteground-optimizer-combined-css-ff4ccf935205a98fde91c749eba8595c.css"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/05/ChatGPT@300x.png",
+      "archivo": "recursos/ee/eed2e72c9f5ae723e299-ChatGPT_300x.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/05/ChatGPT@300x-279x300.png",
+      "archivo": "recursos/ae/aec39b7982e9320bae4d-ChatGPT_300x-279x300.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/05/ChatGPT@300x-952x1024.png",
+      "archivo": "recursos/5a/5a50e4ee35b716c3360d-ChatGPT_300x-952x1024.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/05/ChatGPT@300x-768x826.png",
+      "archivo": "recursos/27/27b36bc38a93fcd2dc66-ChatGPT_300x-768x826.png"
+    },
+    {
+      "url": "https://qvet.net/wp-content/uploads/2023/05/ChatGPT@300x-1428x1536.png",
+      "archivo": "recursos/d3/d374a91ae4fbe163a182-ChatGPT_300x-1428x1536.png"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://www.google.com/recaptcha/api.js?onload=onloadSibCallback&render=explicit",
+    "https://www.google.com/recaptcha/api.js?render=explicit&ver=4.0.4",
+    "https://www.googletagmanager.com/gtag/js?id=GT-K8D2BQN&"
+  ],
+  "errores": [],
+  "bytes": 24473935
+}
