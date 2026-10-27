@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=66b4fad4-de1b-47c0-8ddd-e82e7dbe9dff
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<link href="../../recursos/94/94189731601c63d29c7d-favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script>
+      (function () {
+        var t = localStorage.getItem("Clientra-theme");
+        if (!t) {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        document.documentElement.classList.remove("light", "dark");
+        document.documentElement.classList.add(t);
+      })();
+    </script>
+<meta content="Clientra – Notifications. Review deal, task, and account activity." name="description"/>
+<meta content="Clientra" name="author"/>
+<title>Clientra – Notifications</title>
+
+
+<link rel="stylesheet"/>
+
+<link href="../../recursos/0c/0cba610929d3a4f54abf-index.css" rel="stylesheet"/></head>
+<body class="bg-app-bg text-text font-['Inter']" data-page="notifications">
+<div class="relative min-h-dvh" id="app">
+<!-- ==================================================================
+     SIDEBAR – Desktop fixed / Mobile off-canvas drawer
+     ================================================================== -->
+<aside aria-label="Main navigation" class="sidebar-drawer fixed top-0 left-0 z-40 h-full w-[248px] bg-card border-r border-border flex flex-col panel-transition lg:translate-x-0" id="sidebar" role="navigation">
+<!-- ── Brand ────────────────────────────────────────────────────── -->
+<div class="brand-row flex items-center justify-between h-[68px] px-5 shrink-0">
+<a aria-label="Clientra Home" class="flex items-center min-w-0" href="../../index.html">
+<img alt="Clientra" class="h-[26px] w-[104px] object-contain object-left" height="26" src="../../recursos/19/19d5937207e1b00f0d3d-logo.png" width="104"/>
+</a>
+<button aria-label="Toggle sidebar" class="sidebar-collapse-control hidden lg:flex items-center justify-center w-8 h-8 rounded-lg text-muted hover:text-heading hover:bg-subtle transition-colors duration-200 shrink-0" id="sidebar-collapse-btn">
+<i class="ph ph-sidebar-simple text-lg"></i>
+</button>
+</div>
+<!-- ── Search ──────────────────────────────────────────────────── -->
+<div class="px-4 pb-3 shrink-0">
+<button aria-label="Search" class="flex items-center w-full h-10 gap-2.5 px-3 rounded-xl bg-subtle border border-border text-muted hover:border-border-strong transition-colors duration-200" id="sidebar-search-trigger">
+<i class="ph ph-magnifying-glass text-base shrink-0"></i>
+<span class="sidebar-label text-sm flex-1 text-left">Search</span>
+<kbd class="sidebar-label text-[11px] font-medium text-muted/80 bg-card border border-border rounded px-1.5 py-0.5">⌘ F</kbd>
+</button>
+</div>
+<!-- ── Navigation ───────────────────────────────────────────────── -->
+<nav class="flex-1 overflow-y-auto overflow-x-hidden px-3 pb-4" id="sidebar-nav">
+<!-- MAIN MENU -->
+<p class="sidebar-label px-3 mt-2 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Main Menu
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="dashboard" data-tip="Dashboard" href="../../index.html">
+<i class="ph ph-squares-four text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Dashboard</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="contacts" data-tip="Contacts" href="../44/44d258512-contacts.html">
+<i class="ph ph-address-book text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Contacts</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="companies" data-tip="Companies" href="../81/8111abfbd-companies.html">
+<i class="ph ph-buildings text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Companies</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="deals" data-tip="Deals" href="../1b/1bea10430-deals.html">
+<i class="ph ph-handshake text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Deals</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="tasks" data-tip="Tasks" href="../10/1099bc964-tasks.html">
+<i class="ph ph-check-square text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Tasks</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="reports" data-tip="Reports" href="../3a/3af48157e-reports.html">
+<i class="ph ph-chart-line text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Reports</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="calendar" data-tip="Calendar" href="../c2/c29528c9e-calendar.html">
+<i class="ph ph-calendar-blank text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Calendar</span>
+</a>
+<!-- MARKETING -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Marketing
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="products" data-tip="Products" href="../df/df7ef21de-products.html">
+<i class="ph ph-package text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Products</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="emails" data-tip="Emails" href="../66/66b34547a-emails.html">
+<i class="ph ph-envelope-simple text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Emails</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="invoices" data-tip="Invoices" href="../98/980d7ef8c-invoices.html">
+<i class="ph ph-receipt text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Invoices</span>
+</a>
+<!-- PREFERENCES -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Preferences
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="integrations" data-tip="Integrations" href="../1d/1dfdd11cd-integrations.html">
+<i class="ph ph-plugs-connected text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Integrations</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="profile" data-tip="Profile" href="../d3/d34f7e8e5-profile.html">
+<i class="ph ph-user-circle text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Profile</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="settings" data-tip="Settings" href="../90/90c837d5b-settings.html">
+<i class="ph ph-gear-six text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Settings</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="notifications" data-tip="Notifications" href="31c64cfd7-notifications.html">
+<i class="ph ph-bell text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Notifications</span>
+</a>
+<!-- DETAIL PAGES -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Detail Pages
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="company-detail" data-tip="Company detail" href="../f3/f3c428d4c-company-detail.html">
+<i class="ph ph-building-office text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Company detail</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="deal-detail" data-tip="Deal detail" href="../20/20ac1f155-deal-detail.html">
+<i class="ph ph-handshake text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Deal detail</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="product-detail" data-tip="Product detail" href="../71/71fac3f1a-product-detail.html">
+<i class="ph ph-package text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Product detail</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="edit-contact" data-tip="Edit contact" href="../77/773fa0353-edit-contact.html">
+<i class="ph ph-pencil-simple text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Edit contact</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="explore-integrations" data-tip="Explore integrations" href="../c5/c523a505f-explore-integrations.html">
+<i class="ph ph-compass text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Explore integrations</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="import-csv" data-tip="Import CSV" href="../70/704ab71ce-import-csv.html">
+<i class="ph ph-file-csv text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Import CSV</span>
+</a>
+<!-- CREATE FORMS -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Create
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-contact" data-tip="Add contact" href="../05/059a27ddc-add-contact.html">
+<i class="ph ph-user-plus text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add contact</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-company" data-tip="Add company" href="../ec/ecbf0c380-add-company.html">
+<i class="ph ph-buildings text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add company</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-deal" data-tip="Add deal" href="../de/def22b0da-add-deal.html">
+<i class="ph ph-plus-circle text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add deal</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-product" data-tip="Add product" href="../61/6138e5ff2-add-product.html">
+<i class="ph ph-package text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add product</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-task" data-tip="Add task" href="../1e/1e0da6b9d-add-task.html">
+<i class="ph ph-check-square text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add task</span>
+</a>
+<!-- AUTH -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Auth
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="sign-in" data-tip="Sign in" href="../bd/bde19551d-sign-in.html">
+<i class="ph ph-sign-in text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Sign in</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="sign-up" data-tip="Sign up" href="../83/8332218a6-sign-up.html">
+<i class="ph ph-user-plus text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Sign up</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="forgot-password" data-tip="Forgot password" href="../84/849ccd64a-forgot-password.html">
+<i class="ph ph-lock-key text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Forgot password</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="otp-verification" data-tip="OTP verification" href="../65/65e0992e6-otp-verification.html">
+<i class="ph ph-shield-check text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">OTP verification</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="new-password" data-tip="New password" href="../fc/fc2bf5817-new-password.html">
+<i class="ph ph-key text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">New password</span>
+</a>
+</nav>
+<!-- ── Trial / Upgrade card ─────────────────────────────────────── -->
+<div class="sidebar-label px-3 shrink-0" id="trial-card">
+<div class="relative rounded-2xl bg-subtle border border-border p-4">
+<button aria-label="Dismiss" class="absolute top-3 right-3 w-6 h-6 rounded-md flex items-center justify-center text-muted hover:text-heading hover:bg-card transition-colors duration-200" id="trial-card-dismiss">
+<i class="ph ph-x text-sm"></i>
+</button>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-heading text-card text-xs font-semibold">
+<i class="ph-fill ph-lightning text-warn"></i>
+        20 days left
+      </span>
+<p class="mt-3 text-[13px] leading-snug text-text">
+        Upgrade to premium and enjoy the benefits for a long time
+      </p>
+<button class="mt-3.5 w-full h-9 rounded-lg bg-card border border-border text-sm font-semibold text-heading hover:bg-app-bg transition-colors duration-200">
+        View plan
+      </button>
+</div>
+</div>
+<!-- ── User panel ───────────────────────────────────────────────── -->
+<div class="p-3 shrink-0 relative">
+<button aria-expanded="false" class="flex items-center w-full gap-3 px-2.5 py-2 rounded-xl border border-border bg-card hover:bg-subtle transition-colors duration-200" id="account-switcher-btn">
+<img alt="Maulana Pratama" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/02/02f4af3b5a0d0dfac25e-user1.png"/>
+<span class="sidebar-label flex-1 min-w-0 text-left">
+<span class="block text-[13px] font-semibold text-heading truncate">Maulana Pratama</span>
+<span class="block text-[11px] text-muted truncate">maulana@gmail.com</span>
+</span>
+<i class="sidebar-label ph ph-caret-up-down text-base text-muted shrink-0"></i>
+</button>
+<!-- Account switcher popup (anchored above user panel) -->
+<div class="absolute bottom-full left-0 right-0 mb-2 z-[55] hidden card !rounded-2xl shadow-2xl p-1.5" id="account-switcher">
+<!-- Active account -->
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl bg-subtle">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/02/02f4af3b5a0d0dfac25e-user1.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Maulana Pratama
+          </p>
+<p class="text-[11px] text-muted truncate">maulana@gmail.com</p>
+</div>
+<i class="ph-bold ph-check-circle text-base text-accent shrink-0"></i>
+</div>
+<!-- Second account -->
+<button class="flex items-center gap-3 w-full px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 mt-0.5 text-left" id="account-switch-galih">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/69/6970ef4b82835c8f4c21-user7.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Galih Adi Saptaji
+          </p>
+<p class="text-[11px] text-muted truncate">galih@gmail.com</p>
+</div>
+</button>
+<div class="my-1.5 h-px bg-border mx-1"></div>
+<!-- Add account → sign-up page -->
+<a class="flex items-center gap-3 w-full px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 text-sm font-medium text-text" href="../83/8332218a6-sign-up.html">
+<i class="ph ph-plus-circle text-lg text-muted shrink-0"></i> Add
+        account
+      </a>
+<!-- Sign out -->
+<button class="flex items-center gap-3 w-full px-2.5 py-2 rounded-xl hover:bg-negative/10 transition-colors duration-200 text-sm font-medium text-negative" id="sign-out-btn">
+<i class="ph ph-sign-out text-lg shrink-0"></i> Sign Out
+      </button>
+</div>
+</div>
+</aside>
+<!-- ── Mobile sidebar overlay ─────────────────────────────────── -->
+<div aria-hidden="true" class="fixed inset-0 z-30 bg-black/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 lg:hidden" id="sidebar-overlay"></div>
+<!-- TOP BAR -->
+<header class="fixed top-0 right-0 left-0 lg:left-[248px] z-20 h-[68px] bg-app-bg/85 backdrop-blur-xl border-b border-border transition-all duration-300" id="topbar">
+<div class="flex items-center justify-between h-full px-4 lg:px-6">
+<div class="flex items-center gap-3">
+<button aria-label="Open sidebar menu" class="lg:hidden flex items-center justify-center w-10 h-10 rounded-xl border border-border bg-card text-muted hover:text-heading transition-colors duration-200" id="mobile-sidebar-toggle">
+<i class="ph ph-list text-xl"></i>
+</button>
+<h1 class="hidden sm:block text-lg font-bold text-heading tracking-tight">
+              Notifications
+            </h1>
+</div>
+<div class="flex items-center gap-2 sm:gap-3">
+<!-- ── Notifications ─────────────────────────────────────── -->
+<div class="relative" id="notifications-wrapper">
+<button aria-expanded="false" aria-haspopup="true" aria-label="Notifications" class="relative flex items-center justify-center w-10 h-10 rounded-xl border border-border bg-card text-muted hover:bg-subtle hover:text-heading transition-colors duration-200" id="notifications-btn">
+<i class="ph ph-bell text-lg"></i>
+<span class="absolute top-1.5 right-2 w-2 h-2 rounded-full bg-negative ring-2 ring-card"></span>
+</button>
+<!-- Notifications dropdown -->
+<div class="absolute right-0 top-full mt-2.5 w-72 sm:w-80 card !rounded-2xl shadow-xl shadow-black/5 opacity-0 pointer-events-none scale-95 origin-top-right transition-all duration-200 z-50" id="notifications-dropdown" role="menu">
+<div class="px-4 py-3 border-b border-border flex items-center justify-between">
+<h3 class="text-sm font-semibold text-heading">Notifications</h3>
+<button class="text-xs text-accent font-medium hover:underline">
+          Mark all read
+        </button>
+</div>
+<div class="p-1.5 max-h-72 overflow-y-auto">
+<div class="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-8 h-8 rounded-full object-cover shrink-0" src="../../recursos/7c/7c8fa2d7dad5361b4b20-user2.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] text-heading">
+<span class="font-semibold">Adinda Ayu</span> assigned you a new
+              deal
+            </p>
+<p class="text-[11px] text-muted mt-0.5">2 min ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-8 h-8 rounded-full object-cover shrink-0" src="../../recursos/39/3959189281157364d778-user3.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] text-heading">
+<span class="font-semibold">Dwi Wahyu</span> commented on a task
+            </p>
+<p class="text-[11px] text-muted mt-0.5">15 min ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<div class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+<i class="ph-bold ph-check text-sm text-accent"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] text-heading">
+              Deal <span class="font-semibold">Cloud Migration</span> marked won
+            </p>
+<p class="text-[11px] text-muted mt-0.5">1 hour ago</p>
+</div>
+</div>
+</div>
+<div class="px-4 py-2.5 border-t border-border">
+<a class="block w-full text-center text-xs font-medium text-accent hover:underline" href="31c64cfd7-notifications.html">
+          View all notifications
+        </a>
+</div>
+</div>
+</div>
+<!-- ── Member / avatar stack ─────────────────────────────── -->
+<div class="relative" id="members-wrapper">
+<button aria-expanded="false" aria-haspopup="true" aria-label="Team members" class="flex items-center h-10 pl-1 pr-1 rounded-full transition-colors duration-200" id="members-btn">
+<span class="flex -space-x-2.5">
+<img alt="" class="w-8 h-8 rounded-full object-cover ring-2 ring-card" src="../../recursos/02/02f4af3b5a0d0dfac25e-user1.png"/>
+<img alt="" class="w-8 h-8 rounded-full object-cover ring-2 ring-card hidden sm:block" src="../../recursos/7c/7c8fa2d7dad5361b4b20-user2.png"/>
+<span aria-label="Add new" class="flex items-center justify-center w-8 h-8 rounded-full bg-heading text-card hover:opacity-90 transition-opacity duration-200">
+<i class="ph-bold ph-plus text-base"></i>
+</span>
+</span>
+</button>
+<!-- Members dropdown -->
+<div class="absolute right-0 top-full mt-2.5 w-64 card !rounded-2xl shadow-xl shadow-black/5 p-1.5 opacity-0 pointer-events-none scale-95 origin-top-right transition-all duration-200 z-50" id="members-dropdown" role="menu">
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-9 h-9 rounded-full object-cover" src="../../recursos/50/50e07f6735f0a5222f72-user4.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Hendra Kurniawan
+          </p>
+<p class="text-[11px] text-muted truncate">hendra@gmail.com</p>
+</div>
+<i class="ph ph-paper-plane-tilt text-base text-muted"></i>
+</div>
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<span class="w-9 h-9 rounded-full bg-subtle border border-border flex items-center justify-center text-[12px] font-semibold text-muted">MP</span>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Maulana Putri
+          </p>
+<p class="text-[11px] text-muted truncate">maulana@gmail.com</p>
+</div>
+<i class="ph ph-paper-plane-tilt text-base text-muted"></i>
+</div>
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-9 h-9 rounded-full object-cover" src="../../recursos/04/0489acba50e45105f18b-user5.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Dwi Ayu Lestari
+          </p>
+<p class="text-[11px] text-muted truncate">dwiayu@gmail.com</p>
+</div>
+<i class="ph ph-paper-plane-tilt text-base text-muted"></i>
+</div>
+<button class="mt-1 w-full h-10 rounded-xl bg-heading text-card text-sm font-semibold hover:opacity-90 transition-opacity duration-200 flex items-center justify-center gap-2">
+<i class="ph-bold ph-plus text-sm"></i>
+        Add member
+      </button>
+</div>
+</div>
+<!-- ── Add button ────────────────────────────────────────── -->
+<!-- ── Theme toggle ──────────────────────────────────────── -->
+<button aria-label="Toggle dark mode" class="flex items-center justify-center w-10 h-10 rounded-xl border border-border bg-card text-muted hover:bg-subtle hover:text-heading transition-colors duration-200" id="theme-toggle">
+<i class="ph ph-moon text-lg" id="theme-toggle-icon"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- MAIN -->
+<main class="pt-[68px] pb-12 lg:pb-0 min-h-dvh transition-all duration-300 lg:ml-[248px]" id="main-content">
+<div class="p-4 lg:p-6 space-y-5">
+<!-- ── Toolbar ──────────────────────────────────────────── -->
+<div class="flex items-center justify-between gap-3 flex-wrap">
+<div class="flex items-center gap-1 p-1 rounded-xl bg-subtle border border-border overflow-x-auto scrollbar-hide" data-tabs="" role="tablist">
+<button aria-selected="true" class="tab-btn tab-active px-4 py-2 rounded-lg text-sm font-semibold whitespace-nowrap" data-tab-target="tab-all" role="tab">
+                All
+              </button>
+<button aria-selected="false" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium text-muted hover:text-heading transition-colors duration-200 whitespace-nowrap" data-tab-target="tab-mentions" role="tab">
+                Mentions
+              </button>
+<button aria-selected="false" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium text-muted hover:text-heading transition-colors duration-200 whitespace-nowrap" data-tab-target="tab-deals" role="tab">
+                Deals
+              </button>
+<button aria-selected="false" class="tab-btn px-4 py-2 rounded-lg text-sm font-medium text-muted hover:text-heading transition-colors duration-200 whitespace-nowrap" data-tab-target="tab-tasks" role="tab">
+                Tasks
+              </button>
+</div>
+<button class="inline-flex items-center gap-2 h-10 px-3.5 rounded-xl border border-border bg-card text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200">
+<i class="ph ph-check-circle text-base"></i>
+<span class="hidden sm:inline">Mark all read</span>
+</button>
+</div>
+<!-- ── ALL ──────────────────────────────────────────────── -->
+<div class="card divide-y divide-border overflow-hidden" id="tab-all">
+<div class="flex items-start gap-3.5 px-5 py-4 bg-info/5 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-10 h-10 rounded-full object-cover shrink-0" src="../../recursos/7c/7c8fa2d7dad5361b4b20-user2.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+<span class="font-semibold">Adinda Ayu</span> assigned you a
+                  new deal
+                  <span class="font-semibold">Cloud Infrastructure Migration</span>
+</p>
+<p class="text-xs text-muted mt-1">2 min ago</p>
+</div>
+<span aria-label="Unread" class="w-2 h-2 rounded-full bg-info shrink-0 mt-1.5"></span>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 bg-info/5 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-10 h-10 rounded-full object-cover shrink-0" src="../../recursos/39/3959189281157364d778-user3.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+<span class="font-semibold">Dwi Wahyu</span> commented on
+                  task <span class="font-semibold">LAN optimization</span>
+</p>
+<p class="text-xs text-muted mt-1">15 min ago</p>
+</div>
+<span aria-label="Unread" class="w-2 h-2 rounded-full bg-info shrink-0 mt-1.5"></span>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-positive/10 flex items-center justify-center shrink-0">
+<i class="ph-bold ph-check text-base text-positive"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+                  Deal
+                  <span class="font-semibold">Brand Identity Redesign</span>
+                  marked as won
+                </p>
+<p class="text-xs text-muted mt-1">1 hour ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-10 h-10 rounded-full object-cover shrink-0" src="../../recursos/69/6970ef4b82835c8f4c21-user7.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+<span class="font-semibold">Galih Adi</span> mentioned you
+                  in a note on
+                  <span class="font-semibold">Nike, Inc</span>
+</p>
+<p class="text-xs text-muted mt-1">3 hours ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-warn/10 flex items-center justify-center shrink-0">
+<i class="ph ph-calendar-check text-base text-warn"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+                  Task
+                  <span class="font-semibold">Corporate VPN expansion</span>
+                  is due tomorrow
+                </p>
+<p class="text-xs text-muted mt-1">5 hours ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-10 h-10 rounded-full object-cover shrink-0" src="../../recursos/04/0489acba50e45105f18b-user5.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+<span class="font-semibold">Adinda Ayu</span> updated
+                  contact <span class="font-semibold">Ahmad Fauzi</span>
+</p>
+<p class="text-xs text-muted mt-1">Yesterday</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-negative/10 flex items-center justify-center shrink-0">
+<i class="ph ph-x-circle text-base text-negative"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+                  Deal
+                  <span class="font-semibold">Pharmacy Inventory Suite</span>
+                  marked as lost
+                </p>
+<p class="text-xs text-muted mt-1">2 days ago</p>
+</div>
+</div>
+</div>
+<!-- ── MENTIONS ─────────────────────────────────────────── -->
+<div class="hidden card divide-y divide-border overflow-hidden" id="tab-mentions">
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-10 h-10 rounded-full object-cover shrink-0" src="../../recursos/69/6970ef4b82835c8f4c21-user7.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+<span class="font-semibold">Galih Adi</span> mentioned you
+                  in a note on
+                  <span class="font-semibold">Nike, Inc</span>
+</p>
+<p class="text-xs text-muted mt-1">3 hours ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 bg-info/5 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-10 h-10 rounded-full object-cover shrink-0" src="../../recursos/39/3959189281157364d778-user3.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+<span class="font-semibold">Dwi Wahyu</span> commented on
+                  task <span class="font-semibold">LAN optimization</span>
+</p>
+<p class="text-xs text-muted mt-1">15 min ago</p>
+</div>
+<span aria-label="Unread" class="w-2 h-2 rounded-full bg-info shrink-0 mt-1.5"></span>
+</div>
+</div>
+<!-- ── DEALS ────────────────────────────────────────────── -->
+<div class="hidden card divide-y divide-border overflow-hidden" id="tab-deals">
+<div class="flex items-start gap-3.5 px-5 py-4 bg-info/5 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-10 h-10 rounded-full object-cover shrink-0" src="../../recursos/7c/7c8fa2d7dad5361b4b20-user2.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+<span class="font-semibold">Adinda Ayu</span> assigned you a
+                  new deal
+                  <span class="font-semibold">Cloud Infrastructure Migration</span>
+</p>
+<p class="text-xs text-muted mt-1">2 min ago</p>
+</div>
+<span aria-label="Unread" class="w-2 h-2 rounded-full bg-info shrink-0 mt-1.5"></span>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-positive/10 flex items-center justify-center shrink-0">
+<i class="ph-bold ph-check text-base text-positive"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+                  Deal
+                  <span class="font-semibold">Brand Identity Redesign</span>
+                  marked as won
+                </p>
+<p class="text-xs text-muted mt-1">1 hour ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-negative/10 flex items-center justify-center shrink-0">
+<i class="ph ph-x-circle text-base text-negative"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+                  Deal
+                  <span class="font-semibold">Pharmacy Inventory Suite</span>
+                  marked as lost
+                </p>
+<p class="text-xs text-muted mt-1">2 days ago</p>
+</div>
+</div>
+</div>
+<!-- ── TASKS ────────────────────────────────────────────── -->
+<div class="hidden card divide-y divide-border overflow-hidden" id="tab-tasks">
+<div class="flex items-start gap-3.5 px-5 py-4 hover:bg-subtle/60 transition-colors duration-200 cursor-pointer">
+<div class="w-10 h-10 rounded-full bg-warn/10 flex items-center justify-center shrink-0">
+<i class="ph ph-calendar-check text-base text-warn"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-sm text-heading">
+                  Task
+                  <span class="font-semibold">Corporate VPN expansion</span>
+                  is due tomorrow
+                </p>
+<p class="text-xs text-muted mt-1">5 hours ago</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<nav aria-label="Mobile navigation" class="fixed bottom-0 left-0 right-0 z-20 bg-card border-t border-border lg:hidden" id="mobile-bottom-nav">
+<div class="flex items-center justify-around h-16 px-2">
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="dashboard" href="../../index.html">
+<i class="ph ph-squares-four text-xl"></i>
+<span class="text-[10px] font-medium">Dashboard</span>
+</a>
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="contacts" href="../44/44d258512-contacts.html">
+<i class="ph ph-address-book text-xl"></i>
+<span class="text-[10px] font-medium">Contacts</span>
+</a>
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="deals" href="../1b/1bea10430-deals.html">
+<i class="ph ph-handshake text-xl"></i>
+<span class="text-[10px] font-medium">Deals</span>
+</a>
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="tasks" href="../10/1099bc964-tasks.html">
+<i class="ph ph-check-square text-xl"></i>
+<span class="text-[10px] font-medium">Tasks</span>
+</a>
+<button aria-label="More options" class="flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" id="mobile-more-btn">
+<i class="ph ph-list text-xl"></i>
+<span class="text-[10px] font-medium">Menu</span>
+</button>
+</div>
+</nav>
+</div>
+<div aria-label="Search" aria-modal="true" class="fixed inset-0 z-[60] hidden" id="search-modal" role="dialog">
+<div class="absolute inset-0 bg-black/40 backdrop-blur-sm" data-close-search=""></div>
+<div class="relative mx-auto mt-20 sm:w-[92%] sm:max-w-[560px] card !rounded-2xl shadow-2xl overflow-hidden pop-enter">
+<!-- Search input -->
+<div class="flex items-center gap-3 px-4 h-14 border-b border-border">
+<i class="ph ph-magnifying-glass text-lg text-muted"></i>
+<input autocomplete="off" class="flex-1 bg-transparent text-[15px] text-heading placeholder:text-muted focus:outline-none" id="search-modal-input" placeholder="Search something" type="text"/>
+</div>
+<!-- Filter chips -->
+<div class="flex items-center gap-2 px-4 py-3 overflow-x-auto scrollbar-hide border-b border-border">
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-subtle text-xs font-semibold text-heading whitespace-nowrap">
+<i class="ph ph-squares-four"></i> All
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-handshake"></i> Deal
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-check-square"></i> Task
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-address-book"></i> Contact
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-buildings"></i> Company
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-package"></i> Product
+          </button>
+</div>
+<!-- Results -->
+<div class="max-h-[320px] overflow-y-auto p-2">
+<p class="px-3 py-2 text-[11px] font-semibold uppercase tracking-wide text-muted/70">
+            Recent
+          </p>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<span class="w-9 h-9 rounded-lg bg-subtle flex items-center justify-center text-muted shrink-0"><i class="ph ph-handshake text-base"></i></span>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Online Learning Platform Enhancement</span>
+<span class="block text-[11px] text-muted truncate">Id : #122330FF · Deals</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold" style="
+                color: var(--color-series-purple);
+                background: color-mix(
+                  in srgb,
+                  var(--color-series-purple) 12%,
+                  transparent
+                );
+              "><span class="w-1.5 h-1.5 rounded-full" style="background: var(--color-series-purple)"></span>Qualified</span>
+</button>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<span class="w-9 h-9 rounded-lg bg-subtle flex items-center justify-center text-muted shrink-0"><i class="ph ph-check-square text-base"></i></span>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">ERP system implementation training</span>
+<span class="block text-[11px] text-muted truncate">Customer support · Tasks</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-warn/10 text-warn text-[11px] font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-warn"></span>Waiting</span>
+</button>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<span class="w-9 h-9 rounded-lg bg-subtle flex items-center justify-center text-muted shrink-0"><i class="ph ph-handshake text-base"></i></span>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Digital Banking System Security</span>
+<span class="block text-[11px] text-muted truncate">Id : #122330FF · Deals</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-info/10 text-info text-[11px] font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-info"></span>Payment</span>
+</button>
+<p class="px-3 py-2 mt-1 text-[11px] font-semibold uppercase tracking-wide text-muted/70">
+            Frequent contact
+          </p>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/50/50e07f6735f0a5222f72-user4.png"/>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Adinda Ayu Lestari</span>
+<span class="block text-[11px] text-muted truncate">ardian@gmail.com</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-positive/10 text-positive text-[11px] font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-positive"></span>Customer</span>
+</button>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/3b/3b70f41e93e70b76285d-user6.png"/>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Dwi Wahyu Anggara</span>
+<span class="block text-[11px] text-muted truncate">dwiwahyu@gmail.com</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold" style="
+                color: var(--color-series-orange);
+                background: color-mix(
+                  in srgb,
+                  var(--color-series-orange) 12%,
+                  transparent
+                );
+              "><span class="w-1.5 h-1.5 rounded-full" style="background: var(--color-series-orange)"></span>Competitor</span>
+</button>
+</div>
+<!-- Footer -->
+<div class="flex items-center gap-4 px-4 py-3 border-t border-border text-[11px] text-muted">
+<span class="inline-flex items-center gap-1"><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">↑</kbd><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">↓</kbd>
+            Move</span>
+<span class="inline-flex items-center gap-1"><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">↵</kbd>
+            Select</span>
+<span class="inline-flex items-center gap-1"><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">Esc</kbd>
+            Quit</span>
+</div>
+</div>
+</div>
+<script defer="" src="../../recursos/88/882e977f5adb8b689b4f-index.js"></script></body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "sitio": "https://clientra-html-softivus.netlify.app/",
+  "fecha": "2026-10-27T09:14:38.082352+00:00",
+  "paginas": [
+    "https://clientra-html-softivus.netlify.app/settings",
+    "https://clientra-html-softivus.netlify.app/notifications",
+    "https://clientra-html-softivus.netlify.app/company-detail",
+    "https://clientra-html-softivus.netlify.app/deal-detail",
+    "https://clientra-html-softivus.netlify.app/product-detail",
+    "https://clientra-html-softivus.netlify.app/edit-contact",
+    "https://clientra-html-softivus.netlify.app/explore-integrations",
+    "https://clientra-html-softivus.netlify.app/import-csv",
+    "https://clientra-html-softivus.netlify.app/add-contact",
+    "https://clientra-html-softivus.netlify.app/add-company"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 10,
+  "fotografias_descargadas": 6,
+  "bytes_fotografias": 27106774,
+  "recursos_pendientes": 0,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 27141083,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": false,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/js/pages/settings.js",
+      "archivo": "recursos/32/328eb1829fdec953a9c1-settings.js"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/images/user9.png",
+      "archivo": "recursos/5a/5a47c627c13319600bc3-user9.png"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/images/doc1.jpg",
+      "archivo": "recursos/cf/cfeb0674f28036b02fa1-doc1.jpg"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/images/doc2.jpg",
+      "archivo": "recursos/de/de72cb2a8781326902e5-doc2.jpg"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/images/user11.png",
+      "archivo": "recursos/e0/e020b025d798d1680324-user11.png"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/images/user10.png",
+      "archivo": "recursos/ee/ee93bc6c48872e87269d-user10.png"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/images/user12.png",
+      "archivo": "recursos/ef/ef08e96a182c4fc3c8b8-user12.png"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/js/pages/deal-detail.js",
+      "archivo": "recursos/09/09b8e7b114ebce37ce13-deal-detail.js"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/css/pages/explore-integrations.css",
+      "archivo": "recursos/af/af9a81e1199c61aa4314-explore-integrations.css"
+    },
+    {
+      "url": "https://clientra-html-softivus.netlify.app/assets/js/pages/explore-integrations.js",
+      "archivo": "recursos/62/62fb418e1bd5d4838e10-explore-integrations.js"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+    "https://unpkg.com/@phosphor-icons/web@2.1.1"
+  ],
+  "errores": [],
+  "bytes": 27744554
+}

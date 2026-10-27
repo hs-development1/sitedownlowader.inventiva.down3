@@ -1,0 +1,12 @@
+/* Clientra – Explore Integrations page-specific styles. */
+/* App icon mosaic in hero — absolute positioned icons */
+.hero-icon {
+  position: absolute;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+}

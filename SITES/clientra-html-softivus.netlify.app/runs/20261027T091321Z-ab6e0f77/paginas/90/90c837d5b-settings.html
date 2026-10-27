@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=66b4fad4-de1b-47c0-8ddd-e82e7dbe9dff
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<link href="../../recursos/94/94189731601c63d29c7d-favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script>
+      (function () {
+        var t = localStorage.getItem("Clientra-theme");
+        if (!t) {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        document.documentElement.classList.remove("light", "dark");
+        document.documentElement.classList.add(t);
+      })();
+    </script>
+<meta content="Clientra – Settings. Manage your account preferences." name="description"/>
+<meta content="Clientra" name="author"/>
+<title>Clientra – Settings</title>
+
+
+<link rel="stylesheet"/>
+
+<link href="../../recursos/0c/0cba610929d3a4f54abf-index.css" rel="stylesheet"/></head>
+<body class="bg-app-bg text-text font-['Inter']" data-page="settings">
+<div class="relative min-h-dvh" id="app">
+<!-- ==================================================================
+     SIDEBAR – Desktop fixed / Mobile off-canvas drawer
+     ================================================================== -->
+<aside aria-label="Main navigation" class="sidebar-drawer fixed top-0 left-0 z-40 h-full w-[248px] bg-card border-r border-border flex flex-col panel-transition lg:translate-x-0" id="sidebar" role="navigation">
+<!-- ── Brand ────────────────────────────────────────────────────── -->
+<div class="brand-row flex items-center justify-between h-[68px] px-5 shrink-0">
+<a aria-label="Clientra Home" class="flex items-center min-w-0" href="../../index.html">
+<img alt="Clientra" class="h-[26px] w-[104px] object-contain object-left" height="26" src="../../recursos/19/19d5937207e1b00f0d3d-logo.png" width="104"/>
+</a>
+<button aria-label="Toggle sidebar" class="sidebar-collapse-control hidden lg:flex items-center justify-center w-8 h-8 rounded-lg text-muted hover:text-heading hover:bg-subtle transition-colors duration-200 shrink-0" id="sidebar-collapse-btn">
+<i class="ph ph-sidebar-simple text-lg"></i>
+</button>
+</div>
+<!-- ── Search ──────────────────────────────────────────────────── -->
+<div class="px-4 pb-3 shrink-0">
+<button aria-label="Search" class="flex items-center w-full h-10 gap-2.5 px-3 rounded-xl bg-subtle border border-border text-muted hover:border-border-strong transition-colors duration-200" id="sidebar-search-trigger">
+<i class="ph ph-magnifying-glass text-base shrink-0"></i>
+<span class="sidebar-label text-sm flex-1 text-left">Search</span>
+<kbd class="sidebar-label text-[11px] font-medium text-muted/80 bg-card border border-border rounded px-1.5 py-0.5">⌘ F</kbd>
+</button>
+</div>
+<!-- ── Navigation ───────────────────────────────────────────────── -->
+<nav class="flex-1 overflow-y-auto overflow-x-hidden px-3 pb-4" id="sidebar-nav">
+<!-- MAIN MENU -->
+<p class="sidebar-label px-3 mt-2 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Main Menu
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="dashboard" data-tip="Dashboard" href="../../index.html">
+<i class="ph ph-squares-four text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Dashboard</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="contacts" data-tip="Contacts" href="../44/44d258512-contacts.html">
+<i class="ph ph-address-book text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Contacts</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="companies" data-tip="Companies" href="../81/8111abfbd-companies.html">
+<i class="ph ph-buildings text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Companies</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="deals" data-tip="Deals" href="../1b/1bea10430-deals.html">
+<i class="ph ph-handshake text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Deals</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="tasks" data-tip="Tasks" href="../10/1099bc964-tasks.html">
+<i class="ph ph-check-square text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Tasks</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="reports" data-tip="Reports" href="../3a/3af48157e-reports.html">
+<i class="ph ph-chart-line text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Reports</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="calendar" data-tip="Calendar" href="../c2/c29528c9e-calendar.html">
+<i class="ph ph-calendar-blank text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Calendar</span>
+</a>
+<!-- MARKETING -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Marketing
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="products" data-tip="Products" href="../df/df7ef21de-products.html">
+<i class="ph ph-package text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Products</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="emails" data-tip="Emails" href="../66/66b34547a-emails.html">
+<i class="ph ph-envelope-simple text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Emails</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="invoices" data-tip="Invoices" href="../98/980d7ef8c-invoices.html">
+<i class="ph ph-receipt text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Invoices</span>
+</a>
+<!-- PREFERENCES -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Preferences
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="integrations" data-tip="Integrations" href="../1d/1dfdd11cd-integrations.html">
+<i class="ph ph-plugs-connected text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Integrations</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="profile" data-tip="Profile" href="../d3/d34f7e8e5-profile.html">
+<i class="ph ph-user-circle text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Profile</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="settings" data-tip="Settings" href="90c837d5b-settings.html">
+<i class="ph ph-gear-six text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Settings</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="notifications" data-tip="Notifications" href="../31/31c64cfd7-notifications.html">
+<i class="ph ph-bell text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Notifications</span>
+</a>
+<!-- DETAIL PAGES -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Detail Pages
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="company-detail" data-tip="Company detail" href="../f3/f3c428d4c-company-detail.html">
+<i class="ph ph-building-office text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Company detail</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="deal-detail" data-tip="Deal detail" href="../20/20ac1f155-deal-detail.html">
+<i class="ph ph-handshake text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Deal detail</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="product-detail" data-tip="Product detail" href="../71/71fac3f1a-product-detail.html">
+<i class="ph ph-package text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Product detail</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="edit-contact" data-tip="Edit contact" href="../77/773fa0353-edit-contact.html">
+<i class="ph ph-pencil-simple text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Edit contact</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="explore-integrations" data-tip="Explore integrations" href="../c5/c523a505f-explore-integrations.html">
+<i class="ph ph-compass text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Explore integrations</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="import-csv" data-tip="Import CSV" href="../70/704ab71ce-import-csv.html">
+<i class="ph ph-file-csv text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Import CSV</span>
+</a>
+<!-- CREATE FORMS -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Create
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-contact" data-tip="Add contact" href="../05/059a27ddc-add-contact.html">
+<i class="ph ph-user-plus text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add contact</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-company" data-tip="Add company" href="../ec/ecbf0c380-add-company.html">
+<i class="ph ph-buildings text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add company</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-deal" data-tip="Add deal" href="../de/def22b0da-add-deal.html">
+<i class="ph ph-plus-circle text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add deal</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-product" data-tip="Add product" href="../61/6138e5ff2-add-product.html">
+<i class="ph ph-package text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add product</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="add-task" data-tip="Add task" href="../1e/1e0da6b9d-add-task.html">
+<i class="ph ph-check-square text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Add task</span>
+</a>
+<!-- AUTH -->
+<p class="sidebar-label px-3 mt-5 mb-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-muted/70">
+      Auth
+    </p>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="sign-in" data-tip="Sign in" href="../bd/bde19551d-sign-in.html">
+<i class="ph ph-sign-in text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Sign in</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="sign-up" data-tip="Sign up" href="../83/8332218a6-sign-up.html">
+<i class="ph ph-user-plus text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Sign up</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="forgot-password" data-tip="Forgot password" href="../84/849ccd64a-forgot-password.html">
+<i class="ph ph-lock-key text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">Forgot password</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="otp-verification" data-tip="OTP verification" href="../65/65e0992e6-otp-verification.html">
+<i class="ph ph-shield-check text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">OTP verification</span>
+</a>
+<a class="nav-item group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-text hover:bg-subtle hover:text-heading transition-colors duration-200" data-nav="new-password" data-tip="New password" href="../fc/fc2bf5817-new-password.html">
+<i class="ph ph-key text-lg shrink-0"></i>
+<span class="sidebar-label flex-1 truncate">New password</span>
+</a>
+</nav>
+<!-- ── Trial / Upgrade card ─────────────────────────────────────── -->
+<div class="sidebar-label px-3 shrink-0" id="trial-card">
+<div class="relative rounded-2xl bg-subtle border border-border p-4">
+<button aria-label="Dismiss" class="absolute top-3 right-3 w-6 h-6 rounded-md flex items-center justify-center text-muted hover:text-heading hover:bg-card transition-colors duration-200" id="trial-card-dismiss">
+<i class="ph ph-x text-sm"></i>
+</button>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-heading text-card text-xs font-semibold">
+<i class="ph-fill ph-lightning text-warn"></i>
+        20 days left
+      </span>
+<p class="mt-3 text-[13px] leading-snug text-text">
+        Upgrade to premium and enjoy the benefits for a long time
+      </p>
+<button class="mt-3.5 w-full h-9 rounded-lg bg-card border border-border text-sm font-semibold text-heading hover:bg-app-bg transition-colors duration-200">
+        View plan
+      </button>
+</div>
+</div>
+<!-- ── User panel ───────────────────────────────────────────────── -->
+<div class="p-3 shrink-0 relative">
+<button aria-expanded="false" class="flex items-center w-full gap-3 px-2.5 py-2 rounded-xl border border-border bg-card hover:bg-subtle transition-colors duration-200" id="account-switcher-btn">
+<img alt="Maulana Pratama" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/02/02f4af3b5a0d0dfac25e-user1.png"/>
+<span class="sidebar-label flex-1 min-w-0 text-left">
+<span class="block text-[13px] font-semibold text-heading truncate">Maulana Pratama</span>
+<span class="block text-[11px] text-muted truncate">maulana@gmail.com</span>
+</span>
+<i class="sidebar-label ph ph-caret-up-down text-base text-muted shrink-0"></i>
+</button>
+<!-- Account switcher popup (anchored above user panel) -->
+<div class="absolute bottom-full left-0 right-0 mb-2 z-[55] hidden card !rounded-2xl shadow-2xl p-1.5" id="account-switcher">
+<!-- Active account -->
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl bg-subtle">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/02/02f4af3b5a0d0dfac25e-user1.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Maulana Pratama
+          </p>
+<p class="text-[11px] text-muted truncate">maulana@gmail.com</p>
+</div>
+<i class="ph-bold ph-check-circle text-base text-accent shrink-0"></i>
+</div>
+<!-- Second account -->
+<button class="flex items-center gap-3 w-full px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 mt-0.5 text-left" id="account-switch-galih">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/69/6970ef4b82835c8f4c21-user7.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Galih Adi Saptaji
+          </p>
+<p class="text-[11px] text-muted truncate">galih@gmail.com</p>
+</div>
+</button>
+<div class="my-1.5 h-px bg-border mx-1"></div>
+<!-- Add account → sign-up page -->
+<a class="flex items-center gap-3 w-full px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 text-sm font-medium text-text" href="../83/8332218a6-sign-up.html">
+<i class="ph ph-plus-circle text-lg text-muted shrink-0"></i> Add
+        account
+      </a>
+<!-- Sign out -->
+<button class="flex items-center gap-3 w-full px-2.5 py-2 rounded-xl hover:bg-negative/10 transition-colors duration-200 text-sm font-medium text-negative" id="sign-out-btn">
+<i class="ph ph-sign-out text-lg shrink-0"></i> Sign Out
+      </button>
+</div>
+</div>
+</aside>
+<!-- ── Mobile sidebar overlay ─────────────────────────────────── -->
+<div aria-hidden="true" class="fixed inset-0 z-30 bg-black/40 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 lg:hidden" id="sidebar-overlay"></div>
+<!-- TOP BAR -->
+<header class="fixed top-0 right-0 left-0 lg:left-[248px] z-20 h-[68px] bg-app-bg/85 backdrop-blur-xl border-b border-border transition-all duration-300" id="topbar">
+<div class="flex items-center justify-between h-full px-4 lg:px-6">
+<div class="flex items-center gap-3">
+<button aria-label="Open sidebar menu" class="lg:hidden flex items-center justify-center w-10 h-10 rounded-xl border border-border bg-card text-muted hover:text-heading transition-colors duration-200" id="mobile-sidebar-toggle">
+<i class="ph ph-list text-xl"></i>
+</button>
+<h2 class="hidden sm:block text-lg font-bold text-heading tracking-tight">
+              Settings
+            </h2>
+</div>
+<div class="flex items-center gap-2 sm:gap-3">
+<!-- ── Notifications ─────────────────────────────────────── -->
+<div class="relative" id="notifications-wrapper">
+<button aria-expanded="false" aria-haspopup="true" aria-label="Notifications" class="relative flex items-center justify-center w-10 h-10 rounded-xl border border-border bg-card text-muted hover:bg-subtle hover:text-heading transition-colors duration-200" id="notifications-btn">
+<i class="ph ph-bell text-lg"></i>
+<span class="absolute top-1.5 right-2 w-2 h-2 rounded-full bg-negative ring-2 ring-card"></span>
+</button>
+<!-- Notifications dropdown -->
+<div class="absolute right-0 top-full mt-2.5 w-72 sm:w-80 card !rounded-2xl shadow-xl shadow-black/5 opacity-0 pointer-events-none scale-95 origin-top-right transition-all duration-200 z-50" id="notifications-dropdown" role="menu">
+<div class="px-4 py-3 border-b border-border flex items-center justify-between">
+<h3 class="text-sm font-semibold text-heading">Notifications</h3>
+<button class="text-xs text-accent font-medium hover:underline">
+          Mark all read
+        </button>
+</div>
+<div class="p-1.5 max-h-72 overflow-y-auto">
+<div class="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-8 h-8 rounded-full object-cover shrink-0" src="../../recursos/7c/7c8fa2d7dad5361b4b20-user2.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] text-heading">
+<span class="font-semibold">Adinda Ayu</span> assigned you a new
+              deal
+            </p>
+<p class="text-[11px] text-muted mt-0.5">2 min ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-8 h-8 rounded-full object-cover shrink-0" src="../../recursos/39/3959189281157364d778-user3.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] text-heading">
+<span class="font-semibold">Dwi Wahyu</span> commented on a task
+            </p>
+<p class="text-[11px] text-muted mt-0.5">15 min ago</p>
+</div>
+</div>
+<div class="flex items-start gap-3 px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<div class="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+<i class="ph-bold ph-check text-sm text-accent"></i>
+</div>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] text-heading">
+              Deal <span class="font-semibold">Cloud Migration</span> marked won
+            </p>
+<p class="text-[11px] text-muted mt-0.5">1 hour ago</p>
+</div>
+</div>
+</div>
+<div class="px-4 py-2.5 border-t border-border">
+<a class="block w-full text-center text-xs font-medium text-accent hover:underline" href="../31/31c64cfd7-notifications.html">
+          View all notifications
+        </a>
+</div>
+</div>
+</div>
+<!-- ── Member / avatar stack ─────────────────────────────── -->
+<div class="relative" id="members-wrapper">
+<button aria-expanded="false" aria-haspopup="true" aria-label="Team members" class="flex items-center h-10 pl-1 pr-1 rounded-full transition-colors duration-200" id="members-btn">
+<span class="flex -space-x-2.5">
+<img alt="" class="w-8 h-8 rounded-full object-cover ring-2 ring-card" src="../../recursos/02/02f4af3b5a0d0dfac25e-user1.png"/>
+<img alt="" class="w-8 h-8 rounded-full object-cover ring-2 ring-card hidden sm:block" src="../../recursos/7c/7c8fa2d7dad5361b4b20-user2.png"/>
+<span aria-label="Add new" class="flex items-center justify-center w-8 h-8 rounded-full bg-heading text-card hover:opacity-90 transition-opacity duration-200">
+<i class="ph-bold ph-plus text-base"></i>
+</span>
+</span>
+</button>
+<!-- Members dropdown -->
+<div class="absolute right-0 top-full mt-2.5 w-64 card !rounded-2xl shadow-xl shadow-black/5 p-1.5 opacity-0 pointer-events-none scale-95 origin-top-right transition-all duration-200 z-50" id="members-dropdown" role="menu">
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-9 h-9 rounded-full object-cover" src="../../recursos/50/50e07f6735f0a5222f72-user4.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Hendra Kurniawan
+          </p>
+<p class="text-[11px] text-muted truncate">hendra@gmail.com</p>
+</div>
+<i class="ph ph-paper-plane-tilt text-base text-muted"></i>
+</div>
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<span class="w-9 h-9 rounded-full bg-subtle border border-border flex items-center justify-center text-[12px] font-semibold text-muted">MP</span>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Maulana Putri
+          </p>
+<p class="text-[11px] text-muted truncate">maulana@gmail.com</p>
+</div>
+<i class="ph ph-paper-plane-tilt text-base text-muted"></i>
+</div>
+<div class="flex items-center gap-3 px-2.5 py-2 rounded-xl hover:bg-subtle transition-colors duration-200 cursor-pointer">
+<img alt="" class="w-9 h-9 rounded-full object-cover" src="../../recursos/04/0489acba50e45105f18b-user5.png"/>
+<div class="flex-1 min-w-0">
+<p class="text-[13px] font-semibold text-heading truncate">
+            Dwi Ayu Lestari
+          </p>
+<p class="text-[11px] text-muted truncate">dwiayu@gmail.com</p>
+</div>
+<i class="ph ph-paper-plane-tilt text-base text-muted"></i>
+</div>
+<button class="mt-1 w-full h-10 rounded-xl bg-heading text-card text-sm font-semibold hover:opacity-90 transition-opacity duration-200 flex items-center justify-center gap-2">
+<i class="ph-bold ph-plus text-sm"></i>
+        Add member
+      </button>
+</div>
+</div>
+<!-- ── Add button ────────────────────────────────────────── -->
+<!-- ── Theme toggle ──────────────────────────────────────── -->
+<button aria-label="Toggle dark mode" class="flex items-center justify-center w-10 h-10 rounded-xl border border-border bg-card text-muted hover:bg-subtle hover:text-heading transition-colors duration-200" id="theme-toggle">
+<i class="ph ph-moon text-lg" id="theme-toggle-icon"></i>
+</button>
+</div>
+</div>
+</header>
+<!-- MAIN -->
+<main class="pt-[68px] pb-16 lg:pb-6 min-h-dvh transition-all duration-300 lg:ml-[248px]" id="main-content">
+<div class="p-4 lg:p-6">
+<!-- ── Settings header: tabs + save actions ─────────────── -->
+<div class="flex flex-wrap gap-3 justify-between mb-6">
+<!-- Scrollable tab strip -->
+<div class="flex items-center gap-0.5 border-b border-border overflow-x-auto scrollbar-hide">
+<button class="settings-tab shrink-0 h-10 px-4 text-sm font-semibold text-heading border-b-2 border-heading -mb-px transition-colors whitespace-nowrap" data-settings-tab="personal">
+                Personal details
+              </button>
+<button class="settings-tab shrink-0 h-10 px-4 text-sm font-medium text-muted hover:text-heading border-b-2 border-transparent -mb-px transition-colors whitespace-nowrap" data-settings-tab="security">
+                Security
+              </button>
+<button class="settings-tab shrink-0 h-10 px-4 text-sm font-medium text-muted hover:text-heading border-b-2 border-transparent -mb-px transition-colors whitespace-nowrap" data-settings-tab="notifications">
+                Notifications
+              </button>
+<button class="settings-tab shrink-0 h-10 px-4 text-sm font-medium text-muted hover:text-heading border-b-2 border-transparent -mb-px transition-colors whitespace-nowrap" data-settings-tab="subscriptions">
+                Subscriptions
+              </button>
+<button class="settings-tab shrink-0 h-10 px-4 text-sm font-medium text-muted hover:text-heading border-b-2 border-transparent -mb-px transition-colors whitespace-nowrap" data-settings-tab="teams">
+                My Teams
+              </button>
+<button class="settings-tab shrink-0 h-10 px-4 text-sm font-medium text-muted hover:text-heading border-b-2 border-transparent -mb-px transition-colors whitespace-nowrap" data-settings-tab="help">
+                Help Center
+              </button>
+</div>
+<!-- Save actions row (top on mobile) -->
+<div class="flex items-center gap-2.5">
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors">
+                Reset all
+              </button>
+<button class="inline-flex items-center gap-2 h-9 px-4 rounded-xl bg-heading text-card text-sm font-semibold hover:opacity-90 transition-opacity">
+<i class="ph-bold ph-floppy-disk text-sm"></i>
+<span>Save changes</span>
+</button>
+</div>
+</div>
+<!-- ══════════════════════════════════════════════════════════
+               TAB: Personal Details
+          ══════════════════════════════════════════════════════════ -->
+<div class="tab-panel" id="tab-personal">
+<div class="flex flex-col lg:flex-row gap-6">
+<!-- Form -->
+<div class="flex-1 min-w-0 space-y-6">
+<!-- Personal Information -->
+<div class="card p-3 md:p-5">
+<h2 class="text-base font-bold text-heading">
+                    Personal Information
+                  </h2>
+<p class="text-sm text-muted mt-0.5 mb-5">
+                    Edit or complete your personal information
+                  </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">First name</label>
+<input class="form-input w-full" type="text" value="Maulana"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Last name</label>
+<input class="form-input w-full" type="text" value="Pratama"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Email</label>
+<input class="form-input w-full" type="email" value="maulanaaj@gmail.com"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Phone number</label>
+<div class="flex gap-2">
+<button class="inline-flex items-center gap-1.5 h-10 px-3 rounded-xl border border-border bg-card text-sm text-text hover:bg-subtle transition-colors shrink-0">
+                          🇺🇸 +1
+                          <i class="ph ph-caret-down text-xs text-muted"></i>
+</button>
+<input class="form-input flex-1 min-w-0" type="tel" value="860 - 3380 - 5648"/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Job title</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select job title
+                          </option>
+<option>CRM Manager</option>
+<option>Sales Manager</option>
+<option>Marketing Manager</option>
+<option>Developer</option>
+<option>Designer</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Language</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select language
+                          </option>
+<option>English</option>
+<option>Indonesian</option>
+<option>Spanish</option>
+<option>French</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Country</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select country
+                          </option>
+<option>United States</option>
+<option>Indonesia</option>
+<option>United Kingdom</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Province</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select province
+                          </option>
+<option>California</option>
+<option>New York</option>
+<option>Texas</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">City</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select city
+                          </option>
+<option>Los Angeles</option>
+<option>New York City</option>
+<option>Houston</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">ZIP Code</label>
+<input class="form-input w-full" placeholder="Enter code" type="text"/>
+</div>
+<div class="sm:col-span-2">
+<label class="block text-sm font-medium text-heading mb-1.5">Full address</label>
+<textarea class="form-input w-full resize-none" placeholder="Enter full address" rows="3"></textarea>
+</div>
+</div>
+</div>
+<!-- Company Information -->
+<div class="card p-3 md:p-5">
+<h2 class="text-base font-bold text-heading">
+                    Company information
+                  </h2>
+<p class="text-sm text-muted mt-0.5 mb-5">
+                    Edit or complete your company information
+                  </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Company name</label>
+<input class="form-input w-full" placeholder="Enter company name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Industry</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option>Information Technology</option>
+<option>Finance</option>
+<option>Healthcare</option>
+<option>Retail</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Department</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select your department
+                          </option>
+<option>Engineering</option>
+<option>Marketing</option>
+<option>Sales</option>
+<option>HR</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Job title</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select your job title
+                          </option>
+<option>CRM Manager</option>
+<option>Sales Manager</option>
+<option>Developer</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Total employees</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select total employees
+                          </option>
+<option>1–10</option>
+<option>11–50</option>
+<option>51–200</option>
+<option>201–1000</option>
+<option>1000+</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-heading mb-1.5">Annual revenue</label>
+<div class="relative">
+<select class="form-select w-full appearance-none">
+<option disabled="" selected="" value="">
+                            Select annual revenue
+                          </option>
+<option>Under $100K</option>
+<option>$100K – $1M</option>
+<option>$1M – $10M</option>
+<option>$10M+</option>
+</select>
+<i class="ph ph-caret-down absolute right-3 top-1/2 -translate-y-1/2 text-muted text-sm pointer-events-none"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right sidebar: Avatar upload -->
+<div class="lg:w-[220px] shrink-0">
+<div class="card p-5 space-y-4 sticky top-20">
+<div class="relative">
+<img alt="Profile" class="size-16 rounded-full object-cover" src="../../recursos/02/02f4af3b5a0d0dfac25e-user1.png"/>
+<span class="absolute bottom-0 left-12 w-4 h-4 rounded-full bg-positive border-2 border-card"></span>
+</div>
+<div>
+<p class="text-sm font-bold text-heading">
+                      Upload your image
+                    </p>
+<p class="text-xs text-muted mt-1 leading-snug">
+                      formats allowed are *png, *jpg, up to 10 MB with a minimum
+                      size of 400px by 400px
+                    </p>
+</div>
+<div class="flex items-center gap-2 w-full">
+<button class="flex-1 h-9 rounded-xl border border-negative/30 text-negative text-sm font-semibold hover:bg-negative/5 transition-colors">
+                      Clear
+                    </button>
+<button class="flex-1 h-9 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors">
+                      Change
+                    </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ══════════════════════════════════════════════════════════
+               TAB: Security
+          ══════════════════════════════════════════════════════════ -->
+<div class="tab-panel hidden" id="tab-security">
+<div class="flex flex-col lg:flex-row gap-6">
+<!-- Main content -->
+<div class="flex-1 min-w-0 space-y-4">
+<!-- 2FA -->
+<div class="card p-3 md:p-5">
+<div class="flex flex-wrap items-center justify-between gap-4 mb-4">
+<div>
+<h2 class="text-base font-bold text-heading">
+                        Two-Factor Authentication
+                      </h2>
+<p class="text-sm text-muted mt-0.5">
+                        Add an extra layer of security to your CRM account with
+                        2FA
+                      </p>
+</div>
+<button class="shrink-0 h-9 px-4 rounded-xl border border-border bg-subtle text-sm font-semibold text-heading hover:bg-card transition-colors">
+                      Add hardware key
+                    </button>
+</div>
+<div class="flex items-center justify-between gap-3 px-4 py-3 rounded-xl border border-border bg-subtle/50">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl border border-border bg-card flex items-center justify-center shrink-0">
+<i class="ph ph-lock-key text-base text-muted"></i>
+</div>
+<span class="text-sm font-semibold text-heading">Authenticator App</span>
+</div>
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-muted hover:bg-card hover:text-heading transition-colors">
+<i class="ph ph-arrow-clockwise text-base"></i>
+</button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-negative hover:bg-negative/10 transition-colors">
+<i class="ph ph-trash text-base"></i>
+</button>
+</div>
+</div>
+</div>
+<!-- Block External Content -->
+<div class="card p-3 md:p-5 flex items-center justify-between gap-4">
+<div>
+<h2 class="text-base font-bold text-heading">
+                      Block External Content
+                    </h2>
+<p class="text-sm text-muted mt-0.5">
+                      Prevent external content from loading in emails to protect
+                      against phishing
+                    </p>
+</div>
+<button aria-checked="true" class="relative inline-flex w-11 h-6 rounded-full bg-heading transition-colors shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+<!-- Reset Recovery Key -->
+<div class="card p-3 md:p-5 flex flex-wrap gap-2 items-center justify-between md:gap-4">
+<div>
+<h2 class="text-base font-bold text-heading">
+                      Reset Recovery Key
+                    </h2>
+<p class="text-sm text-muted mt-0.5">
+                      Generate a new recovery key for account access
+                    </p>
+</div>
+<button class="shrink-0 h-9 px-4 rounded-xl border border-negative/30 text-negative text-sm font-semibold hover:bg-negative/5 transition-colors">
+                    Reset key
+                  </button>
+</div>
+<!-- Last Login Verification -->
+<div class="card p-3 md:p-5 flex flex-wrap gap-2 items-center justify-between md:gap-4">
+<div>
+<h2 class="text-base font-bold text-heading">
+                      Last Login Verification
+                    </h2>
+<p class="text-sm text-muted mt-0.5">
+                      See the most recent time you verified a user's login
+                      identity
+                    </p>
+</div>
+<button class="shrink-0 h-9 px-4 rounded-xl border border-border bg-subtle text-sm font-semibold text-heading hover:bg-card transition-colors">
+                    View detail
+                  </button>
+</div>
+<!-- Prevent inviting others -->
+<div class="card p-3 md:p-5 flex items-center justify-between gap-4">
+<div>
+<h2 class="text-base font-bold text-heading">
+                      Prevent members from inviting others
+                    </h2>
+<p class="text-sm text-muted mt-0.5">
+                      Disable the invite option for all members to control team
+                      access
+                    </p>
+</div>
+<button aria-checked="true" class="relative inline-flex w-11 h-6 rounded-full bg-heading transition-colors shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+<!-- Prevent inviting guests -->
+<div class="card p-3 md:p-5 flex items-center justify-between gap-4">
+<div>
+<h2 class="text-base font-bold text-heading">
+                      Prevent members from inviting guests
+                    </h2>
+<p class="text-sm text-muted mt-0.5">
+                      Restrict external guests from joining your team channels
+                      or conversations
+                    </p>
+</div>
+<button aria-checked="false" class="relative inline-flex w-11 h-6 rounded-full bg-border transition-colors shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-0"></span>
+</button>
+</div>
+<!-- Prevent third-party integrations -->
+<div class="card p-3 md:p-5 flex items-center justify-between gap-4">
+<div>
+<h2 class="text-base font-bold text-heading">
+                      Prevent members from installing third-party integrations
+                    </h2>
+<p class="text-sm text-muted mt-0.5">
+                      Limit the ability of team members to add third-party tools
+                      or apps to the system
+                    </p>
+</div>
+<button aria-checked="true" class="relative inline-flex w-11 h-6 rounded-full bg-heading transition-colors shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+</div>
+<!-- Right sidebar: Change password -->
+<div class="lg:w-[220px] shrink-0">
+<div class="card p-5 space-y-4">
+<div class="w-16 h-16 rounded-2xl bg-subtle flex items-center justify-center">
+<i class="ph-fill ph-shield-check text-3xl text-info"></i>
+</div>
+<div>
+<p class="text-sm font-bold text-heading">
+                      Change password
+                    </p>
+<p class="text-xs text-muted mt-1 leading-snug">
+                      Are you forgot with your password? Calmly, you can change
+                      or reset your password
+                    </p>
+</div>
+<button class="w-full h-9 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors">
+                    Change password
+                  </button>
+</div>
+</div>
+</div>
+</div>
+<!-- ══════════════════════════════════════════════════════════
+               TAB: Notifications
+          ══════════════════════════════════════════════════════════ -->
+<div class="tab-panel hidden space-y-6" id="tab-notifications">
+<!-- Global notification settings -->
+<div class="card p-3 md:p-5">
+<h2 class="text-base font-bold text-heading">
+                Global notification settings
+              </h2>
+<p class="text-sm text-muted mt-0.5 mb-5">
+                You can choose to receive notification for all events or from
+                other apps ( Integrations )
+              </p>
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+<button class="notif-mode-btn p-4 rounded-2xl border-2 border-positive bg-positive/5 text-left transition-all duration-200" data-notif-mode="all">
+<div class="w-10 h-10 rounded-xl bg-positive/15 flex items-center justify-center mb-3">
+<i class="ph ph-squares-four text-xl text-positive"></i>
+</div>
+<p class="text-sm font-bold text-heading">All Events</p>
+<p class="text-xs text-muted mt-1 leading-snug">
+                    Get notifications for every change on products, contacts,
+                    deals, and more
+                  </p>
+</button>
+<button class="notif-mode-btn p-4 rounded-2xl border border-border bg-card text-left hover:border-border-strong transition-all duration-200" data-notif-mode="mentions">
+<div class="w-10 h-10 rounded-xl bg-subtle flex items-center justify-center mb-3">
+<i class="ph ph-at text-xl text-muted"></i>
+</div>
+<p class="text-sm font-bold text-heading">Mentions only</p>
+<p class="text-xs text-muted mt-1 leading-snug">
+                    Get notified when you're directly mentioned or assigned to
+                    something
+                  </p>
+</button>
+<button class="notif-mode-btn p-4 rounded-2xl border border-border bg-card text-left hover:border-border-strong transition-all duration-200" data-notif-mode="custom">
+<div class="w-10 h-10 rounded-xl bg-subtle flex items-center justify-center mb-3">
+<i class="ph ph-sliders text-xl text-muted"></i>
+</div>
+<p class="text-sm font-bold text-heading">Custom alerts</p>
+<p class="text-xs text-muted mt-1 leading-snug">
+                    Pick and choose which updates you want to be notified about
+                  </p>
+</button>
+<button class="notif-mode-btn p-4 rounded-2xl border border-border bg-card text-left hover:border-border-strong transition-all duration-200" data-notif-mode="none">
+<div class="w-10 h-10 rounded-xl bg-subtle flex items-center justify-center mb-3">
+<i class="ph ph-bell-slash text-xl text-muted"></i>
+</div>
+<p class="text-sm font-bold text-heading">No Notifications</p>
+<p class="text-xs text-muted mt-1 leading-snug">
+                    Disable all notifications at once, but you can always check
+                    manually
+                  </p>
+</button>
+</div>
+</div>
+<!-- Custom notifications -->
+<div class="card p-3 md:p-5">
+<h2 class="text-base font-bold text-heading">
+                Custom notifications
+              </h2>
+<p class="text-sm text-muted mt-0.5 mb-5">
+                Customize variety of notification, like for products, tasks, and
+                more
+              </p>
+<div class="space-y-2" id="notif-accordion">
+<!-- Products -->
+<div class="border border-border rounded-2xl overflow-hidden">
+<button class="notif-accordion-trigger w-full flex items-center justify-between px-5 py-4 bg-card hover:bg-subtle transition-colors" data-target="notif-products">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl border border-border bg-subtle flex items-center justify-center shrink-0">
+<i class="ph ph-package text-base text-muted"></i>
+</div>
+<div class="text-left">
+<p class="text-sm font-semibold text-heading">
+                          Products
+                        </p>
+<p class="text-xs text-muted">3 Notifications</p>
+</div>
+</div>
+<i class="ph ph-caret-up text-muted text-sm transition-transform" id="icon-notif-products"></i>
+</button>
+<div class="border-t border-border divide-y divide-border" id="notif-products">
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          New Product Added
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Receive a notification when a new product is added to
+                          your catalog
+                        </p>
+</div>
+<button aria-checked="true" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-heading shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Product Updated
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Get notified when any changes or updates are made to
+                          an existing product's details
+                        </p>
+</div>
+<button aria-checked="true" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-heading shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Product Discontinued
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Be informed when a product is marked as discontinued
+                          or no longer available
+                        </p>
+</div>
+<button aria-checked="false" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-border shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-0"></span>
+</button>
+</div>
+</div>
+</div>
+<!-- Deals -->
+<div class="border border-border rounded-2xl overflow-hidden">
+<button class="notif-accordion-trigger w-full flex items-center justify-between px-5 py-4 bg-card hover:bg-subtle transition-colors" data-target="notif-deals">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl border border-border bg-subtle flex items-center justify-center shrink-0">
+<i class="ph ph-handshake text-base text-muted"></i>
+</div>
+<div class="text-left">
+<p class="text-sm font-semibold text-heading">Deals</p>
+<p class="text-xs text-muted">3 Notifications</p>
+</div>
+</div>
+<i class="ph ph-caret-down text-muted text-sm transition-transform" id="icon-notif-deals"></i>
+</button>
+<div class="hidden border-t border-border divide-y divide-border" id="notif-deals">
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Deal Created
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Get notified when a new deal is created in your
+                          pipeline
+                        </p>
+</div>
+<button aria-checked="true" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-heading shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Deal Stage Changed
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Be notified when a deal moves to a different stage in
+                          the pipeline
+                        </p>
+</div>
+<button aria-checked="false" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-border shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-0"></span>
+</button>
+</div>
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Deal Won / Lost
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Receive a notification when a deal is marked as won or
+                          lost
+                        </p>
+</div>
+<button aria-checked="true" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-heading shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+</div>
+</div>
+<!-- Contacts -->
+<div class="border border-border rounded-2xl overflow-hidden">
+<button class="notif-accordion-trigger w-full flex items-center justify-between px-5 py-4 bg-card hover:bg-subtle transition-colors" data-target="notif-contacts">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl border border-border bg-subtle flex items-center justify-center shrink-0">
+<i class="ph ph-address-book text-base text-muted"></i>
+</div>
+<div class="text-left">
+<p class="text-sm font-semibold text-heading">
+                          Contacts
+                        </p>
+<p class="text-xs text-muted">3 Notifications</p>
+</div>
+</div>
+<i class="ph ph-caret-down text-muted text-sm transition-transform" id="icon-notif-contacts"></i>
+</button>
+<div class="hidden border-t border-border divide-y divide-border" id="notif-contacts">
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Contact Added
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Get notified when a new contact is added to your CRM
+                        </p>
+</div>
+<button aria-checked="true" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-heading shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Contact Updated
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Be notified when contact information is modified
+                        </p>
+</div>
+<button aria-checked="true" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-heading shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+</div>
+<div class="flex items-center justify-between px-5 py-4">
+<div>
+<p class="text-sm font-semibold text-heading">
+                          Contact Deleted
+                        </p>
+<p class="text-xs text-muted mt-0.5">
+                          Receive an alert when a contact is removed from your
+                          CRM
+                        </p>
+</div>
+<button aria-checked="false" class="toggle-btn relative inline-flex w-11 h-6 rounded-full bg-border shrink-0 focus:outline-none" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-0"></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ══════════════════════════════════════════════════════════
+               TAB: Subscriptions
+          ══════════════════════════════════════════════════════════ -->
+<div class="tab-panel hidden space-y-6" id="tab-subscriptions">
+<!-- Billing header -->
+<div class="flex items-center justify-between gap-4 flex-wrap">
+<div>
+<h2 class="text-base font-bold text-heading">
+                  Billing an subscriptions
+                </h2>
+<p class="text-sm text-muted mt-0.5">
+                  Choose your best plan and elevate your business.
+                </p>
+</div>
+<div class="flex items-center gap-3 flex-wrap">
+<span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl border border-border bg-card text-sm text-text">
+<i class="ph ph-lightning text-warn text-base"></i>
+                  Trial end in
+                  <span class="font-bold text-heading">20d : 30h : 28m : 28s</span>
+</span>
+<button class="inline-flex items-center gap-1.5 h-9 px-4 rounded-xl border border-border bg-card text-sm font-medium text-heading hover:bg-subtle transition-colors">
+<i class="ph ph-clock-counter-clockwise text-base text-muted"></i>
+                  View billing history
+                </button>
+</div>
+</div>
+<!-- Monthly/Yearly toggle -->
+<div class="flex items-center justify-end gap-2">
+<span class="text-sm font-medium text-text">Monthly</span>
+<button aria-checked="true" class="relative inline-flex w-11 h-6 rounded-full bg-heading focus:outline-none" id="billing-toggle" role="switch">
+<span class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow transition-transform translate-x-5"></span>
+</button>
+<span class="text-sm font-medium text-text">Yearly</span>
+</div>
+<!-- Plan cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+<!-- Standard -->
+<div class="card p-6 flex flex-col gap-5">
+<div>
+<p class="text-xs font-semibold text-muted uppercase tracking-wider">
+                    Standard plan
+                  </p>
+<p class="text-xs text-muted mt-0.5">
+                    Good for entry business
+                  </p>
+</div>
+<div>
+<span class="text-3xl font-bold text-heading">$20.00</span>
+<span class="text-sm text-muted">/month</span>
+<p class="text-xs text-muted mt-0.5">
+                    Billed yearly for $250
+                  </p>
+</div>
+<button class="w-full h-10 rounded-xl border border-heading text-heading text-sm font-semibold hover:bg-subtle transition-colors">
+                  Upgrade to Standard
+                </button>
+<div>
+<p class="text-xs font-semibold text-heading mb-3">
+                    What you will get
+                  </p>
+<ul class="space-y-2">
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Send up to 3,000 emails/month
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Use 600 enrichment requests
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Manage 2 email domains
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Sync emails with team members
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Add up to 3 team members
+                    </li>
+</ul>
+</div>
+</div>
+<!-- Premium (highlighted) -->
+<div class="card p-6 flex flex-col gap-5 ring-2 ring-heading relative">
+<div class="absolute top-4 right-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-positive/15 text-positive text-xs font-semibold">
+<i class="ph-fill ph-star text-xs"></i> Recommend
+                  </span>
+</div>
+<div>
+<p class="text-xs font-semibold text-muted uppercase tracking-wider">
+                    Premium plan
+                  </p>
+<p class="text-xs text-muted mt-0.5">
+                    For growing businesses
+                  </p>
+</div>
+<div>
+<span class="text-3xl font-bold text-heading">$45.00</span>
+<span class="text-sm text-muted">/month</span>
+<p class="text-xs text-muted mt-0.5">
+                    Billed yearly for $480
+                  </p>
+</div>
+<button class="w-full h-10 rounded-xl bg-heading text-card text-sm font-semibold hover:opacity-90 transition-opacity">
+                  Upgrade to Premium
+                </button>
+<div>
+<p class="text-xs font-semibold text-heading mb-3">
+                    What you will get
+                  </p>
+<ul class="space-y-2">
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Send up to 5,000 emails/month
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Access 1,000 enrichment requests
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Manage 5 email domains
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Unlimited email sync
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Add up to 5 team members
+                    </li>
+</ul>
+</div>
+</div>
+<!-- Enterprise -->
+<div class="card p-6 flex flex-col gap-5">
+<div>
+<p class="text-xs font-semibold text-muted uppercase tracking-wider">
+                    Enterprise plan
+                  </p>
+<p class="text-xs text-muted mt-0.5">
+                    Best for large-scale businesses
+                  </p>
+</div>
+<div>
+<span class="text-3xl font-bold text-heading">Custom</span>
+<p class="text-xs text-muted mt-1">
+                    Custom for billed yearly
+                  </p>
+</div>
+<button class="w-full h-10 rounded-xl border border-heading text-heading text-sm font-semibold hover:bg-subtle transition-colors">
+                  Contact us
+                </button>
+<div>
+<p class="text-xs font-semibold text-heading mb-3">
+                    What you will get
+                  </p>
+<ul class="space-y-2">
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Send up to 10,000 emails/month
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Use 2,000 enrichment requests
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Manage unlimited email domains
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Unlimited email sync
+                    </li>
+<li class="flex items-center gap-2 text-sm text-text">
+<i class="ph-fill ph-check-circle text-positive text-base shrink-0"></i>Add unlimited team members
+                    </li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Confused CTA -->
+<div class="card p-3 md:p-5 flex flex-wrap items-center justify-between gap-4">
+<div>
+<p class="text-sm font-bold text-heading">
+                  Are you still confused which one to choose?
+                </p>
+<p class="text-sm text-muted mt-0.5">
+                  You can ask our customer support to determine the appropriate
+                  plan.
+                </p>
+</div>
+<button class="shrink-0 inline-flex items-center gap-1.5 h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors">
+<i class="ph ph-chat-circle text-base text-muted"></i> Contact
+                us
+              </button>
+</div>
+<!-- Compare features table -->
+<div class="card overflow-hidden">
+<div class="px-6 py-4 border-b border-border">
+<h2 class="text-base font-bold text-heading">
+                  Compare features
+                </h2>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full min-w-[720px] text-sm">
+<thead>
+<tr class="border-b border-border">
+<th class="text-left px-6 py-4 text-text font-medium w-[34%]"></th>
+<th class="text-left px-4 py-4 w-[21%]">
+<p class="text-xs text-muted font-medium">
+                          Standard plan
+                        </p>
+<p class="text-xs text-muted">
+                          Perfect for small businesses needing essential tools
+                          to get started
+                        </p>
+<p class="text-base font-bold text-heading mt-1">
+                          $20.00<span class="text-xs font-normal text-muted">/month</span>
+</p>
+</th>
+<th class="text-left px-4 py-4 w-[21%]">
+<p class="text-xs font-semibold text-heading">
+                          Premium plan
+                        </p>
+<p class="text-xs text-muted">
+                          Best for growing businesses with advanced needs and
+                          scaling support
+                        </p>
+<p class="text-base font-bold text-heading mt-1">
+                          $45.00<span class="text-xs font-normal text-muted">/month</span>
+</p>
+</th>
+<th class="text-left px-4 py-4 w-[21%]">
+<p class="text-xs text-muted font-medium">
+                          Enterprise plan
+                        </p>
+<p class="text-xs text-muted">
+                          Custom-built for large enterprises with high demands
+                          and tailored solutions
+                        </p>
+<p class="text-base font-bold text-heading mt-1">
+                          Custom
+                        </p>
+</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border">
+<tr>
+<td class="px-6 py-3.5 text-text">Number of Seats</td>
+<td class="px-4 py-3.5 text-muted">Up to 2</td>
+<td class="px-4 py-3.5 text-muted">Up to 5</td>
+<td class="px-4 py-3.5 text-muted">Unlimited</td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Email Automations</td>
+<td class="px-4 py-3.5 text-muted">450/month</td>
+<td class="px-4 py-3.5 text-muted">600/month</td>
+<td class="px-4 py-3.5 text-muted">1,000/month</td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Email Domains</td>
+<td class="px-4 py-3.5 text-muted">1 email domain</td>
+<td class="px-4 py-3.5 text-muted">3 email domains</td>
+<td class="px-4 py-3.5 text-muted">Unlimited domains</td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Account Sync</td>
+<td class="px-4 py-3.5 text-muted">1 account/user</td>
+<td class="px-4 py-3.5 text-muted">3 accounts/user</td>
+<td class="px-4 py-3.5 text-muted">Unlimited</td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Email Sharing</td>
+<td class="px-4 py-3.5 text-muted">Limited metadata</td>
+<td class="px-4 py-3.5 text-muted">
+                        Full email content sharing
+                      </td>
+<td class="px-4 py-3.5 text-muted">
+                        Advanced sharing features
+                      </td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Email Sending</td>
+<td class="px-4 py-3.5 text-muted">2,200 emails/month</td>
+<td class="px-4 py-3.5 text-muted">5,000 emails/month</td>
+<td class="px-4 py-3.5 text-muted">
+                        10,000 emails/month
+                      </td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Bulk Email Sending</td>
+<td class="px-4 py-3.5 text-muted">
+                        50 emails at a time
+                      </td>
+<td class="px-4 py-3.5 text-muted">
+                        100 emails at a time
+                      </td>
+<td class="px-4 py-3.5 text-muted">Unlimited</td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Remove Branding</td>
+<td class="px-4 py-3.5 text-muted">No</td>
+<td class="px-4 py-3.5 text-muted">Yes</td>
+<td class="px-4 py-3.5 text-muted">Yes</td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Data Sources</td>
+<td class="px-4 py-3.5 text-muted">5 external sources</td>
+<td class="px-4 py-3.5 text-muted">
+                        10 external sources
+                      </td>
+<td class="px-4 py-3.5 text-muted">Unlimited</td>
+</tr>
+<tr>
+<td class="px-6 py-3.5 text-text">Support</td>
+<td class="px-4 py-3.5 text-muted">Standard support</td>
+<td class="px-4 py-3.5 text-muted">Priority support</td>
+<td class="px-4 py-3.5 text-muted">
+                        24/7 premium support
+                      </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- ══════════════════════════════════════════════════════════
+               TAB: My Teams
+          ══════════════════════════════════════════════════════════ -->
+<div class="tab-panel hidden space-y-5" id="tab-teams">
+<div class="flex items-center justify-between gap-4 flex-wrap">
+<div>
+<h2 class="text-base font-bold text-heading">
+                  Manage your teams
+                </h2>
+<p class="text-sm text-muted mt-0.5">
+                  Add a team and manage your team member
+                </p>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<div class="relative">
+<i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-muted text-base pointer-events-none"></i>
+<input class="h-10 w-48 pl-9 pr-3 rounded-xl border border-border bg-card text-sm placeholder:text-muted focus:outline-none focus:border-border-strong transition-colors" placeholder="Search teams" type="search"/>
+</div>
+<button class="inline-flex items-center gap-2 h-10 px-4 rounded-xl bg-heading text-card text-sm font-semibold hover:opacity-90 transition-opacity">
+<i class="ph-bold ph-plus text-sm"></i>
+                  Add teams
+                </button>
+</div>
+</div>
+<div class="card overflow-hidden">
+<div class="overflow-x-auto">
+<table class="w-full min-w-[720px] text-sm">
+<thead>
+<tr class="border-b border-border bg-subtle/50">
+<th class="w-10 px-4 py-3.5">
+<input class="w-4 h-4 rounded border-border" type="checkbox"/>
+</th>
+<th class="text-left px-4 py-3.5 font-semibold text-heading">
+<button class="inline-flex items-center gap-1 hover:text-accent transition-colors">
+                          Teams name
+                          <i class="ph ph-arrows-down-up text-muted text-xs"></i>
+</button>
+</th>
+<th class="text-left px-4 py-3.5 font-semibold text-heading">
+<button class="inline-flex items-center gap-1 hover:text-accent transition-colors">
+                          Description
+                          <i class="ph ph-arrows-down-up text-muted text-xs"></i>
+</button>
+</th>
+<th class="text-left px-4 py-3.5 font-semibold text-heading">
+<button class="inline-flex items-center gap-1 hover:text-accent transition-colors">
+                          Members
+                          <i class="ph ph-arrows-down-up text-muted text-xs"></i>
+</button>
+</th>
+<th class="text-left px-4 py-3.5 font-semibold text-heading">
+<button class="inline-flex items-center gap-1 hover:text-accent transition-colors">
+                          Parent team
+                          <i class="ph ph-arrows-down-up text-muted text-xs"></i>
+</button>
+</th>
+<th class="w-12 px-4 py-3.5"></th>
+</tr>
+</thead>
+<tbody class="divide-y divide-border" id="teams-tbody">
+<!-- rows rendered by JS -->
+</tbody>
+</table>
+</div>
+<!-- Pagination -->
+<div class="flex flex-wrap gap-2 items-center justify-between px-4 py-3.5 border-t border-border">
+<div class="flex items-center gap-2">
+<span class="text-sm text-muted">Show items</span>
+<div class="relative">
+<select class="h-8 pl-3 pr-7 rounded-lg border border-border bg-card text-sm text-text appearance-none focus:outline-none">
+<option>25</option>
+<option>50</option>
+<option>100</option>
+</select>
+<i class="ph ph-caret-down absolute right-2 top-1/2 -translate-y-1/2 text-muted text-xs pointer-events-none"></i>
+</div>
+</div>
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-lg flex items-center justify-center border border-border bg-card text-muted hover:bg-subtle transition-colors">
+<i class="ph ph-caret-left text-sm"></i>
+</button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center bg-heading text-card text-sm font-semibold">
+                    1
+                  </button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-sm text-muted hover:bg-subtle transition-colors">
+                    2
+                  </button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-sm text-muted hover:bg-subtle transition-colors">
+                    3
+                  </button>
+<span class="px-1 text-muted text-sm">…</span>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center text-sm text-muted hover:bg-subtle transition-colors">
+                    6
+                  </button>
+<button class="w-8 h-8 rounded-lg flex items-center justify-center border border-border bg-card text-muted hover:bg-subtle transition-colors">
+<i class="ph ph-caret-right text-sm"></i>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- ══════════════════════════════════════════════════════════
+               TAB: Help Center
+          ══════════════════════════════════════════════════════════ -->
+<div class="tab-panel hidden space-y-6" id="tab-help">
+<div>
+<h2 class="text-base font-bold text-heading">Help Center</h2>
+<p class="text-sm text-muted mt-0.5">
+                The place where you can get help to use Clientra
+              </p>
+</div>
+<!-- Hero banner card -->
+<div class="card p-3 md:p-5 flex items-center justify-between gap-6 flex-wrap">
+<div class="flex flex-wrap items-start gap-3 md:gap-5">
+<div class="size-12 md:size-16 rounded-2xl bg-info/10 flex items-center justify-center shrink-0">
+<i class="ph ph-question text-3xl text-info"></i>
+</div>
+<div>
+<h3 class="text-base font-bold text-heading">
+                    Help for every step, every day
+                  </h3>
+<p class="text-sm text-muted mt-1 leading-relaxed max-w-md">
+                    Access guided assistance, browse the help center, watch
+                    tutorial videos, and connect with the CRM community. Get all
+                    the resources you need right here
+                  </p>
+</div>
+</div>
+<button class="shrink-0 h-10 px-5 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors">
+                See setup guides
+              </button>
+</div>
+<!-- Search + category label -->
+<div class="flex items-center justify-between gap-4 flex-wrap">
+<div>
+<h3 class="text-sm font-bold text-heading">
+                  What is your category of difficulty
+                </h3>
+<p class="text-xs text-muted mt-0.5">
+                  Find a solution for each category of difficulties you have
+                  encountered
+                </p>
+</div>
+<div class="relative">
+<i class="ph ph-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-muted text-base pointer-events-none"></i>
+<input class="h-10 w-52 pl-9 pr-3 rounded-xl border border-border bg-card text-sm placeholder:text-muted focus:outline-none focus:border-border-strong transition-colors" placeholder="Search for help" type="search"/>
+</div>
+</div>
+<!-- Help category grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-at text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Account</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Billing, security, access control, and more account
+                    management features.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-handshake text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Deals</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Find help for things related to deals and pipelines. Be
+                    easier to use deals menu.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-user-circle text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Contacts</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Understand how to add contacts correctly, what are
+                    associated companies, deals, tasks and so on.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-buildings text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Companies</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Billing, security, access control, and more account
+                    management features.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-clipboard-text text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Tasks</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Billing, security, access control, and more account
+                    management features.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-credit-card text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Subscriptions</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Learn how to subscribe properly and which plan is suitable
+                    for your business scale
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-chart-bar text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Reports</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Understand your data with reports and dashboards to make
+                    better business decisions.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-plugs-connected text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Integrations</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Connect third-party apps and services to extend the
+                    functionality of your CRM.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+<div class="card p-3 md:p-5 flex flex-col gap-4">
+<div class="w-10 h-10 rounded-xl border border-border bg-subtle flex items-center justify-center">
+<i class="ph ph-envelope-simple text-xl text-muted"></i>
+</div>
+<div>
+<p class="text-base font-bold text-heading">Emails</p>
+<p class="text-sm text-muted mt-1 leading-relaxed">
+                    Learn how to send, receive, and manage emails directly
+                    inside your CRM.
+                  </p>
+</div>
+<button class="h-9 px-4 rounded-xl border border-border bg-card text-sm font-semibold text-heading hover:bg-subtle transition-colors self-start">
+                  View detail
+                </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<nav aria-label="Mobile navigation" class="fixed bottom-0 left-0 right-0 z-20 bg-card border-t border-border lg:hidden" id="mobile-bottom-nav">
+<div class="flex items-center justify-around h-16 px-2">
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="dashboard" href="../../index.html">
+<i class="ph ph-squares-four text-xl"></i>
+<span class="text-[10px] font-medium">Dashboard</span>
+</a>
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="contacts" href="../44/44d258512-contacts.html">
+<i class="ph ph-address-book text-xl"></i>
+<span class="text-[10px] font-medium">Contacts</span>
+</a>
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="deals" href="../1b/1bea10430-deals.html">
+<i class="ph ph-handshake text-xl"></i>
+<span class="text-[10px] font-medium">Deals</span>
+</a>
+<a class="nav-item flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" data-nav="tasks" href="../10/1099bc964-tasks.html">
+<i class="ph ph-check-square text-xl"></i>
+<span class="text-[10px] font-medium">Tasks</span>
+</a>
+<button aria-label="More options" class="flex flex-col items-center gap-1 px-3 py-1.5 text-muted hover:text-heading transition-colors duration-200" id="mobile-more-btn">
+<i class="ph ph-list text-xl"></i>
+<span class="text-[10px] font-medium">Menu</span>
+</button>
+</div>
+</nav>
+</div>
+<script src="../../recursos/32/328eb1829fdec953a9c1-settings.js"></script>
+<div aria-label="Search" aria-modal="true" class="fixed inset-0 z-[60] hidden" id="search-modal" role="dialog">
+<div class="absolute inset-0 bg-black/40 backdrop-blur-sm" data-close-search=""></div>
+<div class="relative mx-auto mt-20 sm:w-[92%] sm:max-w-[560px] card !rounded-2xl shadow-2xl overflow-hidden pop-enter">
+<!-- Search input -->
+<div class="flex items-center gap-3 px-4 h-14 border-b border-border">
+<i class="ph ph-magnifying-glass text-lg text-muted"></i>
+<input autocomplete="off" class="flex-1 bg-transparent text-[15px] text-heading placeholder:text-muted focus:outline-none" id="search-modal-input" placeholder="Search something" type="text"/>
+</div>
+<!-- Filter chips -->
+<div class="flex items-center gap-2 px-4 py-3 overflow-x-auto scrollbar-hide border-b border-border">
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-subtle text-xs font-semibold text-heading whitespace-nowrap">
+<i class="ph ph-squares-four"></i> All
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-handshake"></i> Deal
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-check-square"></i> Task
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-address-book"></i> Contact
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-buildings"></i> Company
+          </button>
+<button class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-muted hover:bg-subtle transition-colors whitespace-nowrap">
+<i class="ph ph-package"></i> Product
+          </button>
+</div>
+<!-- Results -->
+<div class="max-h-[320px] overflow-y-auto p-2">
+<p class="px-3 py-2 text-[11px] font-semibold uppercase tracking-wide text-muted/70">
+            Recent
+          </p>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<span class="w-9 h-9 rounded-lg bg-subtle flex items-center justify-center text-muted shrink-0"><i class="ph ph-handshake text-base"></i></span>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Online Learning Platform Enhancement</span>
+<span class="block text-[11px] text-muted truncate">Id : #122330FF · Deals</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold" style="
+                color: var(--color-series-purple);
+                background: color-mix(
+                  in srgb,
+                  var(--color-series-purple) 12%,
+                  transparent
+                );
+              "><span class="w-1.5 h-1.5 rounded-full" style="background: var(--color-series-purple)"></span>Qualified</span>
+</button>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<span class="w-9 h-9 rounded-lg bg-subtle flex items-center justify-center text-muted shrink-0"><i class="ph ph-check-square text-base"></i></span>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">ERP system implementation training</span>
+<span class="block text-[11px] text-muted truncate">Customer support · Tasks</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-warn/10 text-warn text-[11px] font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-warn"></span>Waiting</span>
+</button>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<span class="w-9 h-9 rounded-lg bg-subtle flex items-center justify-center text-muted shrink-0"><i class="ph ph-handshake text-base"></i></span>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Digital Banking System Security</span>
+<span class="block text-[11px] text-muted truncate">Id : #122330FF · Deals</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-info/10 text-info text-[11px] font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-info"></span>Payment</span>
+</button>
+<p class="px-3 py-2 mt-1 text-[11px] font-semibold uppercase tracking-wide text-muted/70">
+            Frequent contact
+          </p>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/50/50e07f6735f0a5222f72-user4.png"/>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Adinda Ayu Lestari</span>
+<span class="block text-[11px] text-muted truncate">ardian@gmail.com</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-positive/10 text-positive text-[11px] font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-positive"></span>Customer</span>
+</button>
+<button class="flex items-center gap-3 w-full px-3 py-2.5 rounded-xl hover:bg-subtle transition-colors duration-200 text-left">
+<img alt="" class="w-9 h-9 rounded-full object-cover shrink-0" src="../../recursos/3b/3b70f41e93e70b76285d-user6.png"/>
+<span class="flex-1 min-w-0">
+<span class="block text-sm font-medium text-heading truncate">Dwi Wahyu Anggara</span>
+<span class="block text-[11px] text-muted truncate">dwiwahyu@gmail.com</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold" style="
+                color: var(--color-series-orange);
+                background: color-mix(
+                  in srgb,
+                  var(--color-series-orange) 12%,
+                  transparent
+                );
+              "><span class="w-1.5 h-1.5 rounded-full" style="background: var(--color-series-orange)"></span>Competitor</span>
+</button>
+</div>
+<!-- Footer -->
+<div class="flex items-center gap-4 px-4 py-3 border-t border-border text-[11px] text-muted">
+<span class="inline-flex items-center gap-1"><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">↑</kbd><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">↓</kbd>
+            Move</span>
+<span class="inline-flex items-center gap-1"><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">↵</kbd>
+            Select</span>
+<span class="inline-flex items-center gap-1"><kbd class="bg-subtle border border-border rounded px-1.5 py-0.5">Esc</kbd>
+            Quit</span>
+</div>
+</div>
+</div>
+<script defer="" src="../../recursos/88/882e977f5adb8b689b4f-index.js"></script></body>
+</html>
