@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="js" data-density="comfortable" data-theme="light" lang="en" style="--top-h: 1032px;"><head>
+<meta content="noindex, nofollow" name="robots"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Customers · Accord</title>
+<meta content="Accord is a client-pipeline CRM: a drag-and-drop deal board, weekly leads, win rate, tasks, team activity and projects — animated, keyboard friendly and saved in your browser." name="description"/>
+<meta content="#e2efe8" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="Accord — client pipeline CRM" property="og:title"/>
+<meta content="Move every client from first call to signed deal on one live board." property="og:description"/>
+
+
+<link rel="stylesheet"/>
+<script>
+    /* Before first paint: the saved theme (light unless the visitor chose
+       otherwise), and html.js so CSS hides entrance targets only when JS is
+       here to bring them back. */
+    (function () {
+      var t = 'light';
+      try { t = JSON.parse(localStorage.getItem('accord:v1') || '{}').settings.appearance.theme || 'light'; } catch (e) {}
+      if (t === 'system') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+<script crossorigin="" src="../../recursos/99/993b2db64fddeba3c3d4-index-DtoNja2p.js" type="module"></script>
+<link crossorigin="" href="../../recursos/f7/f72e139af9d0be09488a-index-BOpfnzOw.css" rel="stylesheet"/>
+<link href="../../recursos/bd/bd9b1c68d30bdbd9bca8-favicon.ico" rel="icon" sizes="48x48"/>
+<link href="../../recursos/f1/f1d54aadde877a420781-favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../../recursos/eb/eb6f269b13245f1126b6-apple-touch-icon.png" rel="apple-touch-icon"/>
+<style>
+.cc-preview-pill{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:var(--cc-lift,max(16px,env(safe-area-inset-bottom)));z-index:2147483647;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;box-sizing:border-box;background:#ff5c3d;color:#161616;font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;border:2px solid #fff;box-shadow:4px 4px 0 rgba(0,0,0,.35)}
+.cc-preview-pill:hover{background:#ff7a5f}
+.cc-preview-pill:focus-visible{outline:3px solid #161616;outline-offset:2px;box-shadow:0 0 0 7px #fff}
+.cc-preview-pill__short{display:none}
+@media (max-width:480px){.cc-preview-pill{right:max(10px,env(safe-area-inset-right));bottom:var(--cc-lift,max(10px,env(safe-area-inset-bottom)));padding:0 12px;font-size:11px}.cc-preview-pill__long{display:none}.cc-preview-pill__short{display:inline}}
+</style>
+<link as="script" crossorigin="" href="../../recursos/54/54b610b56294b037d13c-team-DpLPSJ7O.js" rel="modulepreload"/><link crossorigin="" href="../../recursos/8f/8f669039b8f8e1c3b806-team-BRX428dQ.css" rel="stylesheet"/></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="app">
+<!-- ── Sidebar ──────────────────────────────────────────────────────── -->
+<aside aria-label="Sidebar" class="side" id="side" inert="">
+<div class="side__head">
+<a aria-label="Accord, dashboard" class="logo" href="#/dashboard" style="opacity: 1;">
+<span aria-hidden="true" class="logo__mark"><svg viewbox="0 0 32 32"><circle cx="12" cy="16" fill="none" r="8" stroke="currentColor" stroke-width="3"></circle><circle cx="20" cy="16" fill="none" r="8" stroke="currentColor" stroke-width="3"></circle></svg></span>
+<span class="logo__word">Accord</span>
+</a>
+<button aria-label="Close menu" class="icon-btn side__close" id="side-close" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+</div>
+<nav aria-label="Main" class="nav">
+<span aria-hidden="true" class="nav__pill"></span>
+<ul role="list">
+<li><a class="nav__item" data-route="dashboard" href="#/dashboard" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V19a1.5 1.5 0 0 1-1.5 1.5H15V15h-6v5.5H5.5A1.5 1.5 0 0 1 4 19z"></path></svg>
+<span>Dashboard</span></a></li>
+<li><a class="nav__item" data-route="tasks" href="#/tasks" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="12.5" rx="2.5" width="17" x="3.5" y="7"></rect><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3.5 12.5h17"></path></svg>
+<span>Tasks</span><b aria-label="11 due today or overdue" class="nav__count" id="tasks-count">11</b></a></li>
+<li><a class="nav__item" data-route="activity" href="#/activity" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 17.5 9.5 12l3.5 3.5L20 8.5"></path><path d="M15 8.5h5v5"></path></svg>
+<span>Activity</span></a></li>
+<li><a class="nav__item" data-route="customers" href="#/customers" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="9" cy="8.5" r="3.5"></circle><path d="M3 19.5c.6-3.2 3-5 6-5s5.4 1.8 6 5"></path><path d="M15.5 5.2a3.5 3.5 0 0 1 0 6.6M17.5 14.8c1.8.6 3 2.2 3.5 4.7"></path></svg>
+<span>Customers</span></a></li>
+<li><a class="nav__item" data-route="team" href="#/team" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="8" r="3.5"></circle><path d="M5 20c.7-3.6 3.5-5.5 7-5.5s6.3 1.9 7 5.5"></path><path d="M4.5 10.5h-1M20.5 10.5h-1"></path></svg>
+<span>Team</span></a></li>
+<li><a class="nav__item" data-route="settings" href="#/settings" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M12 3.5v2M12 18.5v2M3.5 12h2M18.5 12h2M6 6l1.4 1.4M16.6 16.6 18 18M6 18l1.4-1.4M16.6 7.4 18 6"></path></svg>
+<span>Settings</span></a></li>
+</ul>
+</nav>
+<section aria-labelledby="projects-label" class="side__group" style="opacity: 1;">
+<h2 class="side__label" id="projects-label">Projects</h2>
+<ul class="projects" id="side-projects" role="list"><li><a data-id="partner-launch" href="#/projects/partner-launch"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M13 3 5 13.5h6L10.5 21 19 10h-6z"></path></svg><span>Partner Launch</span><b aria-label="3 open deals">3</b></a></li><li><a data-id="renewals-q4" href="#/projects/renewals-q4"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"></path><path d="M19.5 4.5v4h-4"></path></svg><span>Renewals Q4</span><b aria-label="3 open deals">3</b></a></li><li><a data-id="referral-loop" href="#/projects/referral-loop"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"></path></svg><span>Referral Loop</span><b aria-label="1 open deals">1</b></a></li><li><a data-id="spring-campaign" href="#/projects/spring-campaign"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 10v4a1 1 0 0 0 1 1h2l6 4V5L7 9H5a1 1 0 0 0-1 1z"></path><path d="M17 9a4 4 0 0 1 0 6M8 15l1 5"></path></svg><span>Spring Campaign</span><b aria-label="2 open deals">2</b></a></li></ul>
+</section>
+<section aria-labelledby="members-label" class="side__group" style="opacity: 1;">
+<div class="side__row">
+<h2 class="side__label" id="members-label">Members</h2>
+<button aria-label="Invite a member" class="icon-btn icon-btn--sm" id="invite" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg></button>
+</div>
+<ul class="members" id="side-members" role="list"><li><a data-id="m1" href="#/team/m1">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/a2/a2aef9d1278d80475bd7-person-1.jpg" width="36"/><span class="who__dot"></span></span>
+<span class="members__text"><span class="members__name">Vikram Nair</span><span class="members__role">Head of Sales</span></span></a></li><li><a data-id="m2" href="#/team/m2">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/5a/5aa60d2a72e6c87af3c0-person-2.jpg" width="36"/><span class="who__dot"></span></span>
+<span class="members__text"><span class="members__name">Mei Tanaka</span><span class="members__role">Account Executive</span></span></a></li><li><a data-id="m3" href="#/team/m3">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="36"/><span class="who__dot who__dot--off"></span></span>
+<span class="members__text"><span class="members__name">Darius Cole</span><span class="members__role">Sales Development · away</span></span></a></li><li><a data-id="m4" href="#/team/m4">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/c4/c41cf4910ce8e08a7878-person-4.jpg" width="36"/><span class="who__dot"></span></span>
+<span class="members__text"><span class="members__name">Lucia Ferreira</span><span class="members__role">Customer Success</span></span></a></li><li><a class="members__more" href="#/team">+5 more</a></li></ul>
+</section>
+<div class="side__foot" style="opacity: 1;">
+<a class="me" href="#/settings/profile" id="me-link">
+<img alt="" class="me__photo" height="36" id="me-photo" src="../../recursos/90/90a8d0694d742531ab05-person-9.jpg" width="36"/>
+<span class="me__name" id="me-name">Priya Raman</span>
+</a>
+<button aria-label="Switch to dark theme" class="icon-btn side__theme" id="theme-side" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"></path></svg></button>
+<button aria-label="Sign out" class="icon-btn" id="sign-out" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M14 4.5h3.5A1.5 1.5 0 0 1 19 6v12a1.5 1.5 0 0 1-1.5 1.5H14"></path><path d="M10 8l-4 4 4 4M6 12h9"></path></svg></button>
+</div>
+</aside>
+<div class="scrim" hidden="" id="scrim"></div>
+<!-- ── Main column ──────────────────────────────────────────────────── -->
+<div class="main">
+<header class="top" id="top">
+<button aria-controls="side" aria-expanded="false" aria-label="Open menu" class="icon-btn top__menu" id="side-open" style="opacity: 1;" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"></path></svg></button>
+<div class="search" role="search" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+<label class="sr-only" for="search">Search customers, tasks, people and pages</label>
+<input aria-autocomplete="list" aria-controls="search-results" aria-expanded="false" autocomplete="off" class="search__input" id="search" placeholder="Search customers, tasks, people…" role="combobox" type="search"/>
+<kbd aria-hidden="true" class="kbd search__kbd">⌘K</kbd>
+<button aria-label="Close search" class="icon-btn search__close" id="search-close" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+<ul aria-label="Search results" class="search__results" hidden="" id="search-results" role="listbox"></ul>
+</div>
+<button aria-controls="search" aria-expanded="false" aria-label="Search" class="icon-btn top__find" id="search-open" style="opacity: 1;" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg></button>
+<div class="top__actions" id="actions" style="opacity: 1;"></div>
+<button aria-label="Switch to dark theme" class="icon-btn top__theme" id="theme" style="opacity: 1;" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"></path></svg></button>
+</header>
+<main class="views" id="main" tabindex="-1">
+<section aria-label="Dashboard" class="view" data-view="dashboard" hidden=""></section>
+<section aria-label="Tasks" class="view" data-view="tasks" hidden=""></section>
+<section aria-label="Activity" class="view" data-view="activity" hidden=""></section>
+<section aria-label="Customers" class="view" data-view="customers" hidden=""></section>
+<section aria-label="Team" class="view" data-view="team" hidden=""></section>
+<section aria-label="Project" class="view" data-view="projects" hidden=""></section>
+<section aria-label="Settings" class="view" data-view="settings" hidden=""></section>
+</main>
+</div>
+</div>
+<!-- Signed out: the whole app steps aside for this view. -->
+<section aria-label="Sign in" class="signin" data-view="signin" hidden="" id="signin"></section>
+<div aria-live="polite" class="toast" id="toast" popover="manual" role="status" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);"><span>Team couldn’t load. Check your connection and try again.</span></div>
+<p aria-live="polite" class="sr-only" id="live"></p>
+<a aria-label="Buy the Accord template on Code and Chill" class="cc-preview-pill" href="https://codeandchill.store/checkout?item=accord&amp;ref=preview" rel="noopener" target="_top"><span class="cc-preview-pill__long">Buy this template →</span><span class="cc-preview-pill__short">Buy it →</span></a>
+<script>(()=>{const p=document.querySelector('.cc-preview-pill');if(!p)return;const fit=()=>{p.style.removeProperty('--cc-lift');const a=p.getBoundingClientRect(),h=innerHeight;let top=h;for(const el of document.body.querySelectorAll('*')){if(el===p||p.contains(el))continue;const s=getComputedStyle(el);if((s.position!=='fixed'&&s.position!=='sticky')||s.display==='none'||s.visibility==='hidden'||s.opacity==='0')continue;const r=el.getBoundingClientRect();if(r.height&&r.height<200&&r.top>h/2&&r.bottom>=h-40&&r.left<a.right&&r.right>a.left)top=Math.min(top,r.top)}if(top<h)p.style.setProperty('--cc-lift',h-top+10+'px')};addEventListener('load',()=>{fit();setTimeout(fit,1500)});addEventListener('resize',fit)})()</script>
+</body></html>

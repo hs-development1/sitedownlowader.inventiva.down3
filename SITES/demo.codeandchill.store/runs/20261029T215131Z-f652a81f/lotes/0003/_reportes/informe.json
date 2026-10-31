@@ -1,0 +1,35 @@
+{
+  "sitio": "https://demo.codeandchill.store/accord/",
+  "fecha": "2026-10-31T12:03:45.013127+00:00",
+  "paginas": [
+    "https://demo.codeandchill.store/accord/#/team/m2",
+    "https://demo.codeandchill.store/accord/#/team/m3",
+    "https://demo.codeandchill.store/accord/#/team/m4",
+    "https://demo.codeandchill.store/accord/#/settings/profile",
+    "https://demo.codeandchill.store/accord/#/customers/c1",
+    "https://demo.codeandchill.store/accord/#/customers/c2",
+    "https://demo.codeandchill.store/accord/#/customers/c3",
+    "https://demo.codeandchill.store/accord/#/customers/c4",
+    "https://demo.codeandchill.store/accord/#/customers/c5",
+    "https://demo.codeandchill.store/accord/#/customers/c6"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 0,
+  "fotografias_descargadas": 0,
+  "bytes_fotografias": 0,
+  "recursos_pendientes": 17,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 0,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": true,
+  "advertencia_navegador": "",
+  "recursos": [],
+  "recursos_externos_omitidos": [
+    "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+  ],
+  "errores": [],
+  "bytes": 717725
+}

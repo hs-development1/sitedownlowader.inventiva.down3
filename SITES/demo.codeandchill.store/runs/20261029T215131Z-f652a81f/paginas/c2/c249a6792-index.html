@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html class="js" data-density="comfortable" data-theme="light" lang="en" style="--top-h: 1123px;"><head>
+<meta content="noindex, nofollow" name="robots"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
+<title>Customers · Accord</title>
+<meta content="Accord is a client-pipeline CRM: a drag-and-drop deal board, weekly leads, win rate, tasks, team activity and projects — animated, keyboard friendly and saved in your browser." name="description"/>
+<meta content="#e2efe8" name="theme-color"/>
+<meta content="website" property="og:type"/>
+<meta content="Accord — client pipeline CRM" property="og:title"/>
+<meta content="Move every client from first call to signed deal on one live board." property="og:description"/>
+
+
+<link rel="stylesheet"/>
+<script>
+    /* Before first paint: the saved theme (light unless the visitor chose
+       otherwise), and html.js so CSS hides entrance targets only when JS is
+       here to bring them back. */
+    (function () {
+      var t = 'light';
+      try { t = JSON.parse(localStorage.getItem('accord:v1') || '{}').settings.appearance.theme || 'light'; } catch (e) {}
+      if (t === 'system') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = t;
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+<script crossorigin="" src="../../recursos/99/993b2db64fddeba3c3d4-index-DtoNja2p.js" type="module"></script>
+<link crossorigin="" href="../../recursos/f7/f72e139af9d0be09488a-index-BOpfnzOw.css" rel="stylesheet"/>
+<link href="../../recursos/bd/bd9b1c68d30bdbd9bca8-favicon.ico" rel="icon" sizes="48x48"/>
+<link href="../../recursos/f1/f1d54aadde877a420781-favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="../../recursos/eb/eb6f269b13245f1126b6-apple-touch-icon.png" rel="apple-touch-icon"/>
+<style>
+.cc-preview-pill{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:var(--cc-lift,max(16px,env(safe-area-inset-bottom)));z-index:2147483647;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;box-sizing:border-box;background:#ff5c3d;color:#161616;font:600 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;border:2px solid #fff;box-shadow:4px 4px 0 rgba(0,0,0,.35)}
+.cc-preview-pill:hover{background:#ff7a5f}
+.cc-preview-pill:focus-visible{outline:3px solid #161616;outline-offset:2px;box-shadow:0 0 0 7px #fff}
+.cc-preview-pill__short{display:none}
+@media (max-width:480px){.cc-preview-pill{right:max(10px,env(safe-area-inset-right));bottom:var(--cc-lift,max(10px,env(safe-area-inset-bottom)));padding:0 12px;font-size:11px}.cc-preview-pill__long{display:none}.cc-preview-pill__short{display:inline}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="app">
+<!-- ── Sidebar ──────────────────────────────────────────────────────── -->
+<aside aria-label="Sidebar" class="side" id="side" inert="">
+<div class="side__head">
+<a aria-label="Accord, dashboard" class="logo" href="#/dashboard" style="opacity: 1;">
+<span aria-hidden="true" class="logo__mark"><svg viewbox="0 0 32 32"><circle cx="12" cy="16" fill="none" r="8" stroke="currentColor" stroke-width="3"></circle><circle cx="20" cy="16" fill="none" r="8" stroke="currentColor" stroke-width="3"></circle></svg></span>
+<span class="logo__word">Accord</span>
+</a>
+<button aria-label="Close menu" class="icon-btn side__close" id="side-close" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+</div>
+<nav aria-label="Main" class="nav">
+<span aria-hidden="true" class="nav__pill" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 4679px);"></span>
+<ul role="list">
+<li><a class="nav__item" data-route="dashboard" href="#/dashboard" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 10.5 12 4l8 6.5V19a1.5 1.5 0 0 1-1.5 1.5H15V15h-6v5.5H5.5A1.5 1.5 0 0 1 4 19z"></path></svg>
+<span>Dashboard</span></a></li>
+<li><a class="nav__item" data-route="tasks" href="#/tasks" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="12.5" rx="2.5" width="17" x="3.5" y="7"></rect><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3.5 12.5h17"></path></svg>
+<span>Tasks</span><b aria-label="11 due today or overdue" class="nav__count" id="tasks-count">11</b></a></li>
+<li><a class="nav__item" data-route="activity" href="#/activity" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 17.5 9.5 12l3.5 3.5L20 8.5"></path><path d="M15 8.5h5v5"></path></svg>
+<span>Activity</span></a></li>
+<li><a aria-current="page" class="nav__item is-active" data-route="customers" href="#/customers" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="9" cy="8.5" r="3.5"></circle><path d="M3 19.5c.6-3.2 3-5 6-5s5.4 1.8 6 5"></path><path d="M15.5 5.2a3.5 3.5 0 0 1 0 6.6M17.5 14.8c1.8.6 3 2.2 3.5 4.7"></path></svg>
+<span>Customers</span></a></li>
+<li><a class="nav__item" data-route="team" href="#/team" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="8" r="3.5"></circle><path d="M5 20c.7-3.6 3.5-5.5 7-5.5s6.3 1.9 7 5.5"></path><path d="M4.5 10.5h-1M20.5 10.5h-1"></path></svg>
+<span>Team</span></a></li>
+<li><a class="nav__item" data-route="settings" href="#/settings" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="12" r="3"></circle><path d="M12 3.5v2M12 18.5v2M3.5 12h2M18.5 12h2M6 6l1.4 1.4M16.6 16.6 18 18M6 18l1.4-1.4M16.6 7.4 18 6"></path></svg>
+<span>Settings</span></a></li>
+</ul>
+</nav>
+<section aria-labelledby="projects-label" class="side__group" style="opacity: 1;">
+<h2 class="side__label" id="projects-label">Projects</h2>
+<ul class="projects" id="side-projects" role="list"><li><a data-id="partner-launch" href="#/projects/partner-launch"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M13 3 5 13.5h6L10.5 21 19 10h-6z"></path></svg><span>Partner Launch</span><b aria-label="3 open deals">3</b></a></li><li><a data-id="renewals-q4" href="#/projects/renewals-q4"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"></path><path d="M19.5 4.5v4h-4"></path></svg><span>Renewals Q4</span><b aria-label="3 open deals">3</b></a></li><li><a data-id="referral-loop" href="#/projects/referral-loop"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"></path></svg><span>Referral Loop</span><b aria-label="1 open deals">1</b></a></li><li><a data-id="spring-campaign" href="#/projects/spring-campaign"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 10v4a1 1 0 0 0 1 1h2l6 4V5L7 9H5a1 1 0 0 0-1 1z"></path><path d="M17 9a4 4 0 0 1 0 6M8 15l1 5"></path></svg><span>Spring Campaign</span><b aria-label="2 open deals">2</b></a></li></ul>
+</section>
+<section aria-labelledby="members-label" class="side__group" style="opacity: 1;">
+<div class="side__row">
+<h2 class="side__label" id="members-label">Members</h2>
+<button aria-label="Invite a member" class="icon-btn icon-btn--sm" id="invite" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg></button>
+</div>
+<ul class="members" id="side-members" role="list"><li><a data-id="m1" href="#/team/m1">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/a2/a2aef9d1278d80475bd7-person-1.jpg" width="36"/><span class="who__dot"></span></span>
+<span class="members__text"><span class="members__name">Vikram Nair</span><span class="members__role">Head of Sales</span></span></a></li><li><a data-id="m2" href="#/team/m2">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/5a/5aa60d2a72e6c87af3c0-person-2.jpg" width="36"/><span class="who__dot"></span></span>
+<span class="members__text"><span class="members__name">Mei Tanaka</span><span class="members__role">Account Executive</span></span></a></li><li><a data-id="m3" href="#/team/m3">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="36"/><span class="who__dot who__dot--off"></span></span>
+<span class="members__text"><span class="members__name">Darius Cole</span><span class="members__role">Sales Development · away</span></span></a></li><li><a data-id="m4" href="#/team/m4">
+<span class="who"><img alt="" class="av av--md" decoding="async" height="36" loading="lazy" src="../../recursos/c4/c41cf4910ce8e08a7878-person-4.jpg" width="36"/><span class="who__dot"></span></span>
+<span class="members__text"><span class="members__name">Lucia Ferreira</span><span class="members__role">Customer Success</span></span></a></li><li><a class="members__more" href="#/team">+5 more</a></li></ul>
+</section>
+<div class="side__foot" style="opacity: 1;">
+<a class="me" href="#/settings/profile" id="me-link">
+<img alt="" class="me__photo" height="36" id="me-photo" src="../../recursos/90/90a8d0694d742531ab05-person-9.jpg" width="36"/>
+<span class="me__name" id="me-name">Priya Raman</span>
+</a>
+<button aria-label="Switch to dark theme" class="icon-btn side__theme" id="theme-side" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"></path></svg></button>
+<button aria-label="Sign out" class="icon-btn" id="sign-out" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M14 4.5h3.5A1.5 1.5 0 0 1 19 6v12a1.5 1.5 0 0 1-1.5 1.5H14"></path><path d="M10 8l-4 4 4 4M6 12h9"></path></svg></button>
+</div>
+</aside>
+<div class="scrim" hidden="" id="scrim"></div>
+<!-- ── Main column ──────────────────────────────────────────────────── -->
+<div class="main">
+<header class="top" id="top">
+<button aria-controls="side" aria-expanded="false" aria-label="Open menu" class="icon-btn top__menu" id="side-open" style="opacity: 1;" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"></path></svg></button>
+<div class="search" role="search" style="opacity: 1;">
+<svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+<label class="sr-only" for="search">Search customers, tasks, people and pages</label>
+<input aria-autocomplete="list" aria-controls="search-results" aria-expanded="false" autocomplete="off" class="search__input" id="search" placeholder="Search customers, tasks, people…" role="combobox" type="search"/>
+<kbd aria-hidden="true" class="kbd search__kbd">⌘K</kbd>
+<button aria-label="Close search" class="icon-btn search__close" id="search-close" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"></path></svg></button>
+<ul aria-label="Search results" class="search__results" hidden="" id="search-results" role="listbox"></ul>
+</div>
+<button aria-controls="search" aria-expanded="false" aria-label="Search" class="icon-btn top__find" id="search-open" style="opacity: 1;" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg></button>
+<div class="top__actions" id="actions" style="opacity: 1;"><button class="tool" data-act="edit" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16z"></path><path d="m13.5 6.5 4 4"></path></svg><span>Edit</span></button>
+<button class="btn btn--primary" data-act="log" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>Log activity</button></div>
+<button aria-label="Switch to dark theme" class="icon-btn top__theme" id="theme" style="opacity: 1;" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"></path></svg></button>
+</header>
+<main class="views" id="main" tabindex="-1">
+<section aria-label="Dashboard" class="view" data-view="dashboard" hidden=""></section>
+<section aria-label="Tasks" class="view" data-view="tasks" hidden=""></section>
+<section aria-label="Activity" class="view" data-view="activity" hidden=""></section>
+<section aria-label="Customers" class="view" data-entered="1" data-view="customers" style="">
+<div class="cx-board" hidden="">
+<div class="band cx-band">
+<h1 class="sr-only" tabindex="-1">Customers</h1>
+<section aria-labelledby="cx-chart-h" class="cx-chart">
+<div class="cx-chart__head"><h2 class="cx-chart__title" id="cx-chart-h">New leads</h2>
+<p class="cx-legend"><span><i aria-hidden="true"></i>This week</span><span><i aria-hidden="true" class="is-prev"></i>Last week</span></p></div>
+<div aria-label="New leads per weekday" class="wk" id="cx-week" role="group">
+<div aria-hidden="true" class="wk__axis"><span>12</span><span>6</span><span>0</span></div>
+<div class="wk__days">
+<div aria-label="Mon: 4 new leads, 7 the week before" class="wk__day" data-i="0" tabindex="0">
+<div class="wk__pair">
+<span class="wk__well wk__well--prev"><i class="wk__bar wk__bar--prev" style="translate: none; rotate: none; scale: none; transform: translate(0%, 41.6667%);"></i></span>
+<span class="wk__well"><i class="wk__bar" style="translate: none; rotate: none; scale: none; transform: translate(0%, 66.6667%);"></i><b class="wk__val">4</b></span>
+</div>
+<span class="wk__lab">Mon</span>
+</div>
+<div aria-label="Tue: 3 new leads, 7 the week before" class="wk__day" data-i="1" tabindex="0">
+<div class="wk__pair">
+<span class="wk__well wk__well--prev"><i class="wk__bar wk__bar--prev" style="translate: none; rotate: none; scale: none; transform: translate(0%, 41.6667%);"></i></span>
+<span class="wk__well"><i class="wk__bar" style="translate: none; rotate: none; scale: none; transform: translate(0%, 75%);"></i><b class="wk__val">3</b></span>
+</div>
+<span class="wk__lab">Tue</span>
+</div>
+<div aria-label="Wed: 11 new leads, 6 the week before" class="wk__day" data-i="2" tabindex="0">
+<div class="wk__pair">
+<span class="wk__well wk__well--prev"><i class="wk__bar wk__bar--prev" style="translate: none; rotate: none; scale: none; transform: translate(0%, 50%);"></i></span>
+<span class="wk__well"><i class="wk__bar" style="translate: none; rotate: none; scale: none; transform: translate(0%, 8.3333%);"></i><b class="wk__val">11</b></span>
+</div>
+<span class="wk__lab">Wed</span>
+</div>
+<div aria-label="Thu: 7 new leads, 7 the week before" class="wk__day" data-i="3" tabindex="0">
+<div class="wk__pair">
+<span class="wk__well wk__well--prev"><i class="wk__bar wk__bar--prev" style="translate: none; rotate: none; scale: none; transform: translate(0%, 41.6667%);"></i></span>
+<span class="wk__well"><i class="wk__bar" style="translate: none; rotate: none; scale: none; transform: translate(0%, 41.6667%);"></i><b class="wk__val">7</b></span>
+</div>
+<span class="wk__lab">Thu</span>
+</div>
+<div aria-label="Fri: 9 new leads, 3 the week before" class="wk__day" data-i="4" tabindex="0">
+<div class="wk__pair">
+<span class="wk__well wk__well--prev"><i class="wk__bar wk__bar--prev" style="translate: none; rotate: none; scale: none; transform: translate(0%, 75%);"></i></span>
+<span class="wk__well"><i class="wk__bar" style="translate: none; rotate: none; scale: none; transform: translate(0%, 25%);"></i><b class="wk__val">9</b></span>
+</div>
+<span class="wk__lab">Fri</span>
+</div>
+</div></div>
+</section>
+<div aria-label="Deals won: 64%" class="gauge" id="cx-gauge" role="img">
+<svg aria-hidden="true" viewbox="0 0 240 132"><g class="gauge__base"><line class="" x1="42.0" x2="8.0" y1="122.0" y2="122.0"></line><line class="" x1="36.2" x2="8.3" y1="115.9" y2="113.8"></line><line class="" x1="36.9" x2="9.2" y1="109.8" y2="105.7"></line><line class="" x1="38.0" x2="10.7" y1="103.7" y2="97.6"></line><line class="" x1="45.3" x2="12.7" y1="99.5" y2="89.7"></line><line class="" x1="41.5" x2="15.4" y1="92.0" y2="82.0"></line><line class="" x1="43.9" x2="18.6" y1="86.3" y2="74.5"></line><line class="" x1="46.7" x2="22.3" y1="80.9" y2="67.2"></line><line class="" x1="54.9" x2="26.6" y1="79.0" y2="60.2"></line><line class="" x1="53.5" x2="31.4" y1="70.7" y2="53.5"></line><line class="" x1="57.4" x2="36.6" y1="65.9" y2="47.3"></line><line class="" x1="61.7" x2="42.3" y1="61.5" y2="41.4"></line><line class="" x1="70.1" x2="48.4" y1="62.0" y2="35.9"></line><line class="" x1="71.1" x2="54.8" y1="53.7" y2="30.9"></line><line class="" x1="76.2" x2="61.7" y1="50.3" y2="26.4"></line><line class="" x1="81.6" x2="68.8" y1="47.3" y2="22.4"></line><line class="" x1="89.5" x2="76.2" y1="50.2" y2="18.9"></line><line class="" x1="92.9" x2="83.8" y1="42.5" y2="16.0"></line><line class="" x1="98.8" x2="91.7" y1="40.7" y2="13.6"></line><line class="" x1="104.7" x2="99.7" y1="39.4" y2="11.9"></line><line class="" x1="111.5" x2="107.8" y1="44.5" y2="10.7"></line><line class="" x1="116.9" x2="115.9" y1="38.1" y2="10.1"></line><line class="" x1="123.1" x2="124.1" y1="38.1" y2="10.1"></line><line class="" x1="129.2" x2="132.2" y1="38.5" y2="10.7"></line><line class="" x1="134.2" x2="140.3" y1="45.3" y2="11.9"></line><line class="" x1="141.2" x2="148.3" y1="40.7" y2="13.6"></line><line class="" x1="147.1" x2="156.2" y1="42.5" y2="16.0"></line><line class="" x1="152.9" x2="163.8" y1="44.7" y2="18.9"></line><line class="" x1="155.7" x2="171.2" y1="52.6" y2="22.4"></line><line class="" x1="163.8" x2="178.3" y1="50.3" y2="26.4"></line><line class="" x1="168.9" x2="185.2" y1="53.7" y2="30.9"></line><line class="" x1="173.7" x2="191.6" y1="57.4" y2="35.9"></line><line class="" x1="174.1" x2="197.7" y1="65.8" y2="41.4"></line><line class="" x1="182.6" x2="203.4" y1="65.9" y2="47.3"></line><line class="" x1="186.5" x2="208.6" y1="70.7" y2="53.5"></line><line class="" x1="190.1" x2="213.4" y1="75.7" y2="60.2"></line><line class="" x1="188.0" x2="217.7" y1="83.8" y2="67.2"></line><line class="" x1="196.1" x2="221.4" y1="86.3" y2="74.5"></line><line class="" x1="198.5" x2="224.6" y1="92.0" y2="82.0"></line><line class="" x1="200.4" x2="227.3" y1="97.8" y2="89.7"></line><line class="" x1="196.1" x2="229.3" y1="105.0" y2="97.6"></line><line class="" x1="203.1" x2="230.8" y1="109.8" y2="105.7"></line><line class="" x1="203.8" x2="231.7" y1="115.9" y2="113.8"></line><line class="" x1="204.0" x2="232.0" y1="122.0" y2="122.0"></line></g><g class="gauge__lit"><line class="" style="opacity: 1;" x1="42.0" x2="8.0" y1="122.0" y2="122.0"></line><line class="" style="opacity: 1;" x1="36.2" x2="8.3" y1="115.9" y2="113.8"></line><line class="" style="opacity: 1;" x1="36.9" x2="9.2" y1="109.8" y2="105.7"></line><line class="" style="opacity: 1;" x1="38.0" x2="10.7" y1="103.7" y2="97.6"></line><line class="" style="opacity: 1;" x1="45.3" x2="12.7" y1="99.5" y2="89.7"></line><line class="" style="opacity: 1;" x1="41.5" x2="15.4" y1="92.0" y2="82.0"></line><line class="" style="opacity: 1;" x1="43.9" x2="18.6" y1="86.3" y2="74.5"></line><line class="" style="opacity: 1;" x1="46.7" x2="22.3" y1="80.9" y2="67.2"></line><line class="" style="opacity: 1;" x1="54.9" x2="26.6" y1="79.0" y2="60.2"></line><line class="" style="opacity: 1;" x1="53.5" x2="31.4" y1="70.7" y2="53.5"></line><line class="" style="opacity: 1;" x1="57.4" x2="36.6" y1="65.9" y2="47.3"></line><line class="" style="opacity: 1;" x1="61.7" x2="42.3" y1="61.5" y2="41.4"></line><line class="" style="opacity: 1;" x1="70.1" x2="48.4" y1="62.0" y2="35.9"></line><line class="" style="opacity: 1;" x1="71.1" x2="54.8" y1="53.7" y2="30.9"></line><line class="" style="opacity: 1;" x1="76.2" x2="61.7" y1="50.3" y2="26.4"></line><line class="" style="opacity: 1;" x1="81.6" x2="68.8" y1="47.3" y2="22.4"></line><line class="" style="opacity: 1;" x1="89.5" x2="76.2" y1="50.2" y2="18.9"></line><line class="" style="opacity: 1;" x1="92.9" x2="83.8" y1="42.5" y2="16.0"></line><line class="" style="opacity: 1;" x1="98.8" x2="91.7" y1="40.7" y2="13.6"></line><line class="" style="opacity: 1;" x1="104.7" x2="99.7" y1="39.4" y2="11.9"></line><line class="" style="opacity: 1;" x1="111.5" x2="107.8" y1="44.5" y2="10.7"></line><line class="" style="opacity: 1;" x1="116.9" x2="115.9" y1="38.1" y2="10.1"></line><line class="" style="opacity: 1;" x1="123.1" x2="124.1" y1="38.1" y2="10.1"></line><line class="" style="opacity: 1;" x1="129.2" x2="132.2" y1="38.5" y2="10.7"></line><line class="" style="opacity: 1;" x1="134.2" x2="140.3" y1="45.3" y2="11.9"></line><line class="" style="opacity: 1;" x1="141.2" x2="148.3" y1="40.7" y2="13.6"></line><line class="" style="opacity: 1;" x1="147.1" x2="156.2" y1="42.5" y2="16.0"></line><line class="" style="opacity: 1;" x1="152.9" x2="163.8" y1="44.7" y2="18.9"></line><line class="" style="opacity: 0;" x1="155.7" x2="171.2" y1="52.6" y2="22.4"></line><line class="" style="opacity: 0;" x1="163.8" x2="178.3" y1="50.3" y2="26.4"></line><line class="" style="opacity: 0;" x1="168.9" x2="185.2" y1="53.7" y2="30.9"></line><line class="" style="opacity: 0;" x1="173.7" x2="191.6" y1="57.4" y2="35.9"></line><line class="" style="opacity: 0;" x1="174.1" x2="197.7" y1="65.8" y2="41.4"></line><line class="" style="opacity: 0;" x1="182.6" x2="203.4" y1="65.9" y2="47.3"></line><line class="" style="opacity: 0;" x1="186.5" x2="208.6" y1="70.7" y2="53.5"></line><line class="" style="opacity: 0;" x1="190.1" x2="213.4" y1="75.7" y2="60.2"></line><line class="" style="opacity: 0;" x1="188.0" x2="217.7" y1="83.8" y2="67.2"></line><line class="" style="opacity: 0;" x1="196.1" x2="221.4" y1="86.3" y2="74.5"></line><line class="" style="opacity: 0;" x1="198.5" x2="224.6" y1="92.0" y2="82.0"></line><line class="" style="opacity: 0;" x1="200.4" x2="227.3" y1="97.8" y2="89.7"></line><line class="" style="opacity: 0;" x1="196.1" x2="229.3" y1="105.0" y2="97.6"></line><line class="" style="opacity: 0;" x1="203.1" x2="230.8" y1="109.8" y2="105.7"></line><line class="" style="opacity: 0;" x1="203.8" x2="231.7" y1="115.9" y2="113.8"></line><line class="" style="opacity: 0;" x1="204.0" x2="232.0" y1="122.0" y2="122.0"></line></g></svg>
+<div class="gauge__read"><span class="gauge__num"><b>64</b>%</span><span class="gauge__cap">Deals won</span></div></div>
+<div class="cx-figs">
+<section aria-labelledby="cx-tasks-l" class="cx-fig">
+<span class="cx-fig__value num" id="cx-tasks">31</span>
+<div class="cx-fig__row"><span class="cx-fig__label" id="cx-tasks-l">Tasks<br/>in progress</span><a aria-label="Open tasks" class="cx-fig__go" href="#/tasks"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+</section>
+<section aria-labelledby="cx-dep-l" class="cx-fig">
+<span class="cx-fig__value num" id="cx-deposits">$ 90,000</span>
+<div class="cx-fig__row"><span class="cx-fig__label" id="cx-dep-l">Deposits<br/>from customers</span><a aria-label="Open the dashboard" class="cx-fig__go" href="#/dashboard"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+</section>
+</div>
+</div>
+<div class="body">
+<p class="sr-only" id="drag-help">Enter shows details. Space picks the card up; arrow keys move it between and within stages; Space drops it; Escape puts it back.</p>
+<nav aria-label="Jump to a stage" class="stage-nav"><button aria-current="true" data-jump="qualified" type="button"><i aria-hidden="true" class="stage-nav__dot stage--qualified"></i><span class="stage-nav__name">Qualified</span><b>8</b></button><button data-jump="talks" type="button"><i aria-hidden="true" class="stage-nav__dot stage--talks"></i><span class="stage-nav__name">In talks</span><b>7</b></button><button data-jump="proposal" type="button"><i aria-hidden="true" class="stage-nav__dot stage--proposal"></i><span class="stage-nav__name">Proposal</span><b>6</b></button><button data-jump="won" type="button"><i aria-hidden="true" class="stage-nav__dot stage--won"></i><span class="stage-nav__name">Won</span><b>7</b></button></nav>
+<div class="board" id="board">
+<section aria-labelledby="col-qualified" class="col" data-stage="qualified">
+<div class="col__head">
+<h2 class="col__title" id="col-qualified"><span class="col__name">Qualified</span><span class="col__sum">$176.5K</span></h2>
+<button aria-label="8 deals in Qualified. Reverse order" aria-pressed="false" class="col__count" type="button"><b>8</b><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M8 4v16M4.5 7.5 8 4l3.5 3.5"></path><path d="M16 20V4M12.5 16.5 16 20l3.5-3.5"></path></svg></button>
+</div>
+<div class="col__list"><article aria-describedby="drag-help" aria-label="Halcyon Labs, $38,000, Qualified" class="deal" data-id="c1" data-key="c1" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c1" aria-expanded="false" class="deal__toggle" type="button">Halcyon Labs</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Halcyon Labs" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Lab automation software for biotech research teams</p>
+<div class="deal__peek" hidden="" id="peek-c1">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>443 Alder St, Austin, TX 78701</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:elena@halcyonlabs.com">elena@halcyonlabs.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/a2/a2aef9d1278d80475bd7-person-1.jpg" width="28"/><span><small>Owner</small>Vikram Nair</span></div>
+<a class="deal__open" href="#/customers/c1">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta meta--soon"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-01T10:00:00.000Z">1 Nov</time><span class="sr-only">, tomorrow</span></span>
+<span class="deal__value">$38K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>4<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>7<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Brightmoor Dental, $21,500, Qualified" class="deal" data-id="c2" data-key="c2" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c2" aria-expanded="false" class="deal__toggle" type="button">Brightmoor Dental</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Brightmoor Dental" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Group of six family dental clinics in Oregon</p>
+<div class="deal__peek" hidden="" id="peek-c2">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>848 Alder St, Denver, CO 80202</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:marcus@brightmoordental.com">marcus@brightmoordental.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/a2/a2aef9d1278d80475bd7-person-1.jpg" width="28"/><span><small>Owner</small>Vikram Nair</span></div>
+<a class="deal__open" href="#/customers/c2">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg>No due date</span>
+<span class="deal__value">$21.5K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>7<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>1<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Tidewater Bakery, $8,400, Qualified" class="deal" data-id="c3" data-key="c3" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c3" aria-expanded="false" class="deal__toggle" type="button">Tidewater Bakery</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Tidewater Bakery" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Wholesale sourdough for cafés and grocers</p>
+<div class="deal__peek" hidden="" id="peek-c3">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>23 Cedar Ln, Boise, ID 83702</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:sofia@tidewaterbakery.com">sofia@tidewaterbakery.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="28"/><span><small>Owner</small>Darius Cole</span></div>
+<a class="deal__open" href="#/customers/c3">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-05T14:15:00.000Z">5 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$8.4K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>5<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>8<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Copperline Legal, $16,000, Qualified" class="deal" data-id="c4" data-key="c4" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c4" aria-expanded="false" class="deal__toggle" type="button">Copperline Legal</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Copperline Legal" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Boutique firm for startup contracts and IP</p>
+<div class="deal__peek" hidden="" id="peek-c4">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>302 Cedar Ln, Seattle, WA 98104</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:jonah@copperlinelegal.com">jonah@copperlinelegal.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/c4/c41cf4910ce8e08a7878-person-4.jpg" width="28"/><span><small>Owner</small>Lucia Ferreira</span></div>
+<a class="deal__open" href="#/customers/c4">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg>No due date</span>
+<span class="deal__value">$16K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>8<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>0<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Saltmarsh Brewing, $11,200, Qualified" class="deal" data-id="c5" data-key="c5" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c5" aria-expanded="false" class="deal__toggle" type="button">Saltmarsh Brewing</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Saltmarsh Brewing" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Craft brewery with two taprooms and a canning line</p>
+<div class="deal__peek" hidden="" id="peek-c5">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>189 Cedar Ln, Denver, CO 80202</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:amara@saltmarshbrewing.com">amara@saltmarshbrewing.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="28"/><span><small>Owner</small>Darius Cole</span></div>
+<a class="deal__open" href="#/customers/c5">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta meta--soon"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-31T15:00:00.000Z">31 Oct</time><span class="sr-only">, today</span></span>
+<span class="deal__value">$11.2K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>4<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>4<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Kinetic Gyms, $27,800, Qualified" class="deal" data-id="c6" data-key="c6" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c6" aria-expanded="false" class="deal__toggle" type="button">Kinetic Gyms</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Kinetic Gyms" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Boxing and strength studios in three cities</p>
+<div class="deal__peek" hidden="" id="peek-c6">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>208 Bay St, Charleston, SC 29401</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:felix@kineticgyms.com">felix@kineticgyms.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5d/5d0383c32f47b6691b0e-person-6.jpg" width="28"/><span><small>Owner</small>Karim Mansour</span></div>
+<a class="deal__open" href="#/customers/c6">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-03T17:00:00.000Z">3 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$27.8K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>5<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>5<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Openfield Farms, $9,600, Qualified" class="deal" data-id="c7" data-key="c7" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c7" aria-expanded="false" class="deal__toggle" type="button">Openfield Farms</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Openfield Farms" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Organic produce boxes, delivered every week</p>
+<div class="deal__peek" hidden="" id="peek-c7">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>144 Union Blvd, Sacramento, CA 95814</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:nadia@openfieldfarms.com">nadia@openfieldfarms.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/81/81bfb5ce6b8938463f2b-person-8.jpg" width="28"/><span><small>Owner</small>Theo Marchetti</span></div>
+<a class="deal__open" href="#/customers/c7">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-05T14:30:00.000Z">5 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$9.6K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>7<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>1<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Pinecrest Academy, $44,000, Qualified" class="deal" data-id="c8" data-key="c8" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c8" aria-expanded="false" class="deal__toggle" type="button">Pinecrest Academy</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Pinecrest Academy" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Private K–8 school planning a second campus</p>
+<div class="deal__peek" hidden="" id="peek-c8">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>944 Union Blvd, Madison, WI 53703</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:owen@pinecrestacademy.com">owen@pinecrestacademy.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/c4/c41cf4910ce8e08a7878-person-4.jpg" width="28"/><span><small>Owner</small>Lucia Ferreira</span></div>
+<a class="deal__open" href="#/customers/c8">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-10T15:30:00.000Z">10 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$44K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>7<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>1<span class="sr-only"> files</span></span></span>
+</div>
+</article></div>
+</section><section aria-labelledby="col-talks" class="col" data-stage="talks">
+<div class="col__head">
+<h2 class="col__title" id="col-talks"><span class="col__name">In talks</span><span class="col__sum">$265.4K</span></h2>
+<button aria-label="7 deals in In talks. Reverse order" aria-pressed="false" class="col__count" type="button"><b>7</b><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M8 4v16M4.5 7.5 8 4l3.5 3.5"></path><path d="M16 20V4M12.5 16.5 16 20l3.5-3.5"></path></svg></button>
+</div>
+<div class="col__list"><article aria-describedby="drag-help" aria-label="Oarlock Freight, $62,000, In talks" class="deal" data-id="c9" data-key="c9" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c9" aria-expanded="false" class="deal__toggle" type="button">Oarlock Freight</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Oarlock Freight" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Regional trucking and cold-chain logistics</p>
+<div class="deal__peek" hidden="" id="peek-c9">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>583 Juniper Ave, Portland, OR 97209</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:leila@oarlockfreight.com">leila@oarlockfreight.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5a/5aa60d2a72e6c87af3c0-person-2.jpg" width="28"/><span><small>Owner</small>Mei Tanaka</span></div>
+<a class="deal__open" href="#/customers/c9">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta meta--soon"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-31T15:30:00.000Z">31 Oct</time><span class="sr-only">, today</span></span>
+<span class="deal__value">$62K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>1<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>0<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Verdant Roofing, $19,400, In talks" class="deal" data-id="c10" data-key="c10" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c10" aria-expanded="false" class="deal__toggle" type="button">Verdant Roofing</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Verdant Roofing" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Solar-ready roofing for new and older homes</p>
+<div class="deal__peek" hidden="" id="peek-c10">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>904 Juniper Ave, Austin, TX 78701</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:tomás@verdantroofing.com">tomás@verdantroofing.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/81/81bfb5ce6b8938463f2b-person-8.jpg" width="28"/><span><small>Owner</small>Theo Marchetti</span></div>
+<a class="deal__open" href="#/customers/c10">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-03T11:45:00.000Z">3 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$19.4K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>2<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>4<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Marigold Studio, $14,750, In talks" class="deal" data-id="c11" data-key="c11" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c11" aria-expanded="false" class="deal__toggle" type="button">Marigold Studio</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Marigold Studio" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Interior design for boutique hotels and spas</p>
+<div class="deal__peek" hidden="" id="peek-c11">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>209 Harbor Way, Portland, OR 97209</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:grace@marigoldstudio.com">grace@marigoldstudio.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/a2/a2aef9d1278d80475bd7-person-1.jpg" width="28"/><span><small>Owner</small>Vikram Nair</span></div>
+<a class="deal__open" href="#/customers/c11">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-21T14:30:00.000Z">21 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$14.8K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>6<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>5<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Northstar Physio, $23,300, In talks" class="deal" data-id="c12" data-key="c12" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c12" aria-expanded="false" class="deal__toggle" type="button">Northstar Physio</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Northstar Physio" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Sports injury and rehab clinics</p>
+<div class="deal__peek" hidden="" id="peek-c12">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>256 Alder St, Madison, WI 53703</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:rohan@northstarphysio.com">rohan@northstarphysio.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/90/90a8d0694d742531ab05-person-9.jpg" width="28"/><span><small>Owner</small>Priya Raman</span></div>
+<a class="deal__open" href="#/customers/c12">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-20T14:30:00.000Z">20 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$23.3K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>3<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>8<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Glasswing Software, $51,000, In talks" class="deal" data-id="c13" data-key="c13" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c13" aria-expanded="false" class="deal__toggle" type="button">Glasswing Software</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Glasswing Software" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Scheduling tools for field service teams</p>
+<div class="deal__peek" hidden="" id="peek-c13">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>889 Cedar Ln, Madison, WI 53703</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:ingrid@glasswingsoftware.com">ingrid@glasswingsoftware.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/85/851ad89e209827e4f035-person-7.jpg" width="28"/><span><small>Owner</small>Adaeze Obi</span></div>
+<a class="deal__open" href="#/customers/c13">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta meta--soon"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-31T09:15:00.000Z">31 Oct</time><span class="sr-only">, today</span></span>
+<span class="deal__value">$51K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>7<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>8<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Bramble Florists, $6,900, In talks" class="deal" data-id="c14" data-key="c14" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c14" aria-expanded="false" class="deal__toggle" type="button">Bramble Florists</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Bramble Florists" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Event flowers and weekly office arrangements</p>
+<div class="deal__peek" hidden="" id="peek-c14">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>324 Alder St, Savannah, GA 31401</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:caleb@brambleflorists.com">caleb@brambleflorists.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/81/81bfb5ce6b8938463f2b-person-8.jpg" width="28"/><span><small>Owner</small>Theo Marchetti</span></div>
+<a class="deal__open" href="#/customers/c14">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-10T12:30:00.000Z">10 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$6.9K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>4<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>0<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Quayside Hotels, $88,000, In talks" class="deal" data-id="c15" data-key="c15" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c15" aria-expanded="false" class="deal__toggle" type="button">Quayside Hotels</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Quayside Hotels" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Four waterfront hotels on the east coast</p>
+<div class="deal__peek" hidden="" id="peek-c15">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>263 Mill Rd, Boise, ID 83702</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:yara@quaysidehotels.com">yara@quaysidehotels.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5a/5aa60d2a72e6c87af3c0-person-2.jpg" width="28"/><span><small>Owner</small>Mei Tanaka</span></div>
+<a class="deal__open" href="#/customers/c15">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-03T09:30:00.000Z">3 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$88K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>8<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>1<span class="sr-only"> files</span></span></span>
+</div>
+</article></div>
+</section><section aria-labelledby="col-proposal" class="col" data-stage="proposal">
+<div class="col__head">
+<h2 class="col__title" id="col-proposal"><span class="col__name">Proposal</span><span class="col__sum">$275.7K</span></h2>
+<button aria-label="6 deals in Proposal. Reverse order" aria-pressed="false" class="col__count" type="button"><b>6</b><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M8 4v16M4.5 7.5 8 4l3.5 3.5"></path><path d="M16 20V4M12.5 16.5 16 20l3.5-3.5"></path></svg></button>
+</div>
+<div class="col__list"><article aria-describedby="drag-help" aria-label="Juniper Health, $72,500, Proposal" class="deal" data-id="c16" data-key="c16" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c16" aria-expanded="false" class="deal__toggle" type="button">Juniper Health</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Juniper Health" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Telehealth visits for rural clinics</p>
+<div class="deal__peek" hidden="" id="peek-c16">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>145 Harbor Way, Sacramento, CA 95814</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:hugo@juniperhealth.com">hugo@juniperhealth.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5a/5aa60d2a72e6c87af3c0-person-2.jpg" width="28"/><span><small>Owner</small>Mei Tanaka</span></div>
+<a class="deal__open" href="#/customers/c16">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta meta--late"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 21V4.5M5 4.5h11l-2 4 2 4H5"></path></svg><time datetime="2026-10-30T11:00:00.000Z">30 Oct</time><span class="sr-only">, overdue</span></span>
+<span class="deal__value">$72.5K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>8<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>8<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Fieldstone Realty, $34,200, Proposal" class="deal" data-id="c17" data-key="c17" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c17" aria-expanded="false" class="deal__toggle" type="button">Fieldstone Realty</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Fieldstone Realty" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Commercial leasing and property management</p>
+<div class="deal__peek" hidden="" id="peek-c17">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>935 Lakeshore Dr, Portland, OR 97209</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:zoe@fieldstonerealty.com">zoe@fieldstonerealty.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/c4/c41cf4910ce8e08a7878-person-4.jpg" width="28"/><span><small>Owner</small>Lucia Ferreira</span></div>
+<a class="deal__open" href="#/customers/c17">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-06T13:45:00.000Z">6 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$34.2K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>8<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>1<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Ridgeway Solar, $96,000, Proposal" class="deal" data-id="c18" data-key="c18" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c18" aria-expanded="false" class="deal__toggle" type="button">Ridgeway Solar</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Ridgeway Solar" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Community solar farms and certified installers</p>
+<div class="deal__peek" hidden="" id="peek-c18">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>12 Alder St, Savannah, GA 31401</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:malik@ridgewaysolar.com">malik@ridgewaysolar.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5d/5d0383c32f47b6691b0e-person-6.jpg" width="28"/><span><small>Owner</small>Karim Mansour</span></div>
+<a class="deal__open" href="#/customers/c18">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-07T14:00:00.000Z">7 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$96K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>1<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>0<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Harborview Clinic, $41,800, Proposal" class="deal" data-id="c19" data-key="c19" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c19" aria-expanded="false" class="deal__toggle" type="button">Harborview Clinic</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Harborview Clinic" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Outpatient surgery center with two theatres</p>
+<div class="deal__peek" hidden="" id="peek-c19">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>176 Union Blvd, Portland, OR 97209</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:clara@harborviewclinic.com">clara@harborviewclinic.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/85/851ad89e209827e4f035-person-7.jpg" width="28"/><span><small>Owner</small>Adaeze Obi</span></div>
+<a class="deal__open" href="#/customers/c19">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta meta--soon"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-31T13:45:00.000Z">31 Oct</time><span class="sr-only">, today</span></span>
+<span class="deal__value">$41.8K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>1<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>8<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Lumen &amp; Pine, $12,300, Proposal" class="deal" data-id="c20" data-key="c20" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c20" aria-expanded="false" class="deal__toggle" type="button">Lumen &amp; Pine</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Lumen &amp; Pine" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Handmade lighting and solid-wood furniture</p>
+<div class="deal__peek" hidden="" id="peek-c20">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>837 Harbor Way, Seattle, WA 98104</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:sami@lumenandpine.com">sami@lumenandpine.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="28"/><span><small>Owner</small>Darius Cole</span></div>
+<a class="deal__open" href="#/customers/c20">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-20T10:45:00.000Z">20 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$12.3K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>7<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>7<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Cobalt Cycles, $18,900, Proposal" class="deal" data-id="c21" data-key="c21" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c21" aria-expanded="false" class="deal__toggle" type="button">Cobalt Cycles</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Cobalt Cycles" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">E-bike rentals and three repair shops</p>
+<div class="deal__peek" hidden="" id="peek-c21">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>779 Alder St, Madison, WI 53703</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:ruth@cobaltcycles.com">ruth@cobaltcycles.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5a/5aa60d2a72e6c87af3c0-person-2.jpg" width="28"/><span><small>Owner</small>Mei Tanaka</span></div>
+<a class="deal__open" href="#/customers/c21">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-11-06T12:00:00.000Z">6 Nov</time><span class="sr-only"></span></span>
+<span class="deal__value">$18.9K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>8<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>0<span class="sr-only"> files</span></span></span>
+</div>
+</article></div>
+</section><section aria-labelledby="col-won" class="col" data-stage="won">
+<div class="col__head">
+<h2 class="col__title" id="col-won"><span class="col__name">Won</span><span class="col__sum">$349.7K</span></h2>
+<button aria-label="7 deals in Won. Reverse order" aria-pressed="false" class="col__count" type="button"><b>7</b><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M8 4v16M4.5 7.5 8 4l3.5 3.5"></path><path d="M16 20V4M12.5 16.5 16 20l3.5-3.5"></path></svg></button>
+</div>
+<div class="col__list"><article aria-describedby="drag-help" aria-label="Emberly Coffee, $29,400, Won" class="deal" data-id="c22" data-key="c22" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c22" aria-expanded="false" class="deal__toggle" type="button">Emberly Coffee</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Emberly Coffee" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Specialty roastery with nine cafés</p>
+<div class="deal__peek" hidden="" id="peek-c22">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>245 Alder St, Denver, CO 80202</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:diego@emberlycoffee.com">diego@emberlycoffee.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5d/5d0383c32f47b6691b0e-person-6.jpg" width="28"/><span><small>Owner</small>Karim Mansour</span></div>
+<a class="deal__open" href="#/customers/c22">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-17T16:30:00.000Z">17 Oct</time><span class="sr-only"></span></span>
+<span class="deal__value">$29.4K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>1<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>7<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Wavecrest Media, $47,000, Won" class="deal" data-id="c23" data-key="c23" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c23" aria-expanded="false" class="deal__toggle" type="button">Wavecrest Media</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Wavecrest Media" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Podcast network and a two-room audio studio</p>
+<div class="deal__peek" hidden="" id="peek-c23">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>421 Juniper Ave, Charleston, SC 29401</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:anya@wavecrestmedia.com">anya@wavecrestmedia.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="28"/><span><small>Owner</small>Darius Cole</span></div>
+<a class="deal__open" href="#/customers/c23">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-11T15:30:00.000Z">11 Oct</time><span class="sr-only"></span></span>
+<span class="deal__value">$47K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>0<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>2<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Silverline Insurance, $58,600, Won" class="deal" data-id="c24" data-key="c24" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c24" aria-expanded="false" class="deal__toggle" type="button">Silverline Insurance</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Silverline Insurance" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Insurance broker for small businesses</p>
+<div class="deal__peek" hidden="" id="peek-c24">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>718 Juniper Ave, Boise, ID 83702</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:bennett@silverlineinsurance.com">bennett@silverlineinsurance.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5d/5d0383c32f47b6691b0e-person-6.jpg" width="28"/><span><small>Owner</small>Karim Mansour</span></div>
+<a class="deal__open" href="#/customers/c24">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-19T09:00:00.000Z">19 Oct</time><span class="sr-only"></span></span>
+<span class="deal__value">$58.6K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>1<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>5<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Orchard &amp; Vine, $13,900, Won" class="deal" data-id="c25" data-key="c25" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c25" aria-expanded="false" class="deal__toggle" type="button">Orchard &amp; Vine</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Orchard &amp; Vine" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Natural wine importer with a city-center shop</p>
+<div class="deal__peek" hidden="" id="peek-c25">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>576 Union Blvd, Charleston, SC 29401</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:iris@orchardandvine.com">iris@orchardandvine.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="28"/><span><small>Owner</small>Darius Cole</span></div>
+<a class="deal__open" href="#/customers/c25">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-23T17:30:00.000Z">23 Oct</time><span class="sr-only"></span></span>
+<span class="deal__value">$13.9K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>9<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>8<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Summit Dental Lab, $66,000, Won" class="deal" data-id="c26" data-key="c26" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c26" aria-expanded="false" class="deal__toggle" type="button">Summit Dental Lab</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Summit Dental Lab" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Crowns and clear aligners for 200 dentists</p>
+<div class="deal__peek" hidden="" id="peek-c26">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>737 Mill Rd, Austin, TX 78701</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:kofi@summitdentallab.com">kofi@summitdentallab.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/90/90a8d0694d742531ab05-person-9.jpg" width="28"/><span><small>Owner</small>Priya Raman</span></div>
+<a class="deal__open" href="#/customers/c26">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-28T11:00:00.000Z">28 Oct</time><span class="sr-only"></span></span>
+<span class="deal__value">$66K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>1<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>1<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Foxglove Pharmacy, $24,750, Won" class="deal" data-id="c27" data-key="c27" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c27" aria-expanded="false" class="deal__toggle" type="button">Foxglove Pharmacy</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Foxglove Pharmacy" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Independent pharmacies with same-day delivery</p>
+<div class="deal__peek" hidden="" id="peek-c27">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>745 Cedar Ln, Denver, CO 80202</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:maren@foxglovepharmacy.com">maren@foxglovepharmacy.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/1a/1a0314f378adf70ebc43-person-3.jpg" width="28"/><span><small>Owner</small>Darius Cole</span></div>
+<a class="deal__open" href="#/customers/c27">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-29T11:30:00.000Z">29 Oct</time><span class="sr-only"></span></span>
+<span class="deal__value">$24.8K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>3<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>6<span class="sr-only"> files</span></span></span>
+</div>
+</article><article aria-describedby="drag-help" aria-label="Keystone Builders, $110,000, Won" class="deal" data-id="c28" data-key="c28" tabindex="0">
+<div class="deal__head">
+<h3 class="deal__name"><button aria-controls="peek-c28" aria-expanded="false" class="deal__toggle" type="button">Keystone Builders</button></h3>
+<button aria-expanded="false" aria-haspopup="menu" aria-label="Actions for Keystone Builders" class="icon-btn icon-btn--sm deal__more" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="5.5" r="1.3"></circle><circle cx="12" cy="12" r="1.3"></circle><circle cx="12" cy="18.5" r="1.3"></circle></svg></button>
+</div>
+<p class="deal__blurb">Design-build contractor for schools and libraries</p>
+<div class="deal__peek" hidden="" id="peek-c28">
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"></path><circle cx="12" cy="10" r="2.3"></circle></svg><span>621 Alder St, Madison, WI 53703</span></p>
+<p class="deal__line"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg><a href="mailto:luca@keystonebuilders.com">luca@keystonebuilders.com</a></p>
+<div class="deal__owner"><img alt="" class="av av--sm" decoding="async" height="28" loading="lazy" src="../../recursos/5a/5aa60d2a72e6c87af3c0-person-2.jpg" width="28"/><span><small>Owner</small>Mei Tanaka</span></div>
+<a class="deal__open" href="#/customers/c28">Open profile <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="deal__foot">
+<span class="meta"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="15.5" rx="3" width="17" x="3.5" y="5"></rect><path d="M3.5 10h17M8 3v4M16 3v4"></path></svg><time datetime="2026-10-20T09:30:00.000Z">20 Oct</time><span class="sr-only"></span></span>
+<span class="deal__value">$110K</span>
+<span class="deal__counts"><span title="Comments"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 6.5A2 2 0 0 1 6.5 4.5h11a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-4.5 3.5v-3.5h0a1 1 0 0 1-1-1z"></path><path d="M8.5 9.5h7M8.5 12.5h4"></path></svg>2<span class="sr-only"> comments</span></span><span title="Files"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m19 11.5-7.1 7.1a4.5 4.5 0 0 1-6.4-6.4l7.8-7.8a3 3 0 0 1 4.2 4.2l-7.8 7.8a1.5 1.5 0 0 1-2.1-2.1l7.1-7.1"></path></svg>4<span class="sr-only"> files</span></span></span>
+</div>
+</article></div>
+</section>
+</div>
+</div>
+</div>
+<div class="cx-detail">
+<div class="band cxd-band">
+<a class="back" href="#/customers"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M15 5l-7 7 7 7"></path></svg>All customers</a>
+<div class="cxd-head">
+<span aria-hidden="true" class="logo-tile logo-tile--lg" style="background: var(--c2-soft); color: var(--ink);">BD</span>
+<div style="">
+<h1 class="title" tabindex="-1">Brightmoor Dental</h1>
+<p class="lede">Group of six family dental clinics in Oregon</p>
+<div class="cxd-tags">
+<span class="tag">Healthcare</span>
+<a class="tag" href="#/projects/partner-launch"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M13 3 5 13.5h6L10.5 21 19 10h-6z"></path></svg>Partner Launch</a>
+<span class="tag"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 7.5V12l3 2"></path></svg>Added Oct 29, 2026</span>
+</div>
+</div>
+<div class="cxd-value" style=""><span class="kpi__value" id="cxd-value">$21,500</span><span class="kpi__label">Deal value</span></div>
+</div>
+<ol aria-label="Stage" class="track" style="">
+<li aria-hidden="true" class="track__rail"><span class="track__fill" style="translate: none; rotate: none; scale: none; transform: scale(0, 1);"></span></li>
+<li class="track__step is-current">
+<button aria-current="step" class="track__btn" data-stage="qualified" type="button">
+<span class="track__dot"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></span>Qualified</button></li><li class="track__step">
+<button class="track__btn" data-stage="talks" type="button">
+<span class="track__dot"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></span>In talks</button></li><li class="track__step">
+<button class="track__btn" data-stage="proposal" type="button">
+<span class="track__dot"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></span>Proposal</button></li><li class="track__step">
+<button class="track__btn" data-stage="won" type="button">
+<span class="track__dot"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"></path></svg></span>Won</button></li>
+</ol>
+</div>
+<div class="body">
+<div class="cxd-grid">
+<div class="cxd-col">
+<section aria-labelledby="cxd-deal-h" class="card" style="">
+<div class="card__head"><h2 class="card__title" id="cxd-deal-h">Deal</h2><span class="stage stage--qualified"><i aria-hidden="true"></i>Qualified</span></div>
+<dl class="facts">
+<div><dt>Deposit received</dt><dd><div class="paid"><div class="paid__row"><b class="num">$0</b><span>0% of value</span></div><div class="bar"><i style="transform: scale(0, 1); translate: none; rotate: none; scale: none;"></i></div></div></dd></div>
+<div><dt>Next step due</dt><dd><span class="muted">Not set</span></dd></div>
+<div><dt><label for="cxd-owner">Owner</label></dt><dd><select class="select" id="cxd-owner"><option selected="" value="m1">Vikram Nair</option><option value="m2">Mei Tanaka</option><option value="m3">Darius Cole</option><option value="m4">Lucia Ferreira</option><option value="m5">Hanna Lindqvist</option><option value="m6">Karim Mansour</option><option value="m7">Adaeze Obi</option><option value="m8">Theo Marchetti</option><option value="m9">Priya Raman</option><option value="m10">Ewan Fraser</option></select></dd></div>
+<div><dt><label for="cxd-project">Project</label></dt><dd><select class="select" id="cxd-project"><option value="">No project</option><option selected="" value="partner-launch">Partner Launch</option><option value="renewals-q4">Renewals Q4</option><option value="referral-loop">Referral Loop</option><option value="spring-campaign">Spring Campaign</option></select></dd></div>
+<div><dt>Last updated</dt><dd>1 d ago</dd></div>
+</dl>
+</section>
+<section aria-labelledby="cxd-contact-h" class="card" style="">
+<div class="card__head"><h2 class="card__title" id="cxd-contact-h">Contact</h2></div>
+<div class="person"><span aria-hidden="true" class="av av--lg av--t2">MR</span>
+<div><p class="person__name">Marcus Rourke</p><p class="person__title">COO</p></div></div>
+<dl class="facts">
+<div><dt>Email</dt><dd><a href="mailto:marcus@brightmoordental.com">marcus@brightmoordental.com</a></dd></div>
+<div><dt>Phone</dt><dd><a href="tel:+14105550103">+1 (410) 555-0103</a></dd></div>
+<div><dt>Address</dt><dd>848 Alder St, Denver, CO 80202</dd></div>
+<div><dt>Website</dt><dd><a href="https://brightmoordental.com" rel="noopener noreferrer" target="_blank">brightmoordental.com</a></dd></div>
+<div><dt>Account owner</dt><dd style="display:flex;align-items:center;gap:8px"><img alt="" class="av av--xs" decoding="async" height="22" loading="lazy" src="../../recursos/a2/a2aef9d1278d80475bd7-person-1.jpg" width="22"/><a href="#/team/m1">Vikram Nair</a></dd></div>
+</dl>
+</section>
+<div class="danger" style="">
+<button class="btn btn--ghost" data-lost="" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="5" rx="1.5" width="17" x="3.5" y="4"></rect><path d="M5 9v9.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5V9M10 13h4"></path></svg>Mark as lost</button>
+<button class="btn btn--ghost" data-delete="" style="color:var(--bad)" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M4.5 7h15M10 11v6M14 11v6M6 7l1 12.5a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5L18 7M9 7V4.5h6V7"></path></svg>Delete customer</button>
+</div>
+</div>
+<div class="cxd-col">
+<section aria-labelledby="cxd-notes-h" class="card" style="">
+<div class="card__head"><h2 class="card__title" id="cxd-notes-h">Notes</h2><span class="card__aside">0 total</span></div>
+<form class="notes__form" id="cxd-note-form">
+<label class="sr-only" for="cxd-note">Add a note</label>
+<textarea class="textarea" id="cxd-note" maxlength="500" placeholder="Add a note for the team…"></textarea>
+<div class="notes__row"><span class="muted" style="font-size:var(--fs-xs)">⌘ + Enter to save</span><button class="btn btn--primary btn--sm" type="submit">Save note</button></div>
+</form>
+<ul class="notes__list" id="cxd-notes"><li class="muted">No notes yet. Notes are visible to the whole team.</li></ul>
+</section>
+<section aria-labelledby="cxd-tasks-h" class="card" style="">
+<div class="card__head"><h2 class="card__title" id="cxd-tasks-h">Tasks</h2><a class="card__link" href="#/tasks">All tasks <svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></div>
+<ul class="mini-tasks" id="cxd-tasks"><li class="mini-task" data-key="t29">
+<input data-task="t29" id="mt-t29" type="checkbox"/>
+<label for="mt-t29">Schedule kickoff with Brightmoor Dental</label>
+<span class="meta">7 Nov</span>
+<img alt="" class="av av--xs" decoding="async" height="22" loading="lazy" src="../../recursos/90/90a8d0694d742531ab05-person-9.jpg" width="22"/></li><li class="mini-task" data-key="t26">
+<input data-task="t26" id="mt-t26" type="checkbox"/>
+<label for="mt-t26">Review onboarding plan for Brightmoor Dental</label>
+<span class="meta">8 Nov</span>
+<img alt="" class="av av--xs" decoding="async" height="22" loading="lazy" src="../../recursos/a2/a2aef9d1278d80475bd7-person-1.jpg" width="22"/></li><li class="mini-task" data-key="t21">
+<input data-task="t21" id="mt-t21" type="checkbox"/>
+<label for="mt-t21">Send security questionnaire to Brightmoor Dental</label>
+<span class="meta">11 Nov</span>
+<img alt="" class="av av--xs" decoding="async" height="22" loading="lazy" src="../../recursos/90/90a8d0694d742531ab05-person-9.jpg" width="22"/></li></ul>
+<form class="mini-add" id="cxd-task-form">
+<label class="sr-only" for="cxd-task">New task for Brightmoor Dental</label>
+<input class="input" id="cxd-task" maxlength="90" placeholder="Add a task — due tomorrow"/>
+<button class="btn btn--ghost btn--sm" type="submit"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>Add</button>
+</form>
+</section>
+<section aria-labelledby="cxd-tl-h" class="card" style="">
+<div class="card__head"><h2 class="card__title" id="cxd-tl-h">Timeline</h2><button class="btn btn--ghost btn--sm" data-log="" type="button"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>Log activity</button></div>
+<ol class="timeline" id="cxd-timeline"><li class="tl" data-key="ac1">
+<span class="tl__ico"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M12 3.5 13.8 10 20.5 12l-6.7 2L12 20.5 10.2 14 3.5 12l6.7-2z"></path></svg></span>
+<p class="tl__text">Added Brightmoor Dental as a new customer.<small>Vikram Nair · 2 d ago</small></p></li><li class="tl" data-key="a70">
+<span class="tl__ico"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><rect height="13" rx="2.5" width="17" x="3.5" y="5.5"></rect><path d="m4 7 8 6 8-6"></path></svg></span>
+<p class="tl__text">Replied to Marcus at Brightmoor Dental about onboarding time.<small>Vikram Nair · 2 d ago</small></p></li><li class="tl" data-key="a6">
+<span class="tl__ico"><svg aria-hidden="true" class="ico" viewbox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2z"></path></svg></span>
+<p class="tl__text">Left a voicemail for Marcus at Brightmoor Dental.<small>Vikram Nair · Oct 24</small></p></li></ol>
+</section>
+</div>
+</div>
+</div></div></section>
+<section aria-label="Team" class="view" data-view="team" hidden=""></section>
+<section aria-label="Project" class="view" data-view="projects" hidden=""></section>
+<section aria-label="Settings" class="view" data-view="settings" hidden=""></section>
+</main>
+</div>
+</div>
+<!-- Signed out: the whole app steps aside for this view. -->
+<section aria-label="Sign in" class="signin" data-view="signin" hidden="" id="signin"></section>
+<div aria-live="polite" class="toast" id="toast" popover="manual" role="status"></div>
+<p aria-live="polite" class="sr-only" id="live"></p>
+<a aria-label="Buy the Accord template on Code and Chill" class="cc-preview-pill" href="https://codeandchill.store/checkout?item=accord&amp;ref=preview" rel="noopener" target="_top"><span class="cc-preview-pill__long">Buy this template →</span><span class="cc-preview-pill__short">Buy it →</span></a>
+<script>(()=>{const p=document.querySelector('.cc-preview-pill');if(!p)return;const fit=()=>{p.style.removeProperty('--cc-lift');const a=p.getBoundingClientRect(),h=innerHeight;let top=h;for(const el of document.body.querySelectorAll('*')){if(el===p||p.contains(el))continue;const s=getComputedStyle(el);if((s.position!=='fixed'&&s.position!=='sticky')||s.display==='none'||s.visibility==='hidden'||s.opacity==='0')continue;const r=el.getBoundingClientRect();if(r.height&&r.height<200&&r.top>h/2&&r.bottom>=h-40&&r.left<a.right&&r.right>a.left)top=Math.min(top,r.top)}if(top<h)p.style.setProperty('--cc-lift',h-top+10+'px')};addEventListener('load',()=>{fit();setTimeout(fit,1500)});addEventListener('resize',fit)})()</script>
+</body></html>
