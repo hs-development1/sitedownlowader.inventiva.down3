@@ -1,0 +1,63 @@
+{
+  "sitio": "https://www.alpackaai.xyz/",
+  "fecha": "2026-10-31T06:18:22.599365+00:00",
+  "paginas": [
+    "https://www.alpackaai.xyz/servicios",
+    "https://www.alpackaai.xyz/bank-prompts",
+    "https://www.alpackaai.xyz/dashboard",
+    "https://www.alpackaai.xyz/terms",
+    "https://www.alpackaai.xyz/privacy",
+    "https://alpackaai.xyz/chatgpt-tesis/",
+    "https://alpackaai.xyz/privacy",
+    "https://alpackaai.xyz/terms",
+    "https://alpackaai.xyz/login",
+    "https://alpackaai.xyz/generador"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 6,
+  "fotografias_descargadas": 0,
+  "bytes_fotografias": 0,
+  "recursos_pendientes": 14,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 28017,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": true,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://www.alpackaai.xyz/assets/Servicios-pWimuAcu.js",
+      "archivo": "recursos/0d/0daeac0b6da11c2c32b1-Servicios-pWimuAcu.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/clock-DqiaI7qQ.js",
+      "archivo": "recursos/35/35554b8efde828a7346c-clock-DqiaI7qQ.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/plus-D8rbcb9M.js",
+      "archivo": "recursos/62/62629508b31de86c5b79-plus-D8rbcb9M.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/mail-ML8f7AEq.js",
+      "archivo": "recursos/5d/5d5a176881404de9de5c-mail-ML8f7AEq.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/alert-circle-DYAYMYWi.js",
+      "archivo": "recursos/1e/1e58fac3136ad7299b27-alert-circle-DYAYMYWi.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/loader-2-bUhSEgo5.js",
+      "archivo": "recursos/a8/a863ff3b5c61c0e79c58-loader-2-bUhSEgo5.js"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://cdn.tailwindcss.com/",
+    "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:wght@100..800&display=swap",
+    "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap",
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+  ],
+  "errores": [],
+  "bytes": 300199
+}

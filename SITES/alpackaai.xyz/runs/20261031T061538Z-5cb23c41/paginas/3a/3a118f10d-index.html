@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>La Guía Definitiva para Hacer tu Tesis con Inteligencia Artificial | Guía Académica</title>
+<!-- SEO Meta Tags -->
+<meta content="Descubre los prompts avanzados para terminar tu tesis con ética y sin riesgos de plagio. Guía académica para usar ChatGPT de forma inteligente: para estudiantes, docentes, asesores e investigadores." name="description"/>
+<meta content="tesis con ia, inteligencia artificial tesis, como hacer tesis, guia academica tesis, chatgpt tesis, redactar tesis, apa 7 tesis, prompts tesis" name="keywords"/>
+<meta content="Alpacka.ai" name="author"/>
+<meta content="index, follow" name="robots"/>
+<link href="https://alpackaai.xyz/chatgpt-tesis/" rel="canonical"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://alpackaai.xyz/chatgpt-tesis/" property="og:url"/>
+<meta content="La Guía Definitiva para Hacer tu Tesis con Inteligencia Artificial" property="og:title"/>
+<meta content="Prompts avanzados y una guía académica paso a paso para terminar tu tesis con ética, sin plagio y en menos tiempo." property="og:description"/>
+<meta content="https://alpackaai.xyz/page-ebook-image/ebook_3d.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://alpackaai.xyz/chatgpt-tesis/" property="twitter:url"/>
+<meta content="La Guía Definitiva para Hacer tu Tesis con Inteligencia Artificial" property="twitter:title"/>
+<meta content="Prompts avanzados y una guía académica paso a paso para terminar tu tesis con ética, sin plagio y en menos tiempo." property="twitter:description"/>
+<meta content="https://alpackaai.xyz/page-ebook-image/ebook_3d.png" property="twitter:image"/>
+<!-- Favicon -->
+<link href="../../recursos/75/7574e368c49127529ed4-alpacka-icon.jpg" rel="icon" type="image/jpeg"/>
+<!-- Tailwind CSS & Fonts -->
+
+
+
+<link rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            deep: '#17015B',        // Violeta oscuro principal (fondos)
+                            deepSoft: '#220673',    // Violeta oscuro secundario
+                            purple: '#6842D3',      // Morado acento
+                            purpleLight: '#7541FF', // Morado brillante
+                            green: '#0dc73a',       // Verde CTA (botón de compra)
+                            greenHover: '#0ba52f',  // Verde CTA hover
+                            pink: '#ff2366',        // Rosa urgencia / tachados
+                            grayLight: '#f0f3f5',   // Fondo gris suave
+                            grayBorder: '#e2e8f0',  // Borde gris suave
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .bg-grid-pattern {
+            background-size: 40px 40px;
+            background-image:
+                linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Pulso sutil en botones de compra */
+        @keyframes ctaPulse {
+            0%, 100% { box-shadow: 0 10px 30px -8px rgba(13, 199, 58, 0.45); }
+            50% { box-shadow: 0 10px 40px -4px rgba(13, 199, 58, 0.7); }
+        }
+        .cta-pulse {
+            animation: ctaPulse 2.2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800 antialiased tracking-tight font-sans">
+<!-- Header mínimo: sin navegación para no generar puntos de fuga -->
+<header class="border-b border-brand-deepSoft bg-brand-deep/95 backdrop-blur-md sticky top-0 z-50">
+<div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+<a class="flex items-center space-x-2.5" href="#">
+<span class="w-2.5 h-2.5 rounded-full bg-brand-green"></span>
+<span class="font-bold text-lg tracking-tight text-white">alpacka.ai</span>
+</a>
+<div class="flex items-center space-x-4">
+<span class="hidden md:inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white/10 text-white/80 text-[11px] font-medium tracking-wide uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span>
+<span>Guía ética sin plagio</span>
+</span>
+<a class="bg-brand-green hover:bg-brand-greenHover text-white px-4 py-2 rounded-lg text-xs font-bold tracking-wide uppercase transition-all duration-200 shadow-sm" href="https://pay.hotmart.com/A106208003B" rel="noopener noreferrer" target="_blank">
+                    Quiero la guía — 10€
+                </a>
+</div>
+</div>
+</header>
+<main>
+<!-- HERO: violeta oscuro, titular directo, CTA verde -->
+<section class="relative bg-brand-deep bg-grid-pattern overflow-hidden pt-16 pb-20 md:pt-24 md:pb-28">
+<div class="absolute -top-40 right-1/4 w-[500px] h-[500px] bg-brand-purple/20 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-10 w-96 h-96 bg-brand-purpleLight/10 rounded-full blur-3xl"></div>
+<div class="max-w-4xl mx-auto px-6 text-center space-y-8 relative z-10">
+<div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/10">
+<span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span>
+<span class="text-[10px] md:text-xs uppercase tracking-widest font-semibold text-white/80">Guía + Prompts avanzados para tesis</span>
+</div>
+<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.15] max-w-3xl mx-auto">
+                    Descubre los prompts avanzados para <span class="text-brand-green">terminar tu tesis</span> con ética y sin riesgo de plagio
+                </h1>
+<p class="text-white/70 text-base md:text-xl leading-relaxed max-w-3xl mx-auto font-light">
+                    Instrucciones estratégicas y fáciles de usar para estudiantes, docentes, asesores e investigadores. Una guía académica paso a paso para usar ChatGPT de forma inteligente: investiga, estructura y redacta cada capítulo con la IA como asistente — no como autora.
+                </p>
+<div class="pt-4 space-y-4 max-w-md mx-auto">
+<a class="cta-pulse group flex items-center justify-center space-x-3 w-full bg-brand-green hover:bg-brand-greenHover text-white py-4 px-8 rounded-xl text-sm md:text-base font-extrabold tracking-wider uppercase transition-all duration-300 hover:-translate-y-0.5" href="https://pay.hotmart.com/A106208003B" rel="noopener noreferrer" target="_blank">
+<span>¡Quiero mi guía de tesis — 10€!</span>
+<svg class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</a>
+<!-- Confianza -->
+<div class="grid grid-cols-3 gap-2 text-center pt-2">
+<div class="flex items-center justify-center space-x-1 text-[11px] text-white/60 font-medium">
+<svg class="w-3.5 h-3.5 text-brand-green flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+<span>Acceso inmediato</span>
+</div>
+<div class="flex items-center justify-center space-x-1 text-[11px] text-white/60 font-medium">
+<svg class="w-3.5 h-3.5 text-brand-green flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+<span>Pago seguro Hotmart</span>
+</div>
+<div class="flex items-center justify-center space-x-1 text-[11px] text-white/60 font-medium">
+<svg class="w-3.5 h-3.5 text-brand-green flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+<span>Garantía 7 días</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Dolores (¿te sientes identificado?) -->
+<section class="py-20 md:py-28 bg-white">
+<div class="max-w-3xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto space-y-4 mb-12">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-purple">Cuéntame…</span>
+<h2 class="text-3xl md:text-4xl font-extrabold text-brand-deep">¿Estás pasando por alguna de estas situaciones?</h2>
+</div>
+<div class="space-y-4">
+<div class="flex items-start space-x-4 bg-brand-grayLight border border-slate-200/60 p-5 rounded-2xl">
+<span class="text-brand-pink text-lg leading-none mt-0.5">✕</span>
+<p class="text-sm md:text-base text-slate-700 font-light">No sabes por dónde empezar tu tesis y sientes que llevas semanas bloqueado/a frente a la hoja en blanco.</p>
+</div>
+<div class="flex items-start space-x-4 bg-brand-grayLight border border-slate-200/60 p-5 rounded-2xl">
+<span class="text-brand-pink text-lg leading-none mt-0.5">✕</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Tienes muy poco tiempo disponible entre el trabajo, las clases y tu vida personal para avanzar en la investigación.</p>
+</div>
+<div class="flex items-start space-x-4 bg-brand-grayLight border border-slate-200/60 p-5 rounded-2xl">
+<span class="text-brand-pink text-lg leading-none mt-0.5">✕</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Te toma horas (o días) estructurar ideas, conectar párrafos y redactar cada capítulo con tono académico.</p>
+</div>
+<div class="flex items-start space-x-4 bg-brand-grayLight border border-slate-200/60 p-5 rounded-2xl">
+<span class="text-brand-pink text-lg leading-none mt-0.5">✕</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Tienes miedo de caer en plagio sin darte cuenta o de que Turnitin marque tu trabajo por usar mal la IA.</p>
+</div>
+<div class="flex items-start space-x-4 bg-brand-grayLight border border-slate-200/60 p-5 rounded-2xl">
+<span class="text-brand-pink text-lg leading-none mt-0.5">✕</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Estás cansado/a de procesos tradicionales, lentos y desgastantes que no se adaptan a tu ritmo de vida.</p>
+</div>
+<div class="flex items-start space-x-4 bg-brand-grayLight border border-slate-200/60 p-5 rounded-2xl">
+<span class="text-brand-pink text-lg leading-none mt-0.5">✕</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Sientes que la IA puede ayudarte, pero no sabes cómo usarla bien: copias y pegas de ChatGPT y obtienes textos genéricos con referencias inventadas.</p>
+</div>
+</div>
+<div class="mt-10 text-center">
+<p class="text-base md:text-lg text-brand-deep font-semibold">Si respondiste "sí" a alguna de estas situaciones, sigue leyendo 👇</p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: La solución -->
+<section class="py-20 md:py-28 bg-brand-deep text-white relative overflow-hidden">
+<div class="absolute inset-0 bg-grid-pattern"></div>
+<div class="absolute top-0 right-0 w-96 h-96 bg-brand-purple/20 rounded-full blur-3xl"></div>
+<div class="max-w-3xl mx-auto px-6 text-center space-y-8 relative z-10">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-green">La solución</span>
+<h2 class="text-3xl md:text-4xl font-extrabold leading-tight">Te presento la guía que cambiará tu forma de investigar</h2>
+<p class="text-white/75 text-base md:text-lg leading-relaxed font-light">
+                    Se trata de <strong class="text-white font-bold">la Guía Definitiva para Hacer tu Tesis con IA</strong>: una guía completa con prompts estructurados que te permite avanzar en tu tesis muchísimo más rápido, con un enfoque práctico y estratégico.
+                </p>
+<p class="text-white/75 text-base md:text-lg leading-relaxed font-light">
+                    Dominarás la generación de ideas, agilizarás la revisión de literatura y redactarás cada capítulo con confianza y precisión — manteniendo la originalidad y la ética académica intactas.
+                </p>
+<!-- Cómo funciona -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-6 text-left">
+<div class="bg-white/5 border border-white/10 rounded-2xl p-6 space-y-3">
+<div class="w-9 h-9 rounded-lg bg-brand-green/20 text-brand-green flex items-center justify-center font-extrabold text-sm">1</div>
+<h3 class="text-base font-bold text-white">Abre la guía</h3>
+<p class="text-xs text-white/60 leading-relaxed font-light">Busca la etapa de tu tesis en la que estás: tema, problema, objetivos, marco teórico, metodología o redacción.</p>
+</div>
+<div class="bg-white/5 border border-white/10 rounded-2xl p-6 space-y-3">
+<div class="w-9 h-9 rounded-lg bg-brand-green/20 text-brand-green flex items-center justify-center font-extrabold text-sm">2</div>
+<h3 class="text-base font-bold text-white">Copia el prompt</h3>
+<p class="text-xs text-white/60 leading-relaxed font-light">Pega la instrucción en ChatGPT, Claude o Gemini y completa los datos de tu investigación donde se indica.</p>
+</div>
+<div class="bg-white/5 border border-white/10 rounded-2xl p-6 space-y-3">
+<div class="w-9 h-9 rounded-lg bg-brand-green/20 text-brand-green flex items-center justify-center font-extrabold text-sm">3</div>
+<h3 class="text-base font-bold text-white">Avanza con criterio</h3>
+<p class="text-xs text-white/60 leading-relaxed font-light">La IA se convierte en tu co-investigador experto: estructura, sugiere y pule. Tú decides, analizas y redactas la versión final.</p>
+</div>
+</div>
+<div class="pt-6 max-w-md mx-auto">
+<a class="cta-pulse group flex items-center justify-center space-x-3 w-full bg-brand-green hover:bg-brand-greenHover text-white py-4 px-8 rounded-xl text-sm font-extrabold tracking-wider uppercase transition-all duration-300 hover:-translate-y-0.5" href="https://pay.hotmart.com/A106208003B" rel="noopener noreferrer" target="_blank">
+<span>¡Quiero mi guía de tesis — 10€!</span>
+<svg class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</a>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Antes / Después -->
+<section class="py-20 md:py-28 bg-brand-grayLight">
+<div class="max-w-5xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-purple">La transformación</span>
+<h2 class="text-3xl md:text-4xl font-extrabold text-brand-deep">Tu tesis, antes y después de esta guía</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- ANTES -->
+<div class="bg-white border-2 border-brand-pink/20 rounded-3xl p-8 space-y-5">
+<h3 class="text-lg font-extrabold text-brand-pink uppercase tracking-wider text-center">Antes ✕</h3>
+<div class="space-y-4">
+<div class="flex items-start space-x-3">
+<span class="text-brand-pink text-sm mt-0.5">✕</span>
+<p class="text-sm text-slate-700 font-light">Dedicas semanas enteras a un solo capítulo mientras tu fecha de entrega se acerca peligrosamente.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-pink text-sm mt-0.5">✕</span>
+<p class="text-sm text-slate-700 font-light">Las formas tradicionales de investigar te agotan y sabes que existen maneras más eficientes de trabajar.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-pink text-sm mt-0.5">✕</span>
+<p class="text-sm text-slate-700 font-light">Ves cómo otros usan la inteligencia artificial, pero temes que aplicarla mal afecte tu integridad académica.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-pink text-sm mt-0.5">✕</span>
+<p class="text-sm text-slate-700 font-light">Te preocupa que la calidad de tu trabajo afecte tu reputación ante tu tutor, tu comité o tus colegas.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-pink text-sm mt-0.5">✕</span>
+<p class="text-sm text-slate-700 font-light">Sientes que tu potencial como investigador está frenado por prácticas obsoletas.</p>
+</div>
+</div>
+</div>
+<!-- DESPUÉS -->
+<div class="bg-brand-deep rounded-3xl p-8 space-y-5 text-white shadow-xl shadow-brand-deep/20">
+<h3 class="text-lg font-extrabold text-brand-green uppercase tracking-wider text-center">Después ✓</h3>
+<div class="space-y-4">
+<div class="flex items-start space-x-3">
+<span class="text-brand-green text-sm mt-0.5">✓</span>
+<p class="text-sm text-white/85 font-light">Usas prompts estratégicos que te permiten avanzar con fluidez en cada capítulo y optimizar tu tiempo.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-green text-sm mt-0.5">✓</span>
+<p class="text-sm text-white/85 font-light">Trabajas con herramientas inteligentes que agilizan la búsqueda, la síntesis y la organización de fuentes.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-green text-sm mt-0.5">✓</span>
+<p class="text-sm text-white/85 font-light">Incorporas la IA de forma segura y ética, garantizando la originalidad e integridad de tu trabajo.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-green text-sm mt-0.5">✓</span>
+<p class="text-sm text-white/85 font-light">Te sientes orgulloso/a de la calidad de tu tesis y confías en su impacto en tu campo profesional.</p>
+</div>
+<div class="flex items-start space-x-3">
+<span class="text-brand-green text-sm mt-0.5">✓</span>
+<p class="text-sm text-white/85 font-light">Dejas atrás la incertidumbre y dominas un proceso claro que te permite investigar con confianza.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12 bg-white border border-brand-purple/20 p-6 rounded-2xl shadow-sm text-center max-w-3xl mx-auto">
+<p class="text-sm md:text-base text-slate-700 leading-relaxed font-light">
+<strong class="font-bold text-brand-deep">Importante — esto no es hacer trampa:</strong> la IA no escribe tu tesis. Actúa como un asistente de investigación experto que multiplica tu capacidad de análisis, organización y edición crítica. El criterio y la autoría son siempre tuyos.
+                    </p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Lo que aprenderás (adelanto del contenido) -->
+<section class="py-20 md:py-28 bg-white">
+<div class="max-w-6xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-purple">Adelanto del contenido</span>
+<h2 class="text-3xl md:text-4xl font-extrabold text-brand-deep">Esto es lo que te llevarás con la guía</h2>
+<p class="text-slate-600 font-light text-base">Prompts estructurados y explicaciones paso a paso para cada etapa de tu investigación.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">01</div>
+<h3 class="text-base font-bold text-brand-deep">Elegir un tema sólido</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Define líneas de investigación viables, delimita tus variables y asegura que tu objeto de estudio tenga relevancia científica.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">02</div>
+<h3 class="text-base font-bold text-brand-deep">Planteamiento del problema</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Formula la pregunta de investigación principal y las subpreguntas con total coherencia lógica y pertinencia académica.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">03</div>
+<h3 class="text-base font-bold text-brand-deep">Construir objetivos claros</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Estructura tu objetivo general y los objetivos específicos alineados perfectamente con la pregunta de investigación.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">04</div>
+<h3 class="text-base font-bold text-brand-deep">Redactar la justificación</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Defiende la importancia, originalidad, viabilidad y el aporte teórico, metodológico y práctico de tu tesis.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">05</div>
+<h3 class="text-base font-bold text-brand-deep">Desarrollar el marco teórico</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Ordena antecedentes, define conceptos de manera fluida y articula las bases teóricas de tu estudio ordenadamente.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">06</div>
+<h3 class="text-base font-bold text-brand-deep">Encontrar literatura relevante</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Configura búsquedas avanzadas en Scopus, WoS o Google Scholar para rastrear bibliografía de alta calidad con DOI real.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">07</div>
+<h3 class="text-base font-bold text-brand-deep">Estructurar capítulos</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Divide las secciones de tu tesis con un índice analítico claro y un flujo lógico que mantenga la coherencia en todo momento.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">08</div>
+<h3 class="text-base font-bold text-brand-deep">Redacción científica premium</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Modela el tono, elimina la pasividad innecesaria y redacta con la claridad y concisión que exigen los comités.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">09</div>
+<h3 class="text-base font-bold text-brand-deep">Resumir y mapear artículos</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Usa la IA para sintetizar metodologías y conclusiones de artículos científicos densos sin perder detalles críticos.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">10</div>
+<h3 class="text-base font-bold text-brand-deep">Analizar y discutir resultados</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Estructura el análisis cualitativo o cuantitativo y cruza tus resultados contra teorías previas de forma coherente.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">11</div>
+<h3 class="text-base font-bold text-brand-deep">Organizar referencias (APA 7)</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Alinea las citas directas e indirectas con la norma de tu universidad: APA 7ª edición, Vancouver o Harvard.</p>
+</div>
+<div class="p-6 bg-white border border-brand-purple/15 rounded-2xl hover:border-brand-purple/40 hover:shadow-lg hover:shadow-brand-purple/5 transition-all duration-300 space-y-3.5">
+<div class="w-8 h-8 rounded-lg bg-brand-purple/10 flex items-center justify-center text-brand-purple font-extrabold text-xs">12</div>
+<h3 class="text-base font-bold text-brand-deep">Revisión de ortografía y estilo</h3>
+<p class="text-xs text-slate-600 leading-relaxed font-light">Implementa auditorías de estilo y corrección de sintaxis fina para lograr un manuscrito pulido e impecable.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Bonos incluidos -->
+<section class="py-20 md:py-28 bg-brand-grayLight border-y border-slate-200/60">
+<div class="max-w-4xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-purple">Incluido en tu compra</span>
+<h2 class="text-3xl md:text-4xl font-extrabold text-brand-deep">Al adquirir la guía, no solo obtendrás los prompts…</h2>
+<p class="text-slate-600 font-light text-base">También tendrás acceso a todo esto, sin coste adicional:</p>
+</div>
+<div class="space-y-5">
+<!-- Bono 1 -->
+<div class="bg-white border border-slate-200/60 rounded-2xl p-6 md:p-7 flex flex-col md:flex-row md:items-center gap-4 shadow-sm">
+<div class="flex-1 space-y-1.5">
+<p class="text-[10px] uppercase tracking-widest font-bold text-brand-purple">Bono #1 🎁</p>
+<h3 class="text-base md:text-lg font-bold text-brand-deep">Plantillas de prompts "copy-paste" para cada capítulo</h3>
+<p class="text-xs md:text-sm text-slate-600 font-light leading-relaxed">Instrucciones precisas listas para pegar en ChatGPT, Claude o Gemini, diseñadas bajo criterios metodológicos internacionales.</p>
+</div>
+<div class="text-right flex-shrink-0">
+<p class="text-xs text-brand-pink line-through font-semibold">Valor: 27€</p>
+<p class="text-sm font-extrabold text-brand-green uppercase">¡Hoy gratis!</p>
+</div>
+</div>
+<!-- Bono 2 -->
+<div class="bg-white border border-slate-200/60 rounded-2xl p-6 md:p-7 flex flex-col md:flex-row md:items-center gap-4 shadow-sm">
+<div class="flex-1 space-y-1.5">
+<p class="text-[10px] uppercase tracking-widest font-bold text-brand-purple">Bono #2 🎁</p>
+<h3 class="text-base md:text-lg font-bold text-brand-deep">Ejemplos prácticos y casos de estudio reales</h3>
+<p class="text-xs md:text-sm text-slate-600 font-light leading-relaxed">Modelos de secciones de tesis bien resueltas para que sirvan de guía e inspiración en tu propia redacción.</p>
+</div>
+<div class="text-right flex-shrink-0">
+<p class="text-xs text-brand-pink line-through font-semibold">Valor: 19€</p>
+<p class="text-sm font-extrabold text-brand-green uppercase">¡Hoy gratis!</p>
+</div>
+</div>
+<!-- Bono 3 -->
+<div class="bg-white border border-slate-200/60 rounded-2xl p-6 md:p-7 flex flex-col md:flex-row md:items-center gap-4 shadow-sm">
+<div class="flex-1 space-y-1.5">
+<p class="text-[10px] uppercase tracking-widest font-bold text-brand-purple">Bono #3 🎁</p>
+<h3 class="text-base md:text-lg font-bold text-brand-deep">Estrategias éticas de originalidad y antiplagio</h3>
+<p class="text-xs md:text-sm text-slate-600 font-light leading-relaxed">Buenas prácticas para asegurar la originalidad de tus textos y usar la IA sin poner en riesgo tu integridad académica.</p>
+</div>
+<div class="text-right flex-shrink-0">
+<p class="text-xs text-brand-pink line-through font-semibold">Valor: 23€</p>
+<p class="text-sm font-extrabold text-brand-green uppercase">¡Hoy gratis!</p>
+</div>
+</div>
+<!-- Bono 4 -->
+<div class="bg-white border border-slate-200/60 rounded-2xl p-6 md:p-7 flex flex-col md:flex-row md:items-center gap-4 shadow-sm">
+<div class="flex-1 space-y-1.5">
+<p class="text-[10px] uppercase tracking-widest font-bold text-brand-purple">Bono #4 🎁</p>
+<h3 class="text-base md:text-lg font-bold text-brand-deep">Guía de citación en APA 7, Vancouver y Harvard</h3>
+<p class="text-xs md:text-sm text-slate-600 font-light leading-relaxed">Cómo alinear citas directas e indirectas y la lista de referencias con la norma que exige tu universidad.</p>
+</div>
+<div class="text-right flex-shrink-0">
+<p class="text-xs text-brand-pink line-through font-semibold">Valor: 15€</p>
+<p class="text-sm font-extrabold text-brand-green uppercase">¡Hoy gratis!</p>
+</div>
+</div>
+<!-- Bono 5 -->
+<div class="bg-white border border-slate-200/60 rounded-2xl p-6 md:p-7 flex flex-col md:flex-row md:items-center gap-4 shadow-sm">
+<div class="flex-1 space-y-1.5">
+<p class="text-[10px] uppercase tracking-widest font-bold text-brand-purple">Bono #5 🎁</p>
+<h3 class="text-base md:text-lg font-bold text-brand-deep">Actualizaciones de por vida</h3>
+<p class="text-xs md:text-sm text-slate-600 font-light leading-relaxed">Cada vez que optimicemos las plantillas de prompts para las nuevas versiones de IA, recibirás la actualización gratis.</p>
+</div>
+<div class="text-right flex-shrink-0">
+<p class="text-xs text-brand-pink font-semibold uppercase">Invaluable</p>
+<p class="text-sm font-extrabold text-brand-green uppercase">¡Hoy gratis!</p>
+</div>
+</div>
+<!-- Bono 6 -->
+<div class="bg-white border border-slate-200/60 rounded-2xl p-6 md:p-7 flex flex-col md:flex-row md:items-center gap-4 shadow-sm">
+<div class="flex-1 space-y-1.5">
+<p class="text-[10px] uppercase tracking-widest font-bold text-brand-purple">Bono #6 🎁</p>
+<h3 class="text-base md:text-lg font-bold text-brand-deep">Soporte por correo electrónico</h3>
+<p class="text-xs md:text-sm text-slate-600 font-light leading-relaxed">Ayuda rápida y directa para resolver cualquier inconveniente con el acceso o la descarga del material.</p>
+</div>
+<div class="text-right flex-shrink-0">
+<p class="text-xs text-brand-pink font-semibold uppercase">Invaluable</p>
+<p class="text-sm font-extrabold text-brand-green uppercase">¡Hoy gratis!</p>
+</div>
+</div>
+</div>
+<div class="mt-12 text-center max-w-md mx-auto">
+<a class="cta-pulse group flex items-center justify-center space-x-3 w-full bg-brand-green hover:bg-brand-greenHover text-white py-4 px-8 rounded-xl text-sm font-extrabold tracking-wider uppercase transition-all duration-300 hover:-translate-y-0.5" href="https://pay.hotmart.com/A106208003B" rel="noopener noreferrer" target="_blank">
+<span>¡Quiero mi guía de tesis — 10€!</span>
+<svg class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</a>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Testimonios -->
+<section class="py-20 md:py-28 bg-white">
+<div class="max-w-4xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-purple">Experiencias</span>
+<h2 class="text-3xl md:text-4xl font-extrabold text-brand-deep">Mira lo que dicen quienes ya lo aplicaron 👇</h2>
+<p class="text-slate-600 font-light text-base">Estudiantes que lograron destrabar sus trabajos finales utilizando esta guía.</p>
+</div>
+<div class="space-y-8">
+<!-- Testimonio 1 -->
+<div class="p-8 border border-brand-purple/15 rounded-3xl bg-brand-grayLight/60">
+<p class="text-base font-bold text-brand-deep mb-2">"Desbloqueé el marco teórico en una semana."</p>
+<p class="text-sm md:text-base text-slate-700 leading-relaxed font-light italic">
+                            "Gracias a la estructura clara de la guía, logré desbloquear el marco teórico de mi maestría en solo una semana. La IA me ayudó a organizar y jerarquizar mis fuentes de consulta, no a escribir por mí. Todo quedó ordenado de forma lógica."
+                        </p>
+<div class="mt-4 flex items-center space-x-3.5">
+<div class="w-10 h-10 rounded-full bg-brand-purple/15 flex items-center justify-center font-bold text-xs text-brand-purple">LG</div>
+<div>
+<h5 class="text-xs font-bold text-brand-deep">Laura G.</h5>
+<p class="text-[10px] text-slate-500 font-light">Magíster en Administración Pública</p>
+</div>
+</div>
+</div>
+<!-- Testimonio 2 -->
+<div class="p-8 border border-brand-purple/15 rounded-3xl bg-brand-grayLight/60">
+<p class="text-base font-bold text-brand-deep mb-2">"Mi planteamiento fue aprobado en la siguiente tutoría."</p>
+<p class="text-sm md:text-base text-slate-700 leading-relaxed font-light italic">
+                            "El planteamiento del problema me costó dos meses de revisiones con mi tutor. Usando los prompts de estructuración lógica de esta guía, logré delimitarlo correctamente y fue aprobado en la siguiente sesión de tutoría."
+                        </p>
+<div class="mt-4 flex items-center space-x-3.5">
+<div class="w-10 h-10 rounded-full bg-brand-purple/15 flex items-center justify-center font-bold text-xs text-brand-purple">MR</div>
+<div>
+<h5 class="text-xs font-bold text-brand-deep">Mateo R.</h5>
+<p class="text-[10px] text-slate-500 font-light">Graduado en Ingeniería de Computación</p>
+</div>
+</div>
+</div>
+<!-- Testimonio 3 -->
+<div class="p-8 border border-brand-purple/15 rounded-3xl bg-brand-grayLight/60">
+<p class="text-base font-bold text-brand-deep mb-2">"Perdí el miedo a Turnitin."</p>
+<p class="text-sm md:text-base text-slate-700 leading-relaxed font-light italic">
+                            "Tenía mucho temor de usar herramientas de IA por las alertas de plagio y Turnitin. Esta guía me enseñó a estructurar ChatGPT como un asistente de revisión metodológica. El análisis y la redacción final son completamente de mi autoría."
+                        </p>
+<div class="mt-4 flex items-center space-x-3.5">
+<div class="w-10 h-10 rounded-full bg-brand-purple/15 flex items-center justify-center font-bold text-xs text-brand-purple">SM</div>
+<div>
+<h5 class="text-xs font-bold text-brand-deep">Sofía M.</h5>
+<p class="text-[10px] text-slate-500 font-light">Licenciada en Psicología</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Garantía -->
+<section class="py-20 bg-brand-grayLight border-t border-slate-200/60">
+<div class="max-w-3xl mx-auto px-6 text-center space-y-6">
+<div class="w-20 h-20 bg-white border-2 border-brand-green/30 rounded-full flex items-center justify-center mx-auto mb-2 shadow-md">
+<svg class="w-10 h-10 text-brand-green" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+</svg>
+</div>
+<h2 class="text-2xl md:text-3xl font-extrabold text-brand-deep">Garantía de 7 días — riesgo cero</h2>
+<p class="text-sm md:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed font-light">
+                    Si después de 7 días sientes que la guía no cumple tus expectativas, te reembolsamos el <strong class="font-bold text-brand-deep">100% de tu inversión</strong>. Sin complicaciones, sin preguntas y de manera rápida, directamente a través de <strong class="font-bold text-brand-deep">Hotmart</strong>, la plataforma líder de productos digitales en Iberoamérica.
+                </p>
+</div>
+</section>
+<!-- SECCIÓN: Stack de valor + precio -->
+<section class="py-20 md:py-28 bg-brand-deep text-white relative overflow-hidden">
+<div class="absolute inset-0 bg-grid-pattern"></div>
+<div class="absolute -bottom-20 right-0 w-[400px] h-[400px] bg-brand-purple/25 rounded-full blur-3xl"></div>
+<div class="max-w-3xl mx-auto px-6 relative z-10">
+<div class="text-center space-y-4 mb-12">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-green">Resumen de la oferta</span>
+<h2 class="text-3xl md:text-4xl font-extrabold leading-tight">Todo esto será tuyo al adquirir la guía:</h2>
+</div>
+<div class="bg-white/5 border border-white/10 rounded-3xl p-8 md:p-10 space-y-4">
+<div class="flex items-center justify-between border-b border-white/10 pb-3">
+<p class="text-sm md:text-base font-semibold">🎖️ La Guía Definitiva: Tesis con IA (PDF)</p>
+<p class="text-xs text-white/50 uppercase font-bold">Invaluable</p>
+</div>
+<div class="flex items-center justify-between border-b border-white/10 pb-3">
+<p class="text-sm md:text-base font-light">🎁 Plantillas de prompts "copy-paste"</p>
+<p class="text-xs text-brand-pink line-through font-semibold">27€</p>
+</div>
+<div class="flex items-center justify-between border-b border-white/10 pb-3">
+<p class="text-sm md:text-base font-light">🎁 Ejemplos prácticos y casos de estudio</p>
+<p class="text-xs text-brand-pink line-through font-semibold">19€</p>
+</div>
+<div class="flex items-center justify-between border-b border-white/10 pb-3">
+<p class="text-sm md:text-base font-light">🎁 Estrategias éticas de originalidad y antiplagio</p>
+<p class="text-xs text-brand-pink line-through font-semibold">23€</p>
+</div>
+<div class="flex items-center justify-between border-b border-white/10 pb-3">
+<p class="text-sm md:text-base font-light">🎁 Guía de citación APA 7 / Vancouver / Harvard</p>
+<p class="text-xs text-brand-pink line-through font-semibold">15€</p>
+</div>
+<div class="flex items-center justify-between border-b border-white/10 pb-3">
+<p class="text-sm md:text-base font-light">🎁 Actualizaciones de por vida</p>
+<p class="text-xs text-white/50 uppercase font-bold">Invaluable</p>
+</div>
+<div class="flex items-center justify-between">
+<p class="text-sm md:text-base font-light">🎁 Soporte por correo electrónico</p>
+<p class="text-xs text-white/50 uppercase font-bold">Invaluable</p>
+</div>
+</div>
+<div class="text-center mt-12 space-y-4">
+<p class="text-white/70 text-sm md:text-base font-light">Valor total de todo el paquete:</p>
+<p class="text-2xl md:text-3xl font-extrabold text-brand-pink line-through">84€</p>
+<p class="text-white/80 text-sm md:text-base font-light">Y por esta ocasión, tu única inversión será de…</p>
+<p class="text-6xl md:text-7xl font-black text-brand-green">10€</p>
+<p class="text-xs text-white/50 font-light">Pago único · Sin suscripciones · Acceso inmediato</p>
+<div class="pt-6 max-w-md mx-auto">
+<a class="cta-pulse group flex items-center justify-center space-x-3 w-full bg-brand-green hover:bg-brand-greenHover text-white py-5 px-8 rounded-xl text-sm md:text-base font-extrabold tracking-wider uppercase transition-all duration-300 hover:-translate-y-0.5" href="https://pay.hotmart.com/A106208003B" rel="noopener noreferrer" target="_blank">
+<span>¡Quiero mi guía ahora!</span>
+<svg class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</a>
+</div>
+<p class="text-xs text-brand-pink font-semibold pt-2">⚠ Los bonos están disponibles solo mientras esta oferta esté activa.</p>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Preguntas frecuentes -->
+<section class="py-20 md:py-28 bg-white">
+<div class="max-w-3xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto space-y-4 mb-16">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-purple">Respuestas rápidas</span>
+<h2 class="text-3xl md:text-4xl font-extrabold text-brand-deep">Preguntas frecuentes</h2>
+<p class="text-slate-600 font-light text-base">Resolvemos las principales dudas sobre el material y su aplicación práctica.</p>
+</div>
+<div class="space-y-4">
+<!-- FAQ 1 -->
+<div class="bg-brand-grayLight/60 border border-slate-200/60 rounded-2xl overflow-hidden transition-all duration-300">
+<button class="w-full p-6 text-left flex items-center justify-between space-x-4 focus:outline-none" onclick="toggleFAQ('faq1')">
+<span class="text-sm md:text-base font-bold text-brand-deep">¿Necesito experiencia previa con Inteligencia Artificial?</span>
+<svg class="w-4 h-4 text-brand-purple transform transition-transform duration-200 flex-shrink-0" fill="none" id="icon-faq1" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="hidden px-6 pb-6 text-xs md:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-200/40 pt-4" id="faq1">
+                            ¡Para nada! La guía está diseñada desde cero: cada prompt viene con instrucciones claras de cómo usarlo y ejemplos prácticos, desde el nivel principiante hasta el avanzado.
+                        </div>
+</div>
+<!-- FAQ 2 -->
+<div class="bg-brand-grayLight/60 border border-slate-200/60 rounded-2xl overflow-hidden transition-all duration-300">
+<button class="w-full p-6 text-left flex items-center justify-between space-x-4 focus:outline-none" onclick="toggleFAQ('faq2')">
+<span class="text-sm md:text-base font-bold text-brand-deep">¿Funcionará para mi carrera o campo de investigación?</span>
+<svg class="w-4 h-4 text-brand-purple transform transition-transform duration-200 flex-shrink-0" fill="none" id="icon-faq2" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="hidden px-6 pb-6 text-xs md:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-200/40 pt-4" id="faq2">
+                            Sí. Los prompts son adaptables a cualquier área de conocimiento y tipo de investigación: educación, ingeniería, psicología, administración, derecho, salud y muchas más, porque se basan en la lógica universal del método científico.
+                        </div>
+</div>
+<!-- FAQ 3 -->
+<div class="bg-brand-grayLight/60 border border-slate-200/60 rounded-2xl overflow-hidden transition-all duration-300">
+<button class="w-full p-6 text-left flex items-center justify-between space-x-4 focus:outline-none" onclick="toggleFAQ('faq3')">
+<span class="text-sm md:text-base font-bold text-brand-deep">¿Qué pasa si no funciona para mí?</span>
+<svg class="w-4 h-4 text-brand-purple transform transition-transform duration-200 flex-shrink-0" fill="none" id="icon-faq3" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="hidden px-6 pb-6 text-xs md:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-200/40 pt-4" id="faq3">
+                            Tienes garantía de satisfacción completa: si después de 7 días sientes que la guía no cumple con tus expectativas, recibirás un reembolso del 100% sin preguntas ni condiciones.
+                        </div>
+</div>
+<!-- FAQ 4 -->
+<div class="bg-brand-grayLight/60 border border-slate-200/60 rounded-2xl overflow-hidden transition-all duration-300">
+<button class="w-full p-6 text-left flex items-center justify-between space-x-4 focus:outline-none" onclick="toggleFAQ('faq4')">
+<span class="text-sm md:text-base font-bold text-brand-deep">¿Necesito ChatGPT Plus (versión de pago)?</span>
+<svg class="w-4 h-4 text-brand-purple transform transition-transform duration-200 flex-shrink-0" fill="none" id="icon-faq4" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="hidden px-6 pb-6 text-xs md:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-200/40 pt-4" id="faq4">
+                            No. Los prompts están optimizados para funcionar tanto en la versión gratuita de ChatGPT como en otros modelos avanzados (Claude, Gemini, Llama).
+                        </div>
+</div>
+<!-- FAQ 5 -->
+<div class="bg-brand-grayLight/60 border border-slate-200/60 rounded-2xl overflow-hidden transition-all duration-300">
+<button class="w-full p-6 text-left flex items-center justify-between space-x-4 focus:outline-none" onclick="toggleFAQ('faq5')">
+<span class="text-sm md:text-base font-bold text-brand-deep">¿La guía reemplaza a mi asesor de tesis?</span>
+<svg class="w-4 h-4 text-brand-purple transform transition-transform duration-200 flex-shrink-0" fill="none" id="icon-faq5" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="hidden px-6 pb-6 text-xs md:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-200/40 pt-4" id="faq5">
+                            No — la complementa. Te ayuda a llegar a cada tutoría con propuestas mejor estructuradas y redactadas, de modo que las reuniones con tu asesor sean más eficientes y tus entregas requieran menos correcciones.
+                        </div>
+</div>
+<!-- FAQ 6 -->
+<div class="bg-brand-grayLight/60 border border-slate-200/60 rounded-2xl overflow-hidden transition-all duration-300">
+<button class="w-full p-6 text-left flex items-center justify-between space-x-4 focus:outline-none" onclick="toggleFAQ('faq6')">
+<span class="text-sm md:text-base font-bold text-brand-deep">¿Obtendré acceso inmediato después de la compra?</span>
+<svg class="w-4 h-4 text-brand-purple transform transition-transform duration-200 flex-shrink-0" fill="none" id="icon-faq6" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="hidden px-6 pb-6 text-xs md:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-200/40 pt-4" id="faq6">
+                            Sí. Inmediatamente después del pago a través de Hotmart, recibirás en tu correo electrónico el enlace de descarga de la guía en formato digital PDF.
+                        </div>
+</div>
+<!-- FAQ 7 -->
+<div class="bg-brand-grayLight/60 border border-slate-200/60 rounded-2xl overflow-hidden transition-all duration-300">
+<button class="w-full p-6 text-left flex items-center justify-between space-x-4 focus:outline-none" onclick="toggleFAQ('faq7')">
+<span class="text-sm md:text-base font-bold text-brand-deep">¿Es un pago único? ¿Cuáles son los métodos de pago?</span>
+<svg class="w-4 h-4 text-brand-purple transform transition-transform duration-200 flex-shrink-0" fill="none" id="icon-faq7" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+<div class="hidden px-6 pb-6 text-xs md:text-sm text-slate-600 leading-relaxed font-light border-t border-slate-200/40 pt-4" id="faq7">
+                            Sí, es un único pago de 10€ con acceso permanente y todas las futuras actualizaciones incluidas. Hotmart permite pagar con tarjeta de crédito o débito, PayPal y otros métodos según tu país de residencia.
+                        </div>
+</div>
+</div>
+<div class="mt-12 text-center space-y-3">
+<p class="text-sm font-bold text-brand-deep uppercase tracking-wider">¿Tienes más dudas?</p>
+<a class="inline-flex items-center space-x-2 text-brand-purple hover:text-brand-purpleLight font-bold text-sm transition-colors" href="../87/87ece61ee-email-protection.html">
+<span>Escríbenos a <span class="__cf_email__" data-cfemail="eb98849b84999f8eab8a879b8a88808a8a82c5939291">[email protected]</span></span>
+</a>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: Es para ti si… -->
+<section class="py-20 md:py-28 bg-brand-grayLight border-t border-slate-200/60">
+<div class="max-w-3xl mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto space-y-4 mb-12">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-purple">Última pregunta</span>
+<h2 class="text-3xl md:text-4xl font-extrabold text-brand-deep">Finalmente, esta guía es para ti si…</h2>
+</div>
+<div class="space-y-4">
+<div class="flex items-start space-x-4 bg-white border border-slate-200/60 p-5 rounded-2xl shadow-sm">
+<span class="text-brand-green text-lg leading-none mt-0.5">✓</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Quieres dejar de perder tiempo y empezar a ver avances reales en tu investigación.</p>
+</div>
+<div class="flex items-start space-x-4 bg-white border border-slate-200/60 p-5 rounded-2xl shadow-sm">
+<span class="text-brand-green text-lg leading-none mt-0.5">✓</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Necesitas una estructura clara que te guíe desde la idea inicial hasta la redacción del documento final.</p>
+</div>
+<div class="flex items-start space-x-4 bg-white border border-slate-200/60 p-5 rounded-2xl shadow-sm">
+<span class="text-brand-green text-lg leading-none mt-0.5">✓</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Buscas aprovechar la inteligencia artificial sin comprometer tu ética académica.</p>
+</div>
+<div class="flex items-start space-x-4 bg-white border border-slate-200/60 p-5 rounded-2xl shadow-sm">
+<span class="text-brand-green text-lg leading-none mt-0.5">✓</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Deseas escribir con confianza, sin miedo al plagio ni a perder calidad en tu argumentación.</p>
+</div>
+<div class="flex items-start space-x-4 bg-white border border-slate-200/60 p-5 rounded-2xl shadow-sm">
+<span class="text-brand-green text-lg leading-none mt-0.5">✓</span>
+<p class="text-sm md:text-base text-slate-700 font-light">Quieres simplificar el proceso sin depender de dinámicas tradicionales desgastantes.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN: CTA final -->
+<section class="py-20 md:py-28 bg-brand-deep text-white relative overflow-hidden">
+<div class="absolute inset-0 bg-grid-pattern"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl h-px bg-gradient-to-r from-transparent via-brand-purple/40 to-transparent"></div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10 space-y-8">
+<span class="text-xs uppercase tracking-widest font-bold text-brand-green">Toma el control de tu investigación</span>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-[1.2] max-w-3xl mx-auto">
+                    Tu investigación importa. Esta guía es la llave para dejar tu huella académica.
+                </h2>
+<p class="text-white/70 text-sm md:text-base max-w-2xl mx-auto font-light leading-relaxed">
+                    No pases más meses bloqueado. Por el precio de un par de cafés, obtén el proceso claro y organizado que te ayudará a terminar tu tesis con ética y sin riesgos de plagio.
+                </p>
+<div class="pt-4 max-w-md mx-auto space-y-3">
+<a class="cta-pulse group flex items-center justify-center space-x-3 w-full bg-brand-green hover:bg-brand-greenHover text-white py-5 px-8 rounded-xl text-sm md:text-base font-extrabold tracking-wider uppercase transition-all duration-300 hover:-translate-y-0.5" href="https://pay.hotmart.com/A106208003B" rel="noopener noreferrer" target="_blank">
+<span>¡Quiero mi guía ahora — 10€!</span>
+<svg class="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</a>
+<p class="text-[11px] text-white/50 font-light">Pago único · Garantía de 7 días · Descarga inmediata</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer minimalista -->
+<footer class="py-12 bg-white text-slate-500 border-t border-slate-100">
+<div class="max-w-6xl mx-auto px-6 text-center md:text-left">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex items-center space-x-2">
+<span class="w-2 h-2 rounded-full bg-brand-green"></span>
+<span class="font-bold text-slate-800 text-sm">alpacka.ai</span>
+</div>
+<div class="flex flex-wrap justify-center gap-6 text-[11px] font-medium uppercase tracking-wider text-slate-500">
+<a class="hover:text-slate-800 transition-colors" href="../77/77cc64619-privacy.html">Política de privacidad</a>
+<a class="hover:text-slate-800 transition-colors" href="../b0/b093e4e9b-terms.html">Términos y condiciones</a>
+<a class="hover:text-slate-800 transition-colors" href="../87/87ece61ee-email-protection.html">Contacto</a>
+</div>
+</div>
+<hr class="my-6 border-slate-100"/>
+<div class="flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-light text-slate-400">
+<p>© 2026 alpacka.ai. Todos los derechos reservados.</p>
+<p class="italic text-[10px]">Esta guía es un material de apoyo educativo y no garantiza de forma autónoma la aprobación de tesis sin la debida revisión del comité universitario respectivo. Este sitio no forma parte de Facebook Inc. ni de Google LLC, ni está respaldado por ellos de ninguna manera.</p>
+</div>
+</div>
+</footer>
+<!-- Acordeón FAQ -->
+<script data-cfasync="false" src="../../recursos/0d/0d0ab794df8060271f2f-email-decode.min.js"></script><script>
+        function toggleFAQ(id) {
+            const element = document.getElementById(id);
+            const icon = document.getElementById('icon-' + id);
+
+            if (element.classList.contains('hidden')) {
+                element.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                element.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+    </script>
+</body>
+</html>
