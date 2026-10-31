@@ -1,0 +1,105 @@
+{
+  "sitio": "https://www.alpackaai.xyz/",
+  "fecha": "2026-10-31T08:09:02.334008+00:00",
+  "paginas": [
+    "https://www.alpackaai.xyz/servicios",
+    "https://www.alpackaai.xyz/bank-prompts",
+    "https://www.alpackaai.xyz/dashboard",
+    "https://www.alpackaai.xyz/terms",
+    "https://www.alpackaai.xyz/privacy",
+    "https://alpackaai.xyz/login",
+    "https://alpackaai.xyz/generador",
+    "https://alpackaai.xyz/guardados",
+    "https://alpackaai.xyz/skills",
+    "https://alpackaai.xyz/blog"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 17,
+  "fotografias_descargadas": 1,
+  "bytes_fotografias": 1516120,
+  "recursos_pendientes": 38,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 1663739,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": true,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://www.alpackaai.xyz/assets/Servicios-pWimuAcu.js",
+      "archivo": "recursos/0d/0daeac0b6da11c2c32b1-Servicios-pWimuAcu.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/clock-DqiaI7qQ.js",
+      "archivo": "recursos/35/35554b8efde828a7346c-clock-DqiaI7qQ.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/mail-ML8f7AEq.js",
+      "archivo": "recursos/5d/5d5a176881404de9de5c-mail-ML8f7AEq.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/BankPrompts-DKxB5p8-.js",
+      "archivo": "recursos/9a/9a7e5213ecd1e2a31ad0-BankPrompts-DKxB5p8-.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/star-Z_zKnol2.js",
+      "archivo": "recursos/ce/cece4f69e45685d721ee-star-Z_zKnol2.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/zap-nwNOvWPv.js",
+      "archivo": "recursos/41/41d93609ba86094f96a0-zap-nwNOvWPv.js"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/bank-prompts/Alpacka-hero.png",
+      "archivo": "recursos/0c/0c311ad029c71ab0f855-Alpacka-hero.png"
+    },
+    {
+      "url": "https://www.alpackaai.xyz/assets/Dashboard-zeROt-hC.js",
+      "archivo": "recursos/53/53cbd08bef677270f1bd-Dashboard-zeROt-hC.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/Login-BhZMa7-O.js",
+      "archivo": "recursos/21/2195ce08c397331b9a84-Login-BhZMa7-O.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/loader-2-bUhSEgo5.js",
+      "archivo": "recursos/e3/e34595fac0c8a61523ac-loader-2-bUhSEgo5.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/Generator-8fiW2VZa.js",
+      "archivo": "recursos/50/50e9323a303c426688c7-Generator-8fiW2VZa.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/alert-circle-DYAYMYWi.js",
+      "archivo": "recursos/3f/3f0fdae85a329a4b7752-alert-circle-DYAYMYWi.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/SavedPromptsPage-C2ytQLvu.js",
+      "archivo": "recursos/b3/b32da027a09b8ca7b3c1-SavedPromptsPage-C2ytQLvu.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/trash-2-_GhQbIok.js",
+      "archivo": "recursos/20/20addfb86b4e89544780-trash-2-_GhQbIok.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/Skills-D66tX4A-.js",
+      "archivo": "recursos/af/af6909d2eedbd88422a1-Skills-D66tX4A-.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/Blog-DXL9wt_R.js",
+      "archivo": "recursos/96/96ce533417151c188a76-Blog-DXL9wt_R.js"
+    },
+    {
+      "url": "https://alpackaai.xyz/assets/blogList-DHp2tFbW.js",
+      "archivo": "recursos/b1/b1a58ebba73d98e07bb8-blogList-DHp2tFbW.js"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:wght@100..800&display=swap",
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+  ],
+  "errores": [],
+  "bytes": 2876896
+}
