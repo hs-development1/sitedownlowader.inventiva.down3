@@ -1,0 +1,87 @@
+{
+  "sitio": "https://famehero.com/new-campaign",
+  "fecha": "2026-11-03T23:48:56.371743+00:00",
+  "paginas": [
+    "https://www.famehero.com/how-to/lower-customer-acquisition-cost",
+    "https://www.famehero.com/how-to/measure-pr-results",
+    "https://www.famehero.com/how-to/pitch-journalists",
+    "https://www.famehero.com/how-to/promote-a-product-launch",
+    "https://www.famehero.com/how-to/rank-higher-on-google",
+    "https://www.famehero.com/how-to/run-a-pr-campaign",
+    "https://www.famehero.com/how-to/run-an-influencer-campaign",
+    "https://www.famehero.com/how-to/scale-customer-acquisition",
+    "https://www.famehero.com/how-to/write-a-press-release",
+    "https://www.famehero.com/how-to/write-a-press-release/accounting-firms"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 11,
+  "fotografias_descargadas": 11,
+  "bytes_fotografias": 131354,
+  "recursos_pendientes": 48,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 131354,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": true,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-measure-pr-results-2026/hero.svg",
+      "archivo": "recursos/84/84b6e4eb7052b198f780-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-run-an-influencer-campaign-2026/hero.svg",
+      "archivo": "recursos/05/05585cbaffeddfd8dd0d-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-get-earned-media-coverage-2026/hero.svg",
+      "archivo": "recursos/4a/4a4ef88121554fdec5f4-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/best-pr-agencies-to-promote-a-product-launch-2026/hero.svg",
+      "archivo": "recursos/1d/1d2d073c5c50f7efb882-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/best-pr-agencies-to-rank-higher-on-google-2026/hero.svg",
+      "archivo": "recursos/e4/e4e8ced51f9c3fc71bfd-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/best-pr-agencies-to-scale-customer-acquisition-2026/hero.svg",
+      "archivo": "recursos/9a/9a87fd5a59ca18b80245-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-write-a-press-release-for-cloud-computing-companies-2026/hero.svg",
+      "archivo": "recursos/a0/a0dc5c06f99b5e2806d4-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-write-a-press-release-for-logistics-companies-2026/hero.svg",
+      "archivo": "recursos/0a/0ac00143946f521c8cf6-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-write-a-press-release-for-accounting-firms-2026/hero.svg",
+      "archivo": "recursos/73/73684a2abc2d75e74081-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-write-a-press-release-for-web3-companies-2026/hero.svg",
+      "archivo": "recursos/28/28ba34ed9664cb358e46-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/how-to-write-a-press-release-for-fintech-startups-2026/hero.svg",
+      "archivo": "recursos/11/11efb86cc43d842e49be-hero.svg"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://js.stripe.com/clover/stripe.js",
+    "https://js.stripe.com/v3/controller-ac39e67c5264543d9c04303242460b1c.html",
+    "https://js.stripe.com/v3/controller-with-preconnect-4360bce27eee0698f73df29cc08ff312.html",
+    "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://us-assets.i.posthog.com/array/phc_Uy2E1nAviZdUSNi68Ay0gxh0Gp66NGJXnZsjDWs2vM1/config.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-1770K2JYLH"
+  ],
+  "errores": [],
+  "bytes": 668937
+}
