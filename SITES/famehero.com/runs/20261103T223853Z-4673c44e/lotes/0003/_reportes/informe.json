@@ -1,0 +1,135 @@
+{
+  "sitio": "https://famehero.com/new-campaign",
+  "fecha": "2026-11-03T22:49:57.063417+00:00",
+  "paginas": [
+    "https://www.famehero.com/alternatives/pr-agencies/amazon-sellers",
+    "https://www.famehero.com/alternatives/pr-agencies/automotive-companies",
+    "https://www.famehero.com/alternatives/pr-agencies/b2b-saas-companies",
+    "https://www.famehero.com/alternatives/pr-agencies/beauty-brands",
+    "https://www.famehero.com/alternatives/pr-agencies/blockchain-companies",
+    "https://www.famehero.com/alternatives/pr-agencies/bpo-companies",
+    "https://www.famehero.com/alternatives/pr-agencies/business-coaches",
+    "https://www.famehero.com/alternatives/pr-agencies/cleaning-services",
+    "https://www.famehero.com/alternatives/pr-agencies/clinics",
+    "https://www.famehero.com/alternatives/pr-agencies/cloud-computing-companies"
+  ],
+  "paginas_guardadas": 10,
+  "recursos_descargados": 23,
+  "fotografias_descargadas": 23,
+  "bytes_fotografias": 272187,
+  "recursos_pendientes": 47,
+  "presupuesto_recursos_bytes": 110100480,
+  "recursos_bytes": 272187,
+  "maximo_paginas": 10,
+  "paginas_pendientes": 0,
+  "fichas_inmobiliarias": 0,
+  "limite_alcanzado": false,
+  "modo_navegador": true,
+  "advertencia_navegador": "",
+  "recursos": [
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-automotive-companies-2026/hero.svg",
+      "archivo": "recursos/16/16b037f870a5b94c959f-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-insurance-companies-2026/hero.svg",
+      "archivo": "recursos/1e/1e039f7887e18a320efb-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-luxury-brands-2026/hero.svg",
+      "archivo": "recursos/32/3207938fb414e6077553-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-b2b-saas-companies-2026/hero.svg",
+      "archivo": "recursos/dc/dcaf0d6e8548d56d44a5-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-management-consulting-firms-2026/hero.svg",
+      "archivo": "recursos/29/2937cd57df809ea9e9a4-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-logistics-companies-2026/hero.svg",
+      "archivo": "recursos/74/74c75262f251f3b44ded-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-beauty-brands-2026/hero.svg",
+      "archivo": "recursos/a4/a42a6ff84c1038e0e2e8-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-outsourcing-companies-2026/hero.svg",
+      "archivo": "recursos/a4/a41c55ef49d27c498096-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-corporate-law-firms-2026/hero.svg",
+      "archivo": "recursos/6f/6f4a7ff9ceac97d13d7d-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-blockchain-companies-2026/hero.svg",
+      "archivo": "recursos/34/34eb3d6add12a5b727d6-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-dtc-brands-2026/hero.svg",
+      "archivo": "recursos/f4/f4401a327858e83ec24b-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-financial-advisors-2026/hero.svg",
+      "archivo": "recursos/73/73f0059b09423ce5bcca-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-mobile-app-development-companies-2026/hero.svg",
+      "archivo": "recursos/be/be53fbc0432ef92728b3-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-business-coaches-2026/hero.svg",
+      "archivo": "recursos/c4/c4be75f411ceac156082-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-food-brands-2026/hero.svg",
+      "archivo": "recursos/ae/ae3501f1116da1ac0323-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-healthtech-companies-2026/hero.svg",
+      "archivo": "recursos/de/de6eb4d6e2439ed5c38e-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-creators-2026/hero.svg",
+      "archivo": "recursos/33/33bafb90e1f749da46be-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-cleaning-services-2026/hero.svg",
+      "archivo": "recursos/16/1657f037e9c6c78bd2d9-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-clinics-2026/hero.svg",
+      "archivo": "recursos/33/334857d8cb5a6107a556-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-wellness-brands-2026/hero.svg",
+      "archivo": "recursos/e7/e7d88a045c144849b807-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-investment-firms-2026/hero.svg",
+      "archivo": "recursos/ad/ad5c86c58bc9ec2c5a6b-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-plumbing-companies-2026/hero.svg",
+      "archivo": "recursos/1c/1c209d429eba46438a5a-hero.svg"
+    },
+    {
+      "url": "https://best.famehero.com/api/articles/pr-agencies-alternatives-for-skincare-brands-2026/hero.svg",
+      "archivo": "recursos/a0/a0783d86dd9b4189eff9-hero.svg"
+    }
+  ],
+  "recursos_externos_omitidos": [
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://js.stripe.com/clover/stripe.js",
+    "https://js.stripe.com/v3/controller-ac39e67c5264543d9c04303242460b1c.html",
+    "https://js.stripe.com/v3/controller-with-preconnect-4360bce27eee0698f73df29cc08ff312.html",
+    "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://us-assets.i.posthog.com/array/phc_Uy2E1nAviZdUSNi68Ay0gxh0Gp66NGJXnZsjDWs2vM1/config.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-1770K2JYLH"
+  ],
+  "errores": [],
+  "bytes": 922810
+}

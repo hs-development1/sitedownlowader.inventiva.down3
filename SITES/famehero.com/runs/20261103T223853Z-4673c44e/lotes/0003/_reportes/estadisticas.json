@@ -1,0 +1,15 @@
+{
+  "version": "2.1.0",
+  "site": "https://famehero.com/new-campaign",
+  "captured_at": "2026-11-03T22:50:03.329954+00:00",
+  "pages": 10,
+  "entities": 92,
+  "assets": 23,
+  "page_types": {
+    "negocio": 1,
+    "articulo": 9
+  },
+  "full_text_chunks": [
+    "textos/parte-0001.jsonl.gz"
+  ]
+}
