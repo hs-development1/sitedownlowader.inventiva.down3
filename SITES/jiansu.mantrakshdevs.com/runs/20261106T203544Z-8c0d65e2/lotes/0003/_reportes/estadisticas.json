@@ -1,0 +1,14 @@
+{
+  "version": "2.1.0",
+  "site": "https://jiansu.mantrakshdevs.com/trading",
+  "captured_at": "2026-11-06T20:40:28.472797+00:00",
+  "pages": 9,
+  "entities": 81,
+  "assets": 10,
+  "page_types": {
+    "producto": 9
+  },
+  "full_text_chunks": [
+    "textos/parte-0001.jsonl.gz"
+  ]
+}
